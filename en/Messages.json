@@ -24,7 +24,14 @@
     "MUTED_EVERYONE": "Note: you muted everyone. Use [yellow]/muteall[white] to unmute.",
     "MESSAGE_LIMIT": "[scarlet]You may only send {0} messages within last {1} seconds.",
     "NO_POLLS_GO_DISCORD": "[green]There are no polls available right now. Visit Discord to leave feedback.",
-    "VOTE_ANSWER": "[green]Answer with [yellow]/vote <id> [text]"
+    "VOTE_ANSWER": "[green]Answer with [yellow]/vote <id> [text]",
+    "NEED_N_ARGUMENTS": "[red]Need at least {0} arguments.",
+    "CANT_FIND_POLL": "[red]Can't find this poll.",
+    "POLL_NOT_IN_PROGRESS": "[red]This poll is not in progress.",
+    "POLL_NEED_TO_COMPLETE_N_MATCHES": "[green]You need to complete at least [red]{0}[green] matches to participate.",
+    "POLL_PLAYER_TOO_MUCH": "[green]You played for too much, this poll is not for you.",
+    "VOTE_RECORDED": "[green]You response was recorded. Thank you!",
+    "NO_MUTES": "No mutes"
   },
   "lobby": {
     "WELCOME_MESSAGE": "[red]Welcome!\n\n[white]Your short guide:\n[yellow]/me[white] your info\n[yellow]/h[gray]istory [gray]5[white] your [gray]5[white] last matches\n[yellow]/top [gray]1337[white] player info at rank [gray]1337[white]\n\n[red]NOTE[white] This concept is still in BETA\nPlease leave feedback in my [blue]Discord[white] server:\n[yellow]{0}",
@@ -37,9 +44,29 @@
     "PLAYER_MATCHING_FORMAT": "\n\nSearching [yellow]{0}[white] - [yellow]{1}\n[yellow]/limit[white] to change or [yellow]/nolimit[white]",
     "IN_QUEUE_FORMAT": "\n[green]You are in queue[white]",
     "NOT_IN_QUEUE_FORMAT": "\n[red]You are not in queue, use [yellow]/r[white]",
-    "EMPTY_LEADERBOARD": "Waiting more players"
+    "EMPTY_LEADERBOARD": "Waiting more players",
+    "NOT_WAITING_FOR_MATCH": "You are [red]NOT waiting[white] for a match.",
+    "IN_THE_QUEUE": "You are in the queue now.",
+    "ABOUT_TO_BEGIN_FORMAT": "[red]Match found! Starting in 5 seconds.",
+    "FIRST_VISIT": "This is your first visit. You will be queued up shortly, get ready.",
+    "HARD_SHUTDOWN": "Server is restarting due to maintenance. Try reconnecting in a couple minutes.",
+    "MAX_LIMIT_DIFF": "99999 max, or use [yellow]/nolimit"
   },
   "room": {
-
+    "WIN_FORMAT": "[green]You won!\n[white]New ELO: [orange]{0}->{1}[white] {2}\nOpponent's {3}[white] ELO: [orange]{4}->{5}[white] {6}\nReason: {7}",
+    "LOSE_FORMAT": "[red]You lost!\n[white]New ELO: [orange]{0}->{1}[white] {2}\nOpponent's {3}[white] ELO: [orange]{4}->{5}[white] {6}\nReason: {7}",
+    "TIE_FORMAT": "[gray]Draw!\n[white]New ELO: [orange]{0}->{1}[white] {2}\nOpponent's {3}[white] ELO: [orange]{4}->{5}[white] {6}\nReason: {7}",
+    "START_FORMAT": "[green]Map [yellow]{0}[white]\n{1}[white] vs {2}[white]:\nwin {3}\nlose {4}\ndraw {5}",
+    "BACK_FORMAT": "Getting back to [red]HUB[white] in 15 seconds.",
+    "TIEBREAKER": "Tiebreaker",
+    "RECONNECTS_LEFT": "You have [red]{0}[white] reconnects left!",
+    "STARTING_SOON": "Starting the game in 5 seconds",
+    "OPPONENT_LEFT_WHILE_AWAY": "Your opponent left while you were away. If he doesn't come back soon, you win!",
+    "OPPONENT_TAKES_TOO_LONG_TO_CONNECT": "It seems like your opponent takes too long to connect, 10 seconds left.",
+    "OPPONENT_LEFT": "Your opponent left the match. Waiting 30 seconds for reconnect, or you win! [red]Do not go away, or you may lose instead!",
+    "HARD_SHUTDOWN_ROOM": "Room is restarting due to maintenance. Your rating was not changed.",
+    "TIEBREAKER_DAMAGE": "[white]Each core gets [red]{0}[white] damage.",
+    "TIEBREAKER_FORMAT": "{0}[yellow]\u26A1[red]{1}[yellow]\u26A1\n{2}",
+    "TIEBREAKER_TIED_CHAT": "[red][Tiebreaker]: Game tied."
   }
 }
