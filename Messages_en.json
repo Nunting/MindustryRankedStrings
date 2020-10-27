@@ -1,0 +1,13 @@
+{
+  "common": {
+    "INFO_FORMAT": "To downgrade to {0}: {1}, current ELO: {2} ({3}), next rank {4}: {5}",
+    "LANGUAGE_NOT_SUPPORTED": "This language is not supported.",
+    "LANGUAGE_CHANGED": "Language changed: {0} -> {1}"
+  },
+  "lobby": {
+
+  },
+  "room": {
+
+  }
+}
