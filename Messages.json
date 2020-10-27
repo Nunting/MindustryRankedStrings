@@ -2,10 +2,42 @@
   "common": {
     "INFO_FORMAT": "To downgrade to {0}: {1}, current ELO: {2} ({3}), next rank {4}: {5}",
     "LANGUAGE_NOT_SUPPORTED": "This language is not supported.",
-    "LANGUAGE_CHANGED": "Language changed: {0} -> {1}"
+    "LANGUAGE_CHANGED": "Language changed: {0} -> {1}",
+    "UNMUTEALL_RESULT": "You [green]unmuted[white] all other players.",
+    "MUTEALL_RESULT": "You [red]muted[white] all other players!",
+    "MUTE_LIST": "You muted:\n{0}",
+    "UNMUTE_RESULT": "{0}[white]#{1} was [green]unmuted[white].",
+    "MUTE_RESULT": "{0}[white]#{1} was [red]muted[white].",
+    "CANT_MUTE_YOURSELF": "You can't mute yourself",
+    "CANT_FIND_PLAYER": "Can't find player with id {0}",
+    "MUTE_USE_ID_FROM_LIST": "Now use id to specify the player:\n{0}",
+    "MUTE_TOO_MANY_WITH_SUCH_ID": "Too many players with such name, use id instead.",
+    "CANT_FIND_PLAYER_BY_NAME": "Can't find player with name {0}",
+    "TOO_MANY_MUTES": "You can't mute more than 50 players. Consider using [yellow]/muteall[white] instead.",
+    "INVALID_NUMBER_FORMAT": "Invalid number format",
+    "AUTOREADY_ON": "[yellow]AutoReady[white] is [red]OFF[white]. Note: your queue status didn't change, use [yellow]/r",
+    "AUTOREADY_OFF": "[yellow]AutoReady[white] is [green]ON[white]. Note: your queue status didn't change, use [yellow]/r",
+    "RATING_LIMIT_CHANGED_ANYONE": "Will be looking for [green]anyone",
+    "RATING_LIMIT_CHANGED": "Will be looking for opponents with rating {0} - {1}",
+    "RATING_LIMIT_MAX": "99999 max, or use [yellow]/nolimit",
+    "MUTED_UNTIL": "[scarlet]Warning: you have been muted until {0} for spam.",
+    "MUTED_EVERYONE": "Note: you muted everyone. Use [yellow]/muteall[white] to unmute.",
+    "MESSAGE_LIMIT": "[scarlet]You may only send {0} messages within last {1} seconds.",
+    "NO_POLLS_GO_DISCORD": "[green]There are no polls available right now. Visit Discord to leave feedback.",
+    "VOTE_ANSWER": "[green]Answer with [yellow]/vote <id> [text]"
   },
   "lobby": {
-
+    "WELCOME_MESSAGE": "[red]Welcome!\n\n[white]Your short guide:\n[yellow]/me[white] your info\n[yellow]/h[gray]istory [gray]5[white] your [gray]5[white] last matches\n[yellow]/top [gray]1337[white] player info at rank [gray]1337[white]\n\n[red]NOTE[white] This concept is still in BETA\nPlease leave feedback in my [blue]Discord[white] server:\n[yellow]{0}",
+    "LEADERBOARD_FORMAT_TOP3": "Leaderboard:\n[red]➊ [white]{0}[white] ({1}, {2})\n[orange]➋ [white]{3}[white] ({4}, {5})\n[yellow]➌ [white]{6}[white] ({7}, {8})",
+    "SHORT_LEADERBOARD_FORMAT_TOP3": "Leaderboard:\n[red]➊ [white]{0} {1}\n[orange]➋ [white]{2} {3}\n[yellow]➌ [white]{4} {5}",
+    "HUB_IN_MATCHES_FORMAT": "\nIn matches: [yellow]{0}[white]",
+    "HUB_STATUS_FORMAT": "\nIn queue: [yellow]{0}[white]",
+    "PLAYER_RATING_FORMAT": "\nYour rating: [yellow]{0}, {1}[white]",
+    "PLAYER_MATCHING_ANYONE_FORMAT": "\nSearching [green]anyone[white], or set [yellow]/limit",
+    "PLAYER_MATCHING_FORMAT": "\n\nSearching [yellow]{0}[white] - [yellow]{1}\n[yellow]/limit[white] to change or [yellow]/nolimit[white]",
+    "IN_QUEUE_FORMAT": "\n[green]You are in queue[white]",
+    "NOT_IN_QUEUE_FORMAT": "\n[red]You are not in queue, use [yellow]/r[white]",
+    "EMPTY_LEADERBOARD": "Waiting more players"
   },
   "room": {
 
