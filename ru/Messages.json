@@ -36,9 +36,13 @@
     "NOT_WAITING_FOR_MATCH": "Вы [red]НЕ[white] в очереди.",
     "IN_THE_QUEUE": "Вы в очереди.",
     "ABOUT_TO_BEGIN_FORMAT": "[red]Матч найден! Начинаем через 5 секунд.",
-    "FIRST_VISIT": "Это Ваш первый визит. Скоро вы будете добавлены в очередь.",
+    "AUTOREADY_IS_ON": "AutoReady [green]ВКЛЮЧЕН.[white] Вы будете добавлены в очередь через 15 секунд.",
     "HARD_SHUTDOWN": "Сервер перезагружается. Попробуйте переподключиться через пару минут.",
-    "MAX_LIMIT_DIFF": "99999 максимум, или используйте [yellow]/nolimit"
+    "MAX_LIMIT_DIFF": "99999 максимум, или используйте [yellow]/nolimit",
+    "WAITING_IN_QUEUE_FORMAT": "\nПрошло: {0}:{1} / {2}:{3}",
+    "SLOW_CONNECTION_KICK": "Вы отсутствовали слишком долго. Пожалуйста, переподключитесь к серверу.",
+    "SLOW_CONNECTION_WARN": "[scarlet]ВНИМАНИЕ: [red]Похоже, у Вас медленное соединение. Вы были удалены из очереди.",
+    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked[white] сервер от SeaPy\n\n[yellow]Сайт: mindustryranked.ddns.net\n[#7289da]Дискорд \uE848: discord.gg/Hjr92J7"
   },
   "room": {
     "WIN_FORMAT": "[green]Победа!\n[white]Новый рейтинг: [orange]{0}->{1}[white] {2}\nРейтинг {3}[white]: [orange]{4}->{5}[white] {6}\nПричина: {7}",

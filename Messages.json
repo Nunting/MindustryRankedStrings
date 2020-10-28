@@ -48,9 +48,13 @@
     "NOT_WAITING_FOR_MATCH": "You are [red]NOT waiting[white] for a match.",
     "IN_THE_QUEUE": "You are in the queue now.",
     "ABOUT_TO_BEGIN_FORMAT": "[red]Match found! Starting in 5 seconds.",
-    "FIRST_VISIT": "This is your first visit. You will be queued up shortly, get ready.",
+    "AUTOREADY_IS_ON": "AutoReady is [green]ON.[white] You will be queued in 15 seconds.",
     "HARD_SHUTDOWN": "Server is restarting due to maintenance. Try reconnecting in a couple minutes.",
-    "MAX_LIMIT_DIFF": "99999 max, or use [yellow]/nolimit"
+    "MAX_LIMIT_DIFF": "99999 max, or use [yellow]/nolimit",
+    "WAITING_IN_QUEUE_FORMAT": "\nWaiting: {0}:{1} / {2}:{3}",
+    "SLOW_CONNECTION_KICK": "You have been away for too long. Please, reconnect to server.",
+    "SLOW_CONNECTION_WARN": "[scarlet]WARNING: [red]Your connection seem to be slow. You have been removed from the queue.",
+    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked[white] server by SeaPy\n\n[yellow]Site: mindustryranked.ddns.net\n[#7289da]Discord \uE848: discord.gg/Hjr92J7"
   },
   "room": {
     "WIN_FORMAT": "[green]You won!\n[white]New ELO: [orange]{0}->{1}[white] {2}\nOpponent's {3}[white] ELO: [orange]{4}->{5}[white] {6}\nReason: {7}",
