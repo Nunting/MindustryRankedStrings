@@ -21,10 +21,25 @@
     "RATING_LIMIT_CHANGED": "Будем искать противников с рейтингом {0} - {1}",
     "RATING_LIMIT_MAX": "99999 максимум, или используйте [yellow]/nolimit",
     "LEADERBOARD_SWITCH_TO_LOCAL": "Таблица лидеров теперь [green]локальная",
-    "LEADERBOARD_SWITCH_TO_GLOBAL": "Таблица лидеров теперь [green]глобальная"
+    "LEADERBOARD_SWITCH_TO_GLOBAL": "Таблица лидеров теперь [green]глобальная",
+    "CMD_DESCRIPTION_r": "встать или выйти из очереди",
+    "CMD_DESCRIPTION_ar": "меняет AutoReady - если включен, то Вы автоматически встанете в очередь через 15 после входа в лобби",
+    "CMD_DESCRIPTION_lb": "переключает между глобальной/локальной таблицей лидеров",
+    "CMD_DESCRIPTION_limit": "устанавливает максимальную разницу в рейтинге с противниками",
+    "CMD_DESCRIPTION_nolimit": "удаляет максимальную разницу в рейтинге с противниками",
+    "CMD_DESCRIPTION_polls": "показывает доступные опросы",
+    "CMD_DESCRIPTION_vote": "оставить ответ на опрос",
+    "CMD_DESCRIPTION_last": "информация о последнем бое",
+    "CMD_DESCRIPTION_mute": "выключить чат с игроком по его ID",
+    "CMD_DESCRIPTION_muteall": "выключить чат со всеми игроками",
+    "CMD_DESCRIPTION_mutes": "список игроков с которыми выключен чат",
+    "CMD_DESCRIPTION_me": "информация о своём аккаунте",
+    "CMD_DESCRIPTION_lang": "смена языка"
   },
   "lobby": {
-    "WELCOME_MESSAGE": "[red]Добро пожаловать!\n\n[white]Коротко:\n[yellow]/me[white] инфо о себе\n[yellow]/h[gray]istory [gray]5[white] ваши [gray]5[white] последних битв\n[yellow]/top [gray]1337[white] инфо об игроке на месте [gray]1337[white]\n\n[red]ВАЖНО[white] Сервер в стадии БЕТА\nОставляйте отзывы в [blue]Discord[white]:\n[yellow]{0}",
+    "SERVER_NAME": "[red]Рейтинговый\n[yellow]⚡ [red]PvP [yellow]⚡",
+    "SERVER_DESCRIPTION": "[red]1 на 1 с матчмейкингом",
+    "WELCOME_MESSAGE": "[red]Добро пожаловать!\n\n[white]Важно:\n[yellow]/r[white] встать или выйти из очереди\n[yellow]/help[white] список всех команд\n\n[red]ВАЖНО[white] Сервер в стадии БЕТА\nОставляйте отзывы в [blue]Discord[white]:\n[yellow]{0}",
     "LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]➊ [white]{0}[white] ({1}, {2})\n[orange]➋ [white]{3}[white] ({4}, {5})\n[yellow]➌ [white]{6}[white] ({7}, {8})",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]➊ [white]{0} {1}\n[orange]➋ [white]{2} {3}\n[yellow]➌ [white]{4} {5}",
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Лидеры ({0}):\n[red]➊ [white]{1}[yellow] {2}\n[orange]➋ [white]{3}[yellow] {4}\n[yellow]➌ [white]{5}[yellow] {6}",
@@ -32,7 +47,7 @@
     "HUB_IN_MATCHES_FORMAT": "\n[white]В бою: [yellow]{0}[white]",
     "HUB_STATUS_FORMAT": "\n[white]В очереди: [yellow]{0}[white]",
     "PLAYER_MATCHING_ANYONE_FORMAT": "\nИщем [green]всех[white], или установите [yellow]/limit",
-    "PLAYER_MATCHING_FORMAT": "\n\nИщем [yellow]{0}[white] - [yellow]{1}\n[yellow]/limit[white] чтобы изменить, или снять [yellow]/nolimit[white]",
+    "PLAYER_MATCHING_FORMAT": "\n\nИщем [yellow]{0}[white] - [yellow]{1}\n[yellow]/limit[white] чтобы изменить\n[yellow]/nolimit[white] чтобы убрать",
     "IN_QUEUE_FORMAT": "\n[green]Вы в очереди[white]",
     "NOT_IN_QUEUE_FORMAT": "\n[red]Вы не в очереди, используйте [yellow]/r[white]",
     "EMPTY_LEADERBOARD": "Ожидание игроков",
@@ -45,7 +60,7 @@
     "WAITING_IN_QUEUE_FORMAT": "\nПрошло: {0}:{1} / {2}:{3}",
     "SLOW_CONNECTION_KICK": "Вы отсутствовали слишком долго. Пожалуйста, переподключитесь к серверу.",
     "SLOW_CONNECTION_WARN": "[scarlet]ВНИМАНИЕ: [red]Похоже, у Вас медленное соединение. Вы были удалены из очереди.",
-    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked[white] сервер от SeaPy\n\n[yellow]Сайт: mindustryranked.ddns.net\n[#7289da]Дискорд \uE848: discord.gg/Hjr92J7"
+    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] сервер от SeaPy\nПосмотреть список команд: [yellow]/help\n\n[yellow]Сайт: ranked.ddns.net\n[#7289da]Дискорд \uE848: discord.gg/Hjr92J7"
   },
   "room": {
     "WIN_FORMAT": "[green]Победа!\n[white]Новый рейтинг: [orange]{0}->{1}[white] {2}\nРейтинг {3}[white]: [orange]{4}->{5}[white] {6}\nПричина: {7}",

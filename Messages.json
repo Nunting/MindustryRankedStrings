@@ -33,10 +33,25 @@
     "VOTE_RECORDED": "[green]You response was recorded. Thank you!",
     "NO_MUTES": "No mutes",
     "LEADERBOARD_SWITCH_TO_LOCAL": "You switched leaderboard to [green]local",
-    "LEADERBOARD_SWITCH_TO_GLOBAL": "You switched leaderboard to [green]global"
+    "LEADERBOARD_SWITCH_TO_GLOBAL": "You switched leaderboard to [green]global",
+    "CMD_DESCRIPTION_r": "queue or unqueue yourself",
+    "CMD_DESCRIPTION_ar": "toggle your AutoReady - if turned on, you are automatically queued in 15 seconds after entering the lobby",
+    "CMD_DESCRIPTION_lb": "toggle between global/local leaderboard",
+    "CMD_DESCRIPTION_limit": "sets max difference between your rating and rating of your opponent",
+    "CMD_DESCRIPTION_nolimit": "removes maximum limit of rating difference between you and your opponent",
+    "CMD_DESCRIPTION_polls": "see available polls to answer some of them",
+    "CMD_DESCRIPTION_vote": "leave answer to some poll",
+    "CMD_DESCRIPTION_last": "info about your last match",
+    "CMD_DESCRIPTION_mute": "mute some player by ID",
+    "CMD_DESCRIPTION_muteall": "disable chat from other players",
+    "CMD_DESCRIPTION_mutes": "list your mutes",
+    "CMD_DESCRIPTION_me": "info about yourself",
+    "CMD_DESCRIPTION_lang": "change language"
   },
   "lobby": {
-    "WELCOME_MESSAGE": "[red]Welcome!\n\n[white]Your short guide:\n[yellow]/me[white] your info\n[yellow]/h[gray]istory [gray]5[white] your [gray]5[white] last matches\n[yellow]/top [gray]1337[white] player info at rank [gray]1337[white]\n\n[red]NOTE[white] This concept is still in BETA\nPlease leave feedback in my [blue]Discord[white] server:\n[yellow]{0}",
+    "SERVER_NAME": "[red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
+    "SERVER_DESCRIPTION": "[red]with matchmaking",
+    "WELCOME_MESSAGE": "[red]Welcome!\n\n[white]Important commands:\n[yellow]/r[white] queue or queue\n[yellow]/help[white] list all commands\n\n[red]NOTE[white] This concept is still in BETA\nLeave feedback in [blue]Discord[white]:\n[yellow]{0}",
     "LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]➊ [white]{0}[white] ({1}, {2})\n[orange]➋ [white]{3}[white] ({4}, {5})\n[yellow]➌ [white]{6}[white] ({7}, {8})",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]➊ [white]{0}[yellow] {1}\n[orange]➋ [white]{2}[yellow] {3}\n[yellow]➌ [white]{4}[yellow] {5}",
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Leaderboard ({0}):\n[red]➊ [white]{1}[yellow] {2}\n[orange]➋ [white]{3}[yellow] {4}\n[yellow]➌ [white]{5}[yellow] {6}",
@@ -59,7 +74,7 @@
     "WAITING_IN_QUEUE_FORMAT": "\nWaiting: {0}:{1} / {2}:{3}",
     "SLOW_CONNECTION_KICK": "You have been away for too long. Please, reconnect to server.",
     "SLOW_CONNECTION_WARN": "[scarlet]WARNING: [red]Your connection seem to be slow. You have been removed from the queue.",
-    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked[white] server by SeaPy\n\n[yellow]Site: mindustryranked.ddns.net\n[#7289da]Discord \uE848: discord.gg/Hjr92J7"
+    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\nAvailable commands: [yellow]/help\n\n[yellow]Site: ranked.ddns.net\n[#7289da]Discord \uE848: discord.gg/Hjr92J7"
   },
   "room": {
     "WIN_FORMAT": "[green]You won!\n[white]New ELO: [orange]{0}->{1}[white] {2}\nOpponent's {3}[white] ELO: [orange]{4}->{5}[white] {6}\nReason: {7}",
