@@ -22,6 +22,14 @@
     "RATING_LIMIT_MAX": "99999 максимум, или используйте [yellow]/nolimit",
     "LEADERBOARD_SWITCH_TO_LOCAL": "Таблица лидеров теперь [green]локальная",
     "LEADERBOARD_SWITCH_TO_GLOBAL": "Таблица лидеров теперь [green]глобальная",
+    "CHAT_AUTOTRANSLATE_ON": "Перевод чата [green]включен",
+    "CHAT_AUTOTRANSLATE_OFF": "Перевод чата [red]выключен",
+    "CHAT_AUTOTRANSLATE_ON_LOGIN": "Перевод чата [green]включен, [yellow]/tr[white] чтобы переключить",
+    "INTERACTION_TOO_QUICKLY": "[scarlet]Слишком много взаимодействий. Какого лешего ты творишь?",
+    "INVALID_TIMER_DELAY": "[scarlet]Неправильное время таймера",
+    "TIMER_IS_UP": "[red]Таймер: Дзынь-дзынь-дзынь!",
+    "TIMER_CLEARED": "[green]Таймер сброшен",
+    "ALREADY_HAS_TIMER": "[red]Таймер уже установлен через {0} минут {1} секунд, используй сначала [yellow]/cleartimer[red]",
     "CMD_DESCRIPTION_r": "встать или выйти из очереди",
     "CMD_DESCRIPTION_ar": "меняет AutoReady - если включен, то Вы автоматически встанете в очередь через 15 после входа в лобби",
     "CMD_DESCRIPTION_lb": "переключает между глобальной/локальной таблицей лидеров",
@@ -34,7 +42,11 @@
     "CMD_DESCRIPTION_muteall": "выключить чат со всеми игроками",
     "CMD_DESCRIPTION_mutes": "список игроков с которыми выключен чат",
     "CMD_DESCRIPTION_me": "информация о своём аккаунте",
-    "CMD_DESCRIPTION_lang": "смена языка"
+    "CMD_DESCRIPTION_lang": "смена языка",
+    "CMD_DESCRIPTION_tr": "включить или выключить автоперевод чата",
+    "CMD_DESCRIPTION_chatlang": "установить язык для автоперевода чата",
+    "CMD_DESCRIPTION_timer": "поставить таймер",
+    "CMD_DESCRIPTION_cleartimer": "сбросить таймер"
   },
   "lobby": {
     "SERVER_NAME": "[red]Рейтинговый\n[yellow]⚡ [red]PvP [yellow]⚡",
@@ -60,7 +72,11 @@
     "WAITING_IN_QUEUE_FORMAT": "\nПрошло: {0}:{1} / {2}:{3}",
     "SLOW_CONNECTION_KICK": "Вы отсутствовали слишком долго. Пожалуйста, переподключитесь к серверу.",
     "SLOW_CONNECTION_WARN": "[scarlet]ВНИМАНИЕ: [red]Похоже, у Вас медленное соединение. Вы были удалены из очереди.",
-    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] сервер от SeaPy\nПосмотреть список команд: [yellow]/help\n\n[yellow]Сайт: ranked.ddns.net\n[#7289da]Дискорд \uE848: discord.gg/Hjr92J7"
+    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] сервер от SeaPy\nПосмотреть список команд: [yellow]/help\n\n[yellow]Сайт: ranked.ddns.net\n[#7289da]Дискорд \uE848: discord.gg/Hjr92J7",
+    "UNREAD_NEWS": "[white]Непрочитанных новостей: [yellow]{0}[white], используйте [yellow]/news[white] чтобы прочитать их.",
+    "NO_UNREAD_NEWS": "Все новости уже прочитаны",
+    "AUTOREADY_OFF_UNREAD_NEWS": "AutoReady [red]не[white] задействован потому что у вас есть непрочитанные новости, [cyan]{0} [yellow]/news",
+    "SUPPORTED_LANGUAGES": "Поддерживаемые языки: {0}"
   },
   "room": {
     "WIN_FORMAT": "[green]Победа!\n[white]Новый рейтинг: [orange]{0}->{1}[white] {2}\nРейтинг {3}[white]: [orange]{4}->{5}[white] {6}\nПричина: {7}",

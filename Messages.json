@@ -17,6 +17,9 @@
     "INVALID_NUMBER_FORMAT": "Invalid number format",
     "AUTOREADY_ON": "[yellow]AutoReady[white] is [red]OFF[white]. Note: your queue status didn't change, use [yellow]/r",
     "AUTOREADY_OFF": "[yellow]AutoReady[white] is [green]ON[white]. Note: your queue status didn't change, use [yellow]/r",
+    "CHAT_AUTOTRANSLATE_ON": "Chat autotranslate [green]enabled",
+    "CHAT_AUTOTRANSLATE_OFF": "Chat autotranslate [red]disabled",
+    "CHAT_AUTOTRANSLATE_ON_LOGIN": "Chat autotranslate is [green]enabled[white], [yellow]/tr[white] to toggle",
     "RATING_LIMIT_CHANGED_ANYONE": "Will be looking for [green]anyone",
     "RATING_LIMIT_CHANGED": "Will be looking for opponents with rating {0} - {1}",
     "RATING_LIMIT_MAX": "99999 max, or use [yellow]/nolimit",
@@ -34,6 +37,11 @@
     "NO_MUTES": "No mutes",
     "LEADERBOARD_SWITCH_TO_LOCAL": "You switched leaderboard to [green]local",
     "LEADERBOARD_SWITCH_TO_GLOBAL": "You switched leaderboard to [green]global",
+    "INTERACTION_TOO_QUICKLY": "[scarlet]You are interacting with blocks too quickly. WTF are you doing?",
+    "INVALID_TIMER_DELAY": "[scarlet]Invalid timer delay",
+    "TIMER_IS_UP": "[red]Timer: Ding-Ding-Ding!",
+    "TIMER_CLEARED": "[green]Timer was cleared",
+    "ALREADY_HAS_TIMER": "[red]Timer is already set in {0} minutes {1} seconds, use [yellow]/cleartimer[red] first",
     "CMD_DESCRIPTION_r": "queue or unqueue yourself",
     "CMD_DESCRIPTION_ar": "toggle your AutoReady - if turned on, you are automatically queued in 15 seconds after entering the lobby",
     "CMD_DESCRIPTION_lb": "toggle between global/local leaderboard",
@@ -46,7 +54,11 @@
     "CMD_DESCRIPTION_muteall": "disable chat from other players",
     "CMD_DESCRIPTION_mutes": "list your mutes",
     "CMD_DESCRIPTION_me": "info about yourself",
-    "CMD_DESCRIPTION_lang": "change language"
+    "CMD_DESCRIPTION_lang": "change language",
+    "CMD_DESCRIPTION_tr": "toggle automatic chat translation",
+    "CMD_DESCRIPTION_chatlang": "set language for chat translation",
+    "CMD_DESCRIPTION_timer": "set timer in minutes+seconds",
+    "CMD_DESCRIPTION_cleartimer": "clears timer"
   },
   "lobby": {
     "SERVER_NAME": "[red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
@@ -74,7 +86,12 @@
     "WAITING_IN_QUEUE_FORMAT": "\nWaiting: {0}:{1} / {2}:{3}",
     "SLOW_CONNECTION_KICK": "You have been away for too long. Please, reconnect to server.",
     "SLOW_CONNECTION_WARN": "[scarlet]WARNING: [red]Your connection seem to be slow. You have been removed from the queue.",
-    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\nAvailable commands: [yellow]/help\n\n[yellow]Site: ranked.ddns.net\n[#7289da]Discord \uE848: discord.gg/Hjr92J7"
+    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\nAvailable commands: [yellow]/help\n\n[yellow]Site: ranked.ddns.net\n[#7289da]Discord \uE848: discord.gg/Hjr92J7",
+    "UNREAD_NEWS": "You have [yellow]{0}[white] unread news, use [yellow]/news[white] to read them.",
+    "AUTOREADY_OFF_UNREAD_NEWS": "Your AutoReady is [red]not[white] triggered because you have unread [cyan]{0} [yellow]/news",
+    "NO_UNREAD_NEWS": "You have no unread news",
+    "NEWS_FORMAT": "{0} - {1}\n\n{2}",
+    "SUPPORTED_LANGUAGES": "Supported languages: {0}"
   },
   "room": {
     "WIN_FORMAT": "[green]You won!\n[white]New ELO: [orange]{0}->{1}[white] {2}\nOpponent's {3}[white] ELO: [orange]{4}->{5}[white] {6}\nReason: {7}",
