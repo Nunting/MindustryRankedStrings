@@ -1,7 +1,7 @@
 {
   "common": {
     "INFO_FORMAT": "Чтобы понизиться до {0}: {1}, текущий ELO: {2} ({3}), следующий ранг {4}: {5}",
-    "LANGUAGE_NOT_SUPPORTED": "Этот язык не поддерживается.",
+    "LANGUAGE_NOT_SUPPORTED": "Этот язык не поддерживается: {0}.",
     "LANGUAGE_CHANGED": "Язык изменен: {0} -> {1}",
     "UNMUTEALL_RESULT": "Вы [green]включили[white] чат с остальными игроками.",
     "MUTEALL_RESULT": "Вы [red]выключили[white] чат с остальными игроками!",
@@ -25,6 +25,7 @@
     "CHAT_AUTOTRANSLATE_ON": "Перевод чата [green]включен",
     "CHAT_AUTOTRANSLATE_OFF": "Перевод чата [red]выключен",
     "CHAT_AUTOTRANSLATE_ON_LOGIN": "Перевод чата [green]включен, [yellow]/tr[white] чтобы переключить",
+    "CURRENT_CHATLANG": "Текущие языки чата: {0}",
     "INTERACTION_TOO_QUICKLY": "[scarlet]Слишком много взаимодействий. Какого лешего ты творишь?",
     "INVALID_TIMER_DELAY": "[scarlet]Неправильное время таймера",
     "TIMER_IS_UP": "[red]Таймер: Дзынь-дзынь-дзынь!",

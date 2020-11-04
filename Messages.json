@@ -1,7 +1,7 @@
 {
   "common": {
     "INFO_FORMAT": "To downgrade to {0}: {1}, current ELO: {2} ({3}), next rank {4}: {5}",
-    "LANGUAGE_NOT_SUPPORTED": "This language is not supported.",
+    "LANGUAGE_NOT_SUPPORTED": "This language is not supported: {0}.",
     "LANGUAGE_CHANGED": "Language changed: {0} -> {1}",
     "UNMUTEALL_RESULT": "You [green]unmuted[white] all other players.",
     "MUTEALL_RESULT": "You [red]muted[white] all other players!",
@@ -42,6 +42,7 @@
     "TIMER_IS_UP": "[red]Timer: Ding-Ding-Ding!",
     "TIMER_CLEARED": "[green]Timer was cleared",
     "ALREADY_HAS_TIMER": "[red]Timer is already set in {0} minutes {1} seconds, use [yellow]/cleartimer[red] first",
+    "CURRENT_CHATLANG": "Current chat languages: {0}",
     "CMD_DESCRIPTION_r": "queue or unqueue yourself",
     "CMD_DESCRIPTION_ar": "toggle your AutoReady - if turned on, you are automatically queued in 15 seconds after entering the lobby",
     "CMD_DESCRIPTION_lb": "toggle between global/local leaderboard",
