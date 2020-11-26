@@ -85,7 +85,11 @@
     "UNREAD_NEWS": "[white]Непрочитанных новостей: [yellow]{0}[white], напишите [yellow]/news[white] чтобы прочитать их.",
     "NO_UNREAD_NEWS": "Все новости уже прочитаны",
     "AUTOREADY_OFF_UNREAD_NEWS": "AutoReady [red]не[white] задействован потому что у вас есть непрочитанные новости, [cyan]{0} [yellow]/news",
-    "SUPPORTED_LANGUAGES": "Поддерживаемые языки: {0}"
+    "SUPPORTED_LANGUAGES": "Поддерживаемые языки: {0}",
+    "NEW_JOIN_NUMBER": "[green]Ваш ключ [yellow]{0}[green], используйте его на втором аккаунте с помощью [yellow]/join {0}[green].\n\n[red]Сохраните его, запишите или сделайте скриншот.\nВаша история и рейтинг со второго аккаунт НЕ будут перенесены и станут недоступны!",
+    "CANT_JOIN_LINKED_DISCORD": "[green]Ваш аккаунт привязан к Discord. Сначала отвяжите его с помощью [yellow]/unlinkdiscord[] или на сайте [yellow]ranked.ddns.net",
+    "INVALID_JOIN_KEY": "[scarlet]Неверный ключ, получите ключ на главном аккаунте с помощью команды [yellow]/join",
+    "JOIN_SUCCESS": "[green]Объединение успешно!\nПожалуйста, переподключитесь к серверу."
   },
   "room": {
     "WIN_FORMAT": "[green]Победа!\n[white]Новый рейтинг: [orange]{0}->{1}[white] {2}\nРейтинг {3}[white]: [orange]{4}->{5}[white] {6}\nПричина: {7}",

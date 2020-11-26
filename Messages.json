@@ -100,7 +100,11 @@
     "AUTOREADY_OFF_UNREAD_NEWS": "Your AutoReady is [red]not[white] triggered because you have unread [cyan]{0} [yellow]/news",
     "NO_UNREAD_NEWS": "You have no unread news",
     "NEWS_FORMAT": "{0} - {1}\n\n{2}",
-    "SUPPORTED_LANGUAGES": "Supported languages: {0}"
+    "SUPPORTED_LANGUAGES": "Supported languages: {0}",
+    "NEW_JOIN_NUMBER": "[green]Your join key is [yellow]{0}[green], use it on secondary account with [yellow]/join {0}[green].\n\n[red]Do not lose this key, write it down or make a screenshot.\nYour history and rating on secondary account will NOT be transferred and will become inaccessible!",
+    "CANT_JOIN_LINKED_DISCORD": "[green]Your account is linked with discord. Unlink it via [yellow]/unlinkdiscord[] or via website [yellow]ranked.ddns.net",
+    "INVALID_JOIN_KEY": "[scarlet]Invalid key provided, get you key on main account via [yellow]/join",
+    "JOIN_SUCCESS": "[green]Joining was successful!\nPlease, reconnect to server."
   },
   "room": {
     "WIN_FORMAT": "[green]You won!\n[white]New ELO: [orange]{0}->{1}[white] {2}\nOpponent's {3}[white] ELO: [orange]{4}->{5}[white] {6}\nReason: {7}",
