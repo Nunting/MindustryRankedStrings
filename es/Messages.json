@@ -84,7 +84,7 @@
     "IN_THE_QUEUE": "Ahora estás en cola.",
     "ABOUT_TO_BEGIN_FORMAT": "[red]¡Partida encontrada! Comienza en 5 segundos.",
     "HARD_SHUTDOWN": "El server se está reiniciando por mantenimiento. Intenta volver a conectarte en algunos minutos.",
-    "MAX_LIMIT_DIFF": "99999 máx. O envia [yellow] / nolimit",
+    "MAX_LIMIT_DIFF": "99999 máx. O envia [yellow]/nolimit",
     "AUTOREADY_IS_ON": "AutoReady is [green]ACTIVADO.[white] Estarás en la cola en 15 segundos.",
     "WAITING_IN_QUEUE_FORMAT": "\nEsperando: @:@ / @:@",
     "SLOW_CONNECTION_KICK": "Has estado lejo por demasiado tiempo. Por favor, vuelve a conectarte al server.",
