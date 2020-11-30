@@ -47,6 +47,7 @@
     "CMD_DESCRIPTION_mutes": "enumera tus silenciaciones",
     "CMD_DESCRIPTION_me": "información sobre ti",
     "CMD_DESCRIPTION_lang": "cambiar idioma",
+    "CMD_DESCRIPTION_surrender": "rendición (en un partido)",
     "CHAT_AUTOTRANSLATE_ON": "Traducción automática de la chat [green]habilitada",
     "CHAT_AUTOTRANSLATE_OFF": "Traducción automática de la chat [red]disactivada",
     "CHAT_AUTOTRANSLATE_ON_LOGIN": "Traducción automática de lachat está habilitada [green]activada[white], [yellow]/tr[white] para cambiar",

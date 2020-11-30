@@ -55,6 +55,7 @@
     "CMD_DESCRIPTION_lb": "toggle between global/local leaderboard",
     "CMD_DESCRIPTION_limit": "sets max difference between your rating and rating of your opponent",
     "CMD_DESCRIPTION_nolimit": "removes maximum limit of rating difference between you and your opponent",
+    "CMD_DESCRIPTION_surrender": "surrender (in a match)",
     "CMD_DESCRIPTION_polls": "see available polls to answer some of them",
     "CMD_DESCRIPTION_vote": "leave answer to some poll",
     "CMD_DESCRIPTION_last": "info about your last match",
@@ -120,6 +121,7 @@
     "OPPONENT_LEFT": "Your opponent left the match. Waiting 30 seconds for reconnect, or you win! [red]Do not go away, or you may lose instead!",
     "HARD_SHUTDOWN_ROOM": "Room is restarting due to maintenance. Your rating was not changed.",
     "TIEBREAKER_DAMAGE": "[white]Each core gets [red]@[white] damage.",
+    "TIEBREAKER_WARNING": "[white]Tiebreaker starts in [red]1 minute.",
     "TIEBREAKER_FORMAT": "@[yellow]\u26A1[red]@[yellow]\u26A1\n@",
     "TIEBREAKER_TIED_CHAT": "[red][Tiebreaker]: Game tied."
   }

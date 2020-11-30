@@ -43,6 +43,7 @@
     "CMD_DESCRIPTION_lb": "переключает между глобальной/локальной таблицей лидеров",
     "CMD_DESCRIPTION_limit": "устанавливает максимальную разницу в рейтинге с противниками",
     "CMD_DESCRIPTION_nolimit": "удаляет максимальную разницу в рейтинге с противниками",
+    "CMD_DESCRIPTION_surrender": "сдаться (в бою)",
     "CMD_DESCRIPTION_polls": "показывает доступные опросы",
     "CMD_DESCRIPTION_vote": "оставить ответ на опрос",
     "CMD_DESCRIPTION_last": "информация о последнем бое",
@@ -105,6 +106,7 @@
     "OPPONENT_LEFT": "Ваш противник покинул игру. Ждём его 30 секунд, или Вы победили! [red]Не покидайте игру, иначе можете проиграть!",
     "HARD_SHUTDOWN_ROOM": "Комната перезапускается. Ваш рейтинг не изменён.",
     "TIEBREAKER_DAMAGE": "[white]Каждое ядро получает [red]@[white] урона.",
+    "TIEBREAKER_WARNING": "[white]Через минуту каждое ядро начнёт получать урон.",
     "TIEBREAKER_FORMAT": "@[yellow]⚡[red]@[yellow]⚡\n@",
     "TIEBREAKER_TIED_CHAT": "[red][Tiebreaker]: Ничья."
   }
