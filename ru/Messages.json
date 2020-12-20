@@ -70,9 +70,9 @@
     "CMD_DESCRIPTION_linkdiscord": "привязать свой Discord (через сайт)",
     "CMD_DESCRIPTION_surrender": "сдаться (в бою)",
     "TIMER_SET": "[green]Установлен на @:@",
-    "KICK_PLAYER_ID_ONLINE": "[scarlet] Вы уже находитесь в сети с другого устройства. Если вы считаете, что произошла ошибка, обратитесь к администраторам по адресу @",
-    "CMD_DESCRIPTION_s": "Наблюдать за матчем.",
-    "CMD_DESCRIPTION_mapban": "Заблокировать карту."
+    "KICK_PLAYER_ID_ONLINE": "[scarlet]Вы уже находитесь в игре с другого устройства. Если вы считаете, что произошла ошибка, обратитесь к администраторам по адресу @",
+    "CMD_DESCRIPTION_s": "наблюдать за матчем",
+    "CMD_DESCRIPTION_mapban": "заблокировать карту"
   },
   "lobby": {
     "WELCOME_MESSAGE": "[red]Добро пожаловать!\n\n[white]Важно:\nнапишите в чат\n[yellow]/r[white] чтобы встать или выйти из очереди\n[yellow]/help[white] чтобы посмотреть список всех команд\n\n[red]ВАЖНО[white] Сервер в стадии БЕТА\nОставляйте отзывы в [blue]Discord[white]:\n[yellow]@",
@@ -112,8 +112,8 @@
     "JOIN_SUCCESS": "[green]Объединение успешно!\nПожалуйста, переподключитесь к серверу.",
     "OPPONENT_LEFT_QUEUE": "[red]Ваш противник вышел, ищем другого[white]",
     "INVALID_JOIN_YOURSELF": "[scarlet]Нельзя объединиться с текущим аккаунтом, используйте другой аккаунт/устройство",
-    "MAP_BANS_NO_ROOMS": "[scarlet] Не могу отобразить список карт, пожалуйста свяжитесь с администрацией.",
-    "MAP_BANS_LIST_FORMAT": "Вы заблокировали следующие карты: [yellow]@\n[]Available maps: [yellow]@\n[]Используйте: [yellow]/mapban [+/-] [nameprefix]",
+    "MAP_BANS_NO_ROOMS": "[scarlet]Не могу отобразить список карт, пожалуйста свяжитесь с администрацией.",
+    "MAP_BANS_LIST_FORMAT": "Вы заблокировали следующие карты: [yellow]@\n[]Полный список карт: [yellow]@\n[]Используйте: [yellow]/mapban [+/-] [nameprefix]",
     "MAP_BANS_EXAMPLE_USAGE": "Пример использования команды:\n[yellow]/mapban + belshir_beach\n/mapban - Ever Dream v3\n/mapban",
     "MAP_BANS_MAX_COUNT": "Нельзя заблокировать больше [yellow]@[] карт.\nДля разблокировки карты - [yellow]/mapban - [mapname][]\nВы заблокировали: [yellow]@",
     "MAP_BANS_ADDED": "Вы добавили [yellow]@[] в список заблокированных карт. Новый список: [yellow]@",
