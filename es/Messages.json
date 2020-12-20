@@ -90,7 +90,7 @@
     "WAITING_IN_QUEUE_FORMAT": "\nEsperando: @:@ / @:@",
     "SLOW_CONNECTION_KICK": "Has estado lejo por demasiado tiempo. Por favor, vuelve a conectarte al server.",
     "SLOW_CONNECTION_WARN": "[scarlet]ADVERTENCIA: [red]tu conexión parece ser lenta. Has sido removido de la cola.",
-    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\nComandos disponibles: [yellow]/help\n\n[yellow]Site: ranked.ddns.net\n[#7289da]Discord \uE848: discord.gg/Hjr92J7",
+    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\nComandos disponibles: [yellow]/help\n\n[yellow]Site: ranked.ddns.net\n[#7289da]Discord \uE80D: discord.gg/Hjr92J7",
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Clasificación ([#@]@ [@]#@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Clasificación ([#@]@ [@]@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "SERVER_NAME": "[yellow]⚡ [red]PvP con clasificación  [yellow]⚡",

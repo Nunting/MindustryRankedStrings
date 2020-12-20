@@ -101,7 +101,7 @@
     "WAITING_IN_QUEUE_FORMAT": "\nWaiting: @:@ / @:@",
     "SLOW_CONNECTION_KICK": "You have been away for too long. Please, reconnect to server.",
     "SLOW_CONNECTION_WARN": "[scarlet]WARNING: [red]Your connection seem to be slow. You have been removed from the queue.",
-    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\nAvailable commands: [yellow]/help\n\n[yellow]Site: ranked.ddns.net\n[#7289da]Discord \uE848: discord.gg/Hjr92J7",
+    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\nAvailable commands: [yellow]/help\n\n[yellow]Site: ranked.ddns.net\n[#7289da]Discord \uE80D: discord.gg/Hjr92J7",
     "UNREAD_NEWS": "You have [yellow]@[white] unread news, send [yellow]/news[white] to read them.",
     "AUTOREADY_OFF_UNREAD_NEWS": "Your AutoReady is [red]not[white] triggered because you have unread [cyan]@ [yellow]/news",
     "NO_UNREAD_NEWS": "You have no unread news",
