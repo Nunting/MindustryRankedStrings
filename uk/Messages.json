@@ -72,7 +72,7 @@
     "MAP_BANS_MAX_COUNT": "Ви не можете заблокувати понад [yellow]@[] мап. Видаліть за допомогою команди [yellow]/mapban - [назва мапи]\n[]Ви заблокували: [yellow]@",
     "MAP_BANS_ADDED": "Ви додали [yellow]@[] до заборонених мап. Новий список: [yellow]@",
     "MAP_BANS_REMOVED": "Ви видалили [yellow]@[] із заблокованих мап. Новий список: [yellow]@",
-    "SPECTATE_MATCH_FORMAT": "[yellow]@[]: [yellow]@[] @[white] проти [yellow]@[] @[white], мапа: [yellow]@[], тривалість: [yellow]@ хв.",
+    "SPECTATE_MATCH_FORMAT": "[white][yellow]@[]: [yellow]@[] @[white] проти [yellow]@[] @[white], мапа: [yellow]@[], тривалість: [yellow]@ хв.",
     "SPECTATE_LIST": "Наявні матчі:\n@\nДолучіться за допомогою команди [yellow]/s [id гри]",
     "SPECTATE_CANT_FIND_MATCH": "[scarlet]Неможливо знайти вказану гру"
   },

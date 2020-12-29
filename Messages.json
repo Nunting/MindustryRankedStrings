@@ -118,7 +118,7 @@
     "MAP_BANS_MAX_COUNT": "You can't ban more than [yellow]@[] maps. Remove via [yellow]/mapban - [mapname]\n[]You banned: [yellow]@",
     "MAP_BANS_ADDED": "You added [yellow]@[] to maps bans. New list: [yellow]@",
     "MAP_BANS_REMOVED": "You removed [yellow]@[] from map bans. New list: [yellow]@",
-    "SPECTATE_MATCH_FORMAT": "[yellow]@[]: [yellow]@[] @[white] vs [yellow]@[] @[white], map: [yellow]@[], duration: [yellow]@ minutes",
+    "SPECTATE_MATCH_FORMAT": "[white][yellow]@[]: [yellow]@[] @[white] vs [yellow]@[] @[white], map: [yellow]@[], duration: [yellow]@ minutes",
     "SPECTATE_LIST": "Available matches:\n@\nJoin via [yellow]/s [matchid]",
     "SPECTATE_CANT_FIND_MATCH": "[scarlet]Can't find specified match"
   },
@@ -141,6 +141,7 @@
     "TIEBREAKER_DAMAGE": "[white]Each core gets [red]@[white] damage.",
     "TIEBREAKER_WARNING": "[white]Tiebreaker starts in [red]1 minute.",
     "TIEBREAKER_FORMAT": "@[yellow]\u26A1[red]@[yellow]\u26A1\n@",
-    "TIEBREAKER_TIED_CHAT": "[red][Tiebreaker]: Game tied."
+    "TIEBREAKER_TIED_CHAT": "[red][Tiebreaker]: Game tied.",
+    "SPECTATOR_STATS_FORMAT": "@\n@\n@\n@\n@\n@"
   }
 }

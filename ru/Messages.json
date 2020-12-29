@@ -116,7 +116,7 @@
     "MAP_BANS_MAX_COUNT": "Нельзя заблокировать больше [yellow]@[] карт.\nДля разблокировки карты - [yellow]/mapban - [mapname][]\nВы заблокировали: [yellow]@",
     "MAP_BANS_ADDED": "Вы добавили [yellow]@[] в список заблокированных карт. Новый список: [yellow]@",
     "MAP_BANS_REMOVED": "Вы удалили [yellow]@[] из списка заблокированных карт. Новый список: [yellow]@",
-    "SPECTATE_MATCH_FORMAT": "[yellow]@[]: [yellow]@[] @[white] против [yellow]@[] @[white], карта: [yellow]@[], длительность: [yellow]@ минут",
+    "SPECTATE_MATCH_FORMAT": "[white][yellow]@[]: [yellow]@[] @[white] против [yellow]@[] @[white], карта: [yellow]@[], длительность: [yellow]@ минут",
     "SPECTATE_LIST": "Доступные матчи:\n@\nПрисоединиться через [yellow]/s [matchid]",
     "SPECTATE_CANT_FIND_MATCH": "[scarlet]Этот матч не найден."
   },
