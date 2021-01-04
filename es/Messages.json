@@ -117,7 +117,7 @@
     "OPPONENT_TAKES_TOO_LONG_TO_CONNECT": "Parece que tu adversario tarda demasiado en conectarse, quedan @ segundos.",
     "OPPONENT_LEFT": "Tu oponente abandonó la partida. Esperando @ segundos para que vuelve a conectarse. ¡Si no, tu ganas! [red]¡No abandona, o podrías perder!",
     "HARD_SHUTDOWN_ROOM": "Room se está reiniciando por mantenimiento. Tu rango no se modificó.",
-    "TIEBREAKER_DAMAGE": "[white]Cada núcleo recibe [red]@ [white] daño.",
+    "TIEBREAKER_DAMAGE": "[white]Cada núcleo recibe [@]@[white] daño.",
     "TIEBREAKER_FORMAT": "@[yellow]⚡[red]@[yellow]⚡\n@",
     "TIEBREAKER_TIED_CHAT": "[red][Tiebraker]: Empate."
   }
