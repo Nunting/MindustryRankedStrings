@@ -118,7 +118,8 @@
     "MAP_BANS_REMOVED": "Вы удалили [yellow]@[] из списка заблокированных карт. Новый список: [yellow]@",
     "SPECTATE_MATCH_FORMAT": "[white]> [orange]@[]: [yellow]@[] @[white] против [yellow]@[] @[white] +[yellow]@[white] наблюдают\nКарта: [yellow]@[], длительность: [yellow]@ минут",
     "SPECTATE_LIST": "Доступные матчи:\n@\nПрисоединиться через [yellow]/s [orange][matchid]",
-    "SPECTATE_CANT_FIND_MATCH": "[scarlet]Этот матч не найден."
+    "SPECTATE_CANT_FIND_MATCH": "[scarlet]Этот матч не найден.",
+    "BUILD_RESTRICTION": "[scarlet]Вам нужно завершить ещё [yellow]@[] матчей 1 на 1 чтобы получить возможность строить в лобби. Напишите [yellow]/r[] и подождите противника"
   },
   "room": {
     "WIN_FORMAT": "[green]Победа!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотреть повтор можно на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
