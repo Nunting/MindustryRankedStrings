@@ -90,7 +90,7 @@
     "MAIL_NEXT_PAGE": "[green]Страница [yellow]@[], для другой страницы напишите [yellow]/read all [номер_страницы]"
   },
   "lobby": {
-    "WELCOME_MESSAGE": "[red]Добро пожаловать!\n\n[white]Важно:\nчерез 15 секунд Вы будете поставлены в очередь для матча 1 на 1 автоматически\nнапишите в чат\n[yellow]/r[white] чтобы встать или выйти из очереди\n[yellow]/help[white] чтобы посмотреть список всех команд\n\n[red]ВАЖНО[white] Сервер в стадии БЕТА\nОставляйте отзывы в [blue]Discord[white]:\n[yellow]@[white]\nили командой [yellow]/mail 0 [сообщение]",
+    "WELCOME_MESSAGE": "[red]Добро пожаловать!\n\n[white]Важно:\nчерез 15 секунд Вы будете поставлены в очередь для матча 1 на 1 автоматически\n\nнапишите в чат\n[yellow]/r[white] чтобы встать или выйти из очереди\n[yellow]/help[white] чтобы посмотреть список всех команд\n\n[red]ВАЖНО[white] Сервер в стадии БЕТА\nОставляйте отзывы в [blue]Discord[white]:\n[yellow]@[white]\nили командой [yellow]/mail 0 [сообщение]",
     "LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]➊ [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]➋ [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]➌ [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]➊ [white]@ @\n[orange]➋ [white]@ @\n[yellow]➌ [white]@ @",
     "HUB_IN_MATCHES_FORMAT": "[white]В бою: [yellow]@[white]",
