@@ -137,7 +137,8 @@
     "SPECTATE_MATCH_FORMAT": "[white]> [orange]@[]: [yellow]@[] @[white] vs [yellow]@[] @[white] +[yellow]@[white] spectators\nMap: [yellow]@[], duration: [yellow]@[] minutes",
     "SPECTATE_LIST": "Available matches:\n@\nJoin via [yellow]/s [orange][matchid]",
     "SPECTATE_CANT_FIND_MATCH": "[scarlet]Can't find specified match",
-    "BUILD_RESTRICTION": "[scarlet]You should complete [yellow]@[] more 1v1 matches before being able to build in lobby. Send [yellow]/r[] and wait for a match"
+    "BUILD_RESTRICTION": "[scarlet]You should complete [yellow]@[] more 1v1 matches before being able to build in lobby. Send [yellow]/r[] and wait for a match",
+    "BUILDING_BLOCKED": "[scarlet]Building in lobby is temporarily blocked by admins"
   },
   "room": {
     "WIN_FORMAT": "[green]You won!\n[white]New ELO: [orange]@->@[white] @\nOpponent's @[white] ELO: [orange]@->@[white] @\nReason: @\n\nWatch match replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
