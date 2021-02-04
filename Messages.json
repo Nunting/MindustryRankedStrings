@@ -93,7 +93,7 @@
   "lobby": {
     "SERVER_NAME": "[red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
     "SERVER_DESCRIPTION": "[red]1v1 with matchmaking [yellow]- Season Beta 2",
-    "WELCOME_MESSAGE": "[red]Welcome!\n\n[white]Important:\nYou will be queued automatically for 1v1 in [yellow]15[] seconds\n\nsend into chat\n[yellow]/r[white] to queue or dequeue\n[yellow]/help[white] to list all commands\n\n[red]NOTE[white] This concept is in BETA\nLeave feedback in [blue]Discord[white]:\n[yellow]@[white]\nor in-game via [yellow]/mail 0 [your message]",
+    "WELCOME_MESSAGE": "[red]Welcome!\n\n[white]Important:\nYou will be queued automatically for 1v1 in [yellow]15[] seconds\n\nsend into chat\n[yellow]/r[white] to queue or dequeue\n[yellow]/ai[white] to match vs AI\n[yellow]/help[white] to list all commands\n\n[red]NOTE[white] This concept is in BETA\nLeave feedback in [blue]Discord[white]:\n[yellow]@[white]\nor in-game via [yellow]/mail 0 [your message]",
     "LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]➊ [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]➋ [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]➌ [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Leaderboard ([#@]@ [@]#@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
@@ -106,7 +106,7 @@
     "PLAYER_MATCHING_ANYONE_FORMAT": "Searching [green]anyone[white], or set [yellow]/limit",
     "PLAYER_MATCHING_FORMAT": "Searching [yellow]@[white] - [yellow]@\n[yellow]/limit[white] to change or [yellow]/nolimit[white]",
     "IN_QUEUE_FORMAT": "[green]You are in queue[white]",
-    "NOT_IN_QUEUE_FORMAT": "[red]You are not in queue, send [yellow]/r[white]",
+    "NOT_IN_QUEUE_FORMAT": "[red]You are not in queue, send [yellow]/r\n[red]or [yellow]/ai[red] to warmup vs AI[white]",
     "OPPONENT_LEFT_QUEUE": "[red]Your opponent left, looking for another one[white]",
     "EMPTY_LEADERBOARD": "Waiting more players",
     "NOT_WAITING_FOR_MATCH": "You are [red]NOT waiting[white] for a match.",
