@@ -29,6 +29,7 @@
     "LEADERBOARD_SWITCH_TO_LOCAL": "Таблица лидеров теперь [green]локальная",
     "LEADERBOARD_SWITCH_TO_GLOBAL": "Таблица лидеров теперь [green]глобальная",
     "CMD_DESCRIPTION_r": "встать или выйти из очереди",
+    "CMD_DESCRIPTION_ai": "битва с AI (компьютером)",
     "CMD_DESCRIPTION_ar": "меняет AutoReady - если включен, то Вы автоматически встанете в очередь через 15 после входа в лобби",
     "CMD_DESCRIPTION_lb": "переключает между глобальной/локальной таблицей лидеров",
     "CMD_DESCRIPTION_limit": "устанавливает рейтинг противников для поиска",
@@ -101,8 +102,11 @@
     "NOT_IN_QUEUE_FORMAT": "[red]Вы не в очереди, напишите [yellow]/r[white]",
     "EMPTY_LEADERBOARD": "Ожидание игроков",
     "NOT_WAITING_FOR_MATCH": "Вы [red]НЕ[white] в очереди.",
+    "AI_WRONG_LEVEL": "[scarlet]Неверный уровень: [yellow]@\n[scarlet]Доступные уровни: [yellow]easy, noob, normal, hard, extreme",
+    "AI_EXAMPLE_USAGE": "Пример использования:\n[yellow]/ai easy\n/ai HARD[]\nДоступные уровни: [yellow]easy, noob, normal, hard, extreme",
     "IN_THE_QUEUE": "Вы в очереди.",
-    "ABOUT_TO_BEGIN_FORMAT": "[red]Матч найден! Начинаем через @ секунд.",
+    "ABOUT_TO_BEGIN_FORMAT": "[red]Матч найден!\nНачинаем через @ секунд.",
+    "ABOUT_TO_BEGIN_FORMAT_AI": "[red]Матч против AI @ готов!\nНачинаем через @ секунд.",
     "HARD_SHUTDOWN": "Сервер перезагружается. Попробуйте переподключиться через пару минут.",
     "MAX_LIMIT_DIFF": "99999 максимум, или напишите [yellow]/nolimit",
     "AUTOREADY_IS_ON": "AutoReady [green]ВКЛЮЧЕН.[white] Вы будете добавлены в очередь через @ секунд.",
@@ -138,10 +142,10 @@
     "BUILDING_BLOCKED": "[scarlet]Строительство в лобби временно отключено администрацией"
   },
   "room": {
-    "WIN_FORMAT": "[green]Победа!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотреть повтор можно на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
-    "LOSE_FORMAT": "[red]Поражение!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотреть повтор можно на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
-    "TIE_FORMAT": "[gray]Ничья!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотреть повтор можно на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
-    "END_FORMAT_SPECTATOR": "[gray]Матч завершён!\n[white]@ ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nПричина: @\n\nПосмотреть повтор можно на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "WIN_FORMAT": "[green]Победа!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "LOSE_FORMAT": "[red]Поражение!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "TIE_FORMAT": "[gray]Ничья!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "END_FORMAT_SPECTATOR": "[gray]Матч завершён!\n[white]@ ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
     "MATCH_NOT_STARTED": "[scarlet]Нельзя сдаться в матче который остановлен или ещё не начат.",
     "START_FORMAT": "[green]Карта [yellow]@[white]\n@[white] vs @[white]:\nпобеда @\nпоражение @\nничья @\n\n[yellow]/surrender[white] чтобы сдаться",
     "BACK_FORMAT": "Возвращаемся в [red]ЛОББИ[white] через @ секунд.",
@@ -157,6 +161,7 @@
     "TIEBREAKER_TIED_CHAT": "[red][Tiebreaker]: Ничья.",
     "TIEBREAKER_WARNING": "[white]Через минуту каждое ядро начнёт получать урон.",
     "JOINED_AS_SPECTATOR": "Вы присоединились в качестве наблюдателя. Напишите [yellow]/hub[] для возврата в лобби, канал чата по-умолчанию только для наблюдателей, команда [yellow]/a[] отправит сообщение всем",
-    "ONLY_FOR_SPECTATOR": "[scarlet]Данная команда только для наблюдателей"
+    "ONLY_FOR_SPECTATOR": "[scarlet]Данная команда только для наблюдателей",
+    "AI_TEST_MODE": "[red]ТЕСТОВЫЙ РЕЖИМ VS AI: ваш рейтинг не будет изменён"
   }
 }

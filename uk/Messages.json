@@ -56,7 +56,7 @@
     "IN_QUEUE_FORMAT": "\n[green]Ви в черзі[white]",
     "EMPTY_LEADERBOARD": "Очікуємо більше гравців",
     "IN_THE_QUEUE": "Тепер ви в черзі.",
-    "ABOUT_TO_BEGIN_FORMAT": "[red]Гру знайдено! Початок через 5 секунд.",
+    "ABOUT_TO_BEGIN_FORMAT": "[red]Гру знайдено!\nПочаток через 5 секунд.",
     "HARD_SHUTDOWN": "Сервер перезавантажується через технічне обслуговування. Спробуйте знову підʼєднатися через пару хвилин.",
     "SERVER_NAME": "[red]Рейтинг\n[yellow]⚡ [red]PvP [yellow]⚡",
     "SERVER_DESCRIPTION": "[red]1v1 з рейтингом [yellow]- Сезон Бета 2",
