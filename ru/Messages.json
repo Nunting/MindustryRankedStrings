@@ -96,7 +96,8 @@
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]➊ [white]@ @\n[orange]➋ [white]@ @\n[yellow]➌ [white]@ @",
     "HUB_IN_MATCHES_FORMAT": "[white]В бою: [yellow]@[white]",
     "HUB_STATUS_FORMAT": "[white]В очереди: [yellow]@[white]",
-    "PLAYER_MATCHING_ANYONE_FORMAT": "Ищем [green]всех[white], или установите [yellow]/limit",
+    "PLAYER_MATCHING_ANYONE_FORMAT": "Ищем [green]всех[white]",
+    "PLAYER_MATCHING_ANYONE_OR_SET_LIMIT": ", или установите [yellow]/limit",
     "PLAYER_MATCHING_FORMAT": "Ищем [yellow]@[white] - [yellow]@\n[yellow]/limit[white] чтобы изменить\n[yellow]/nolimit[white] чтобы убрать",
     "PLAYER_MATCHING_FORMAT_AI": "Ожидаем AI [@]@ [white]([yellow]@[white])\n[yellow]/r[white] чтобы отменить[white]",
     "IN_QUEUE_FORMAT": "[green]Вы в очереди[white]",
@@ -161,7 +162,8 @@
     "TIEBREAKER_FORMAT": "@[yellow]⚡[red]@[yellow]⚡\n@",
     "TIEBREAKER_TIED_CHAT": "[red][Tiebreaker]: Ничья.",
     "TIEBREAKER_WARNING": "[white]Через минуту каждое ядро начнёт получать урон.",
-    "JOINED_AS_SPECTATOR": "Вы присоединились в качестве наблюдателя. Напишите [yellow]/hub[] для возврата в лобби, канал чата по-умолчанию только для наблюдателей, команда [yellow]/a[] отправит сообщение всем",
+    "JOINED_AS_SPECTATOR": "Вы присоединились в качестве наблюдателя. Напишите [yellow]/hub[] для возврата в лобби, канал чата по-умолчанию только для наблюдателей, команда [yellow]/t[] отправит сообщение всем.",
+    "PC_TAB_SWITCHES_THE_CHAT_MODE": " Полезный совет: клавиша <TAB> (слева от Q) переключает режимы между обычным и командой [yellow]/t[].",
     "ONLY_FOR_SPECTATOR": "[scarlet]Данная команда только для наблюдателей",
     "AI_TEST_MODE": "[red]ТЕСТОВЫЙ РЕЖИМ VS AI: ваш рейтинг не будет изменён"
   }
