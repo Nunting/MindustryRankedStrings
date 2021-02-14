@@ -155,7 +155,7 @@
     "END_FORMAT_SPECTATOR": "[gray]Match finished!\n[white]@ ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nReason: @\n\nWatch match replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
     "MATCH_NOT_STARTED": "[scarlet]You can't surrender in paused or not started match.",
     "JOINED_AS_SPECTATOR": "You joined as spectator. Type [yellow]/hub[] to get back to hub, default chat is spectator-only, use [yellow]/t[] to send message to everyone.",
-    "PC_TAB_SWITCHES_THE_CHAT_MODE": " Useful tip: <TAB> (left from Q) key switches the chat mode between normal and [yellow]/t[] command.",
+    "PC_TAB_SWITCHES_THE_CHAT_MODE": "Useful tip: <TAB> (left from Q) key switches the chat mode between normal and [yellow]/t[] command.",
     "ONLY_FOR_SPECTATOR": "[scarlet]This command is only for spectators",
     "START_FORMAT": "[green]Map [yellow]@[white]\n@[white] vs @[white]:\nwin @\nlose @\ndraw @\n\n[yellow]/surrender[white] to surrender",
     "START_FORMAT_NEW": "[green]Map [yellow]@[white]\n@[white] vs @[white]\n\n[yellow]/surrender[white] to surrender",
