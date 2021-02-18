@@ -48,7 +48,7 @@
     "CMD_DESCRIPTION_chatlang": "채팅 번역의 언어 설정하기",
     "CMD_DESCRIPTION_timer": "타이머 분과 초 설정하기",
     "CMD_DESCRIPTION_cleartimer": "타이머 초기화하기",
-    "DISCORD_LINK_SUCCESS": "[#00ff00]계정이 성공적으로 유저[yellow]@[]에 연결되었습니다",
+    "DISCORD_LINK_SUCCESS": "[#00ff00]계정이 성공적으로 유저 [yellow]@[]에 연결되었습니다",
     "DISCORD_LINK_INVALID_DISCORD_TOKEN": "[#ff0000]토큰을 찾을 수 없습니다, [yellow]ranked.ddns.net[]에서 토큰을 먼저 얻으세요.",
     "DISCORD_LINK_ALREADY_LINKED": "[scarlet]계정이 이미 유저[#00ff00]@[scarlet]에 연결되었습니다, [yellow]/unlinkdiscord [scarlet]를 입력해서 연결을 해제하세요.",
     "DISCORD_UNLINK_SUCCESS": "[#00ff00]계정이 성공적으로 연결 해제되었습니다.",
