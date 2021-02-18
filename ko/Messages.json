@@ -108,7 +108,7 @@
     "AUTOREADY_IS_ON": "자동 준비가 [green]활성화[]되었습니다.[white] @초 안에 대기열에 등록됩니다.",
     "WAITING_IN_QUEUE_FORMAT": "\n대기중: @:@ / @:@",
     "SLOW_CONNECTION_KICK": "당신은 너무 오랫동안 자리를 비웠습니다. 서버에 재연결해주세요.",
-    "SLOW_CONNECTION_WARN": "[scarlet]경고: [# f00]연결 속도가 느린 것 같습니다. 대기열에서 탈퇴되었습니다.",
+    "SLOW_CONNECTION_WARN": "[scarlet]경고: [#f00]연결 속도가 느린 것 같습니다. 대기열에서 탈퇴되었습니다.",
     "SERVER_AUTHOR_INFO_LABEL": "[#ff0000]Mindustry Ranked PvP[white] server by SeaPy\n사용 가능한 명령어: [yellow]/help\n\n[yellow]웹사이트: ranked.ddns.net\n[#7289da]디스코드 : discord.gg/Hjr92J7",
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "리더보드 ([#@]@ [@]#@[white]):\n[#ff0000]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "리더보드 ([#@]@ [@]@[white]):\n[#ff0000]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
