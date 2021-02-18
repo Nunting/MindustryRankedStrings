@@ -114,7 +114,7 @@
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "리더보드 ([#@]@ [@]@[white]):\n[#ff0000]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "PLAYER_RATING_FORMAT_LOCAL": "[white]@ [green]>[white] @ [yellow]@[white]",
     "PLAYER_RATING_FORMAT_GLOBAL": "[white]@ [green]>[white] @[white] ([yellow]@, [#@]@ [@]#@[white])",
-    "SERVER_NAME": "[yellow]⚡ [#ff0000]PvP [yellow]⚡[#ff0000] 등급전",
+    "SERVER_NAME": "[yellow]⚡ [#ff0000]PvP [yellow]⚡[#ff0000] 랭크전",
     "SERVER_DESCRIPTION": "[#ff0000]매치메이킹 1v1[yellow]- 베타 시즌2",
     "UNREAD_NEWS": "읽지 않은 소식이 [yellow]@[white]개 있습니다, [yellow]/news[white]를 입력하여 읽을 수 있습니다. ",
     "AUTOREADY_OFF_UNREAD_NEWS": "읽지 않은  [cyan]@ [yellow]/news[][]가 있어서 자동 준비가 설정되지 [#ff0000]않음",
