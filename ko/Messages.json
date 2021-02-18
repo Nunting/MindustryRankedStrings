@@ -128,7 +128,7 @@
     "OPPONENT_LEFT_QUEUE": "[#ff0000]상대가 떠났습니다. 다른 상대 찾는중..[white]",
     "INVALID_JOIN_YOURSELF": "[scarlet]스스로 입장할 수 없습니다, 다른 계정이나 기기를 사용하세요.",
     "MAP_BANS_NO_ROOMS": "[scarlet]맵 목록을 얻을 수 없습니다, 관리자에게 연락하세요.",
-    "MAP_BANS_LIST_FORMAT": "차단한 맵: [yellow]@\n[]가능한 맵: [yellow]@\n[]사용법: [yellow]/mapban [+/-] [맵이름]",
+    "MAP_BANS_LIST_FORMAT": "차단한 맵: [yellow]@\n[]차단 가능한 맵: [yellow]@\n[]사용법: [yellow]/mapban [+/-] [맵이름]",
     "MAP_BANS_EXAMPLE_USAGE": "사용 예시:\n[yellow]/mapban + belshir_beach\n/mapban - Ever Dream v3\n/mapban",
     "MAP_BANS_MAX_COUNT": "[yellow]@[]개 보다 맵을 더 차단할 수 없습니다. [yellow]/mapban - [맵이름][]을 통해 제거하세요.\n[]차단한 맵: [yellow]@",
     "MAP_BANS_ADDED": "[yellow]@[]를 맵 차단에 추가했습니다. 새 차단 목록: [yellow]@",
