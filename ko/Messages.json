@@ -98,7 +98,7 @@
     "PLAYER_MATCHING_ANYONE_FORMAT": "[green]아무나[white] 찾는중..",
     "PLAYER_MATCHING_FORMAT": "[yellow]@[white] - [yellow]@[white]등급의 플레이어 찾는중..\n[yellow]/limit[white]를 입력하여 검색 제한을 바꾸거나, [yellow]/nolimit[white]를 입력하세요.",
     "IN_QUEUE_FORMAT": "[green]당신은 대기열에 있습니다[white]",
-    "NOT_IN_QUEUE_FORMAT": "[#ff0000]당신은 대기열에 있습니다, \n [yellow]/r\n[#ff0000]또는 [yellow]/ai[#ff0000]를 입력해서 AI로 훈련할 수 있습니다.[white]",
+    "NOT_IN_QUEUE_FORMAT": "[#ff0000]대기열에 등록되어 있지 않습니다, \n [yellow]/r[#ff0000]또는 [yellow]/ai[#ff0000]를 입력해서 AI로 훈련할 수 있습니다.[white]",
     "EMPTY_LEADERBOARD": "플레이어를 더 기다리는 중\n",
     "NOT_WAITING_FOR_MATCH": "매치에서 [#ff0000]기다리지 않고 있음[white] ",
     "IN_THE_QUEUE": "이제 당신은 대기열에 있습니다.",
