@@ -98,7 +98,7 @@
     "WIN_FORMAT": "[green]¡Ganaste!\n[white]Nuevo ELO: [orange]@->@[white] @\nELO @[white] del adversario: [orange]@->@[white] @\nRazón: @",
     "LOSE_FORMAT": "[red]¡Perdiste!\n[white]Nuevo ELO: [orange]@->@[white] @\nELO  del adversario @[white]: [orange]@->@[white] @\nRazón: @",
     "TIE_FORMAT": "[gray]¡Empate!\n[white]Nuevo ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nRazón: @",
-    "START_FORMAT": "[green]Map [yellow]@[white]\n@[white] vs @[white]:\nwin @\nlose @\ndraw @\n\n[yellow]/surrender[white] rendición",
+    "START_FORMAT": "[green]Map [yellow]@[white]\n@[white] vs @[white]:\nwin @\nlose @\ndraw @\nW/L @/@\n\n[yellow]/surrender[white] rendición",
     "BACK_FORMAT": "Volviendo a [red]HUB[white] en @ segundos.",
     "TIEBREAKER": "Desempate",
     "RECONNECTS_LEFT": "Puedes reconectarte [red]@[] veces",

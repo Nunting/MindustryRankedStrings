@@ -150,7 +150,7 @@
     "WIN_FORMAT": "[green]승리!\n[white]새 ELO 변경: [orange]@->@[white] @\n상대 @[white] ELO 변경: [orange]@->@[white] @\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
     "LOSE_FORMAT": "[red]패배!\n[white]새 ELO 변경: [orange]@->@[white] @\n상대 @[white] ELO 변경: [orange]@->@[white] @\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
     "TIE_FORMAT": "[gray]무승부!\n[white]새 ELO 변경: [orange]@->@[white] @\n상대 @[white] ELO 변경: [orange]@->@[white] @\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
-    "START_FORMAT": "[green]맵 [yellow]@[white]\n@[white] vs @[white]:\n승리 시 @\n패배 시 @\n무승부 시 @\n\n[yellow]/surrender[white]를 입력하여 항복하기",
+    "START_FORMAT": "[green]맵 [yellow]@[white]\n@[white] vs @[white]:\n승리 시 @\n패배 시 @\n무승부 시 @\nW/L @/@\n\n[yellow]/surrender[white]를 입력하여 항복하기",
     "BACK_FORMAT": "[red]HUB[white] @초 후에 로비로 돌아옵니다.",
     "TIEBREAKER": "타이 브레이커",
     "RECONNECTS_LEFT": "[red]@[]와 다시 연결됩니다! [yellow]/surrender[]를 입력하여 항복할 수 있습니다.",

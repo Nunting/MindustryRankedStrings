@@ -150,7 +150,7 @@
     "WIN_FORMAT": "[green]Ви перемогли!\n[white]Нове Ело: [orange]@->@[white] @\nЕло супротивника @[white]: [orange]@->@[white] @\nПричина: @",
     "LOSE_FORMAT": "[red]Ви програли!\n[white]Нове Ело: [orange]@->@[white] @\nЕло супротивника @[white]: [orange]@->@[white] @\nПричина: @",
     "TIE_FORMAT": "[gray]Нічия!\n[white]Нове Ело: [orange]@->@[white] @\nЕло супротивника @[white]: [orange]@->@[white] @\nПричина: @",
-    "START_FORMAT": "[green]Мапа [yellow]@[white]\n@[white] проти @[white]:\nперемог @\nпоразок @\nнічиїх @\n\n[yellow]/surrender[white], щоби капітулювати",
+    "START_FORMAT": "[green]Мапа [yellow]@[white]\n@[white] проти @[white]:\nперемог @\nпоразок @\nнічиїх @\nW/L @/@\n\n[yellow]/surrender[white], щоби капітулювати",
     "BACK_FORMAT": "Повернення до [red]ЦЕНТРУ[white] через @ секунд.",
     "TIEBREAKER": "Тай-брейк",
     "RECONNECTS_LEFT": "У вас є [red]@[] повторних підʼєднань! Для капітуляції надішліть [yellow]/surrender",

@@ -148,7 +148,7 @@
     "TIE_FORMAT": "[gray]Ничья!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
     "END_FORMAT_SPECTATOR": "[gray]Матч завершён!\n[white]@ ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
     "MATCH_NOT_STARTED": "[scarlet]Нельзя сдаться в матче который остановлен или ещё не начат.",
-    "START_FORMAT": "[green]Карта [yellow]@[white]\n@[white] vs @[white]:\nпобеда @\nпоражение @\nничья @\n\n[yellow]/surrender[white] чтобы сдаться",
+    "START_FORMAT": "[green]Карта [yellow]@[white]\n@[white] vs @[white]:\nпобеда @\nпоражение @\nничья @\nW/L @/@\n\n[yellow]/surrender[white] чтобы сдаться",
     "BACK_FORMAT": "Возвращаемся в [red]ЛОББИ[white] через @ секунд.",
     "TIEBREAKER": "Tiebreaker",
     "RECONNECTS_LEFT": "У Вас осталось [red]@[] переподключений! Чтобы сдаться напишите [yellow]/surrender",
