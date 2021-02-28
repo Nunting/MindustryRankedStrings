@@ -86,7 +86,8 @@
     "MAIL_SENT": "[green]Сообщение отправлено []@[yellow]#@",
     "MAIL_CLEARED": "[green]Ящик очищен!",
     "NO_MAIL": "[green]Ящик пуст!",
-    "MAIL_NEXT_PAGE": "[green]Страница [yellow]@[], для другой страницы напишите [yellow]/read all [номер_страницы]"
+    "MAIL_NEXT_PAGE": "[green]Страница [yellow]@[], для другой страницы напишите [yellow]/read all [номер_страницы]",
+    "ACHIEVEMENT_UNLOCKED": "\n[#00FF00]Открыто достижение!\n[gold]@\n[white]@\n"
   },
   "lobby": {
     "WELCOME_MESSAGE": "[red]Добро пожаловать!\n\n[white]Важно:\nчерез 15 секунд Вы будете поставлены в очередь для матча 1 на 1 автоматически\n\nнапишите в чат\n[yellow]/r[white] чтобы встать или выйти из очереди\n[yellow]/ai[white] чтобы сразиться с компьютером\n[yellow]/help[white] чтобы посмотреть список всех команд\n\n[red]ВАЖНО[white] Сервер в стадии БЕТА\nОставляйте отзывы в [blue]Discord[white]:\n[yellow]@[white]\nили командой [yellow]/mail 0 [сообщение]",
@@ -103,7 +104,7 @@
     "EMPTY_LEADERBOARD": "Ожидание игроков",
     "NOT_WAITING_FOR_MATCH": "Вы [red]НЕ[white] в очереди.",
     "AI_WRONG_LEVEL": "[scarlet]Неверный уровень: [yellow]@\n[scarlet]Доступные уровни: [yellow]easy, noob, normal, hard, extreme",
-    "AI_EXAMPLE_USAGE": "Пример использования:\n[yellow]/ai easy\n/ai HARD[]\nДоступные уровни и их рейтинг:\n@Рекомендуемый: [yellow]/ai @",
+    "AI_EXAMPLE_USAGE": "Пример использования:\n[yellow]/ai easy\n/ai HARD[]\nДоступные уровни и их рейтинг:\n@Рекомендуемый: [yellow]/ai @\nТакже можно выбрать карту: [yellow]/ai @ @",
     "IN_THE_QUEUE": "Вы в очереди.",
     "ABOUT_TO_BEGIN_FORMAT": "[red]Матч найден!\nНачинаем через @ секунд.",
     "ABOUT_TO_BEGIN_FORMAT_AI": "[red]Матч против AI @ готов!\nНачинаем через @ секунд.",
@@ -117,7 +118,7 @@
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Лидеры ([#@]@ [@]#@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Лидеры ([#@]@ [@]@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "SERVER_NAME": "[red]Рейтинговый\n[yellow]⚡ [red]PvP [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1 на 1 с матчмейкингом [yellow]- Сезон Бета 2",
+    "SERVER_DESCRIPTION": "[red]1 на 1 с матчмейкингом [green]- Сезон I",
     "UNREAD_NEWS": "[white]Непрочитанных новостей: [yellow]@[white], напишите [yellow]/news[white] чтобы прочитать их.",
     "AUTOREADY_OFF_UNREAD_NEWS": "AutoReady [red]не[white] задействован потому что у вас есть непрочитанные новости, [cyan]@ [yellow]/news",
     "NO_UNREAD_NEWS": "Все новости уже прочитаны",
@@ -143,12 +144,16 @@
     "BUILDING_BLOCKED": "[scarlet]Строительство в лобби временно отключено администрацией"
   },
   "room": {
-    "WIN_FORMAT": "[green]Победа!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
-    "LOSE_FORMAT": "[red]Поражение!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
-    "TIE_FORMAT": "[gray]Ничья!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
-    "END_FORMAT_SPECTATOR": "[gray]Матч завершён!\n[white]@ ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "MATCH_END_FORMAT_PVP": "[@]@!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "MATCH_END_FORMAT_AI": "[@]@!\n[white]Причина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Матч завершён!\n[white]@ ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "MATCH_END_FORMAT_AI_SPECTATOR": "[gray]Матч завершён!\n[white]Причина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "WIN_FORMAT": "Победа",
+    "LOSE_FORMAT": "Поражение",
+    "TIE_FORMAT": "Ничья",
     "MATCH_NOT_STARTED": "[scarlet]Нельзя сдаться в матче который остановлен или ещё не начат.",
     "START_FORMAT": "[green]Карта [yellow]@[white]\n@[white] vs @[white]:\nпобеда @\nпоражение @\nничья @\nW/L @/@\n\n[yellow]/surrender[white] чтобы сдаться",
+    "START_FORMAT_AI": "[green]Карта [yellow]@[white]\n@[white] vs @[white]\nбезрейтинговый матч\nW/L @/@\n\n[yellow]/surrender[white] чтобы сдаться",
     "BACK_FORMAT": "Возвращаемся в [red]ЛОББИ[white] через @ секунд.",
     "TIEBREAKER": "Tiebreaker",
     "RECONNECTS_LEFT": "У Вас осталось [red]@[] переподключений! Чтобы сдаться напишите [yellow]/surrender",
@@ -163,7 +168,6 @@
     "TIEBREAKER_WARNING": "[white]Через минуту каждое ядро начнёт получать урон.",
     "JOINED_AS_SPECTATOR": "Вы присоединились в качестве наблюдателя. Напишите [yellow]/hub[] для возврата в лобби, канал чата по-умолчанию только для наблюдателей, команда [yellow]/t[] отправит сообщение всем.",
     "PC_TAB_SWITCHES_THE_CHAT_MODE": "Полезный совет: клавиша <TAB> (слева от Q/Й) переключает режимы между обычным и командой [yellow]/t[].",
-    "ONLY_FOR_SPECTATOR": "[scarlet]Данная команда только для наблюдателей",
-    "AI_TEST_MODE": "[red]ТЕСТОВЫЙ РЕЖИМ VS AI: ваш рейтинг не будет изменён"
+    "ONLY_FOR_SPECTATOR": "[scarlet]Данная команда только для наблюдателей"
   }
 }

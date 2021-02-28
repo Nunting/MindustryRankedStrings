@@ -84,7 +84,7 @@
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Clasificación ([#@]@ [@]#@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Clasificación ([#@]@ [@]@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "SERVER_NAME": "[yellow]⚡ [red]PvP con clasificación  [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1v1 con emparejamiento [yellow]- temporada BETA 2",
+    "SERVER_DESCRIPTION": "[red]1v1 con emparejamiento [green]- Temporada I",
     "UNREAD_NEWS": "Tienes [yellow]@[white] noticias no leídas, envía [yellow]/news[white] para leerlas.",
     "AUTOREADY_OFF_UNREAD_NEWS": "Tu AutoReady [red]no[white] es activado porque tienes nuevas noticias [cyan]@[yellow]/news",
     "NO_UNREAD_NEWS": "No tienes noticias no leìdas",
@@ -95,9 +95,11 @@
     "JOIN_SUCCESS": "[verde]¡La inscripción fue exitosa!"
   },
   "room": {
-    "WIN_FORMAT": "[green]¡Ganaste!\n[white]Nuevo ELO: [orange]@->@[white] @\nELO @[white] del adversario: [orange]@->@[white] @\nRazón: @",
-    "LOSE_FORMAT": "[red]¡Perdiste!\n[white]Nuevo ELO: [orange]@->@[white] @\nELO  del adversario @[white]: [orange]@->@[white] @\nRazón: @",
-    "TIE_FORMAT": "[gray]¡Empate!\n[white]Nuevo ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nRazón: @",
+    "MATCH_END_FORMAT_PVP": "[@]¡@!\n[white]Nuevo ELO: [orange]@->@[white] @\nELO @[white] del adversario: [orange]@->@[white] @\nRazón: @",
+    "MATCH_END_FORMAT_AI": "[@]¡@!\n[white]Razón: @",
+    "WIN_FORMAT": "Ganaste",
+    "LOSE_FORMAT": "Perdiste",
+    "TIE_FORMAT": "Empate",
     "START_FORMAT": "[green]Map [yellow]@[white]\n@[white] vs @[white]:\nwin @\nlose @\ndraw @\nW/L @/@\n\n[yellow]/surrender[white] rendición",
     "BACK_FORMAT": "Volviendo a [red]HUB[white] en @ segundos.",
     "TIEBREAKER": "Desempate",

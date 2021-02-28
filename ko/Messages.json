@@ -114,7 +114,7 @@
     "PLAYER_RATING_FORMAT_LOCAL": "[white]@ [green]>[white] @ [yellow]@[white]",
     "PLAYER_RATING_FORMAT_GLOBAL": "[white]@ [green]>[white] @[white] ([yellow]@, [#@]@ [@]#@[white])",
     "SERVER_NAME": "[yellow]⚡ [red]PvP [yellow]⚡[red] 랭크전",
-    "SERVER_DESCRIPTION": "[red]매치메이킹 1v1[yellow]- 베타 시즌2",
+    "SERVER_DESCRIPTION": "[red]매치메이킹 1v1[green]- 시즌I",
     "UNREAD_NEWS": "읽지 않은 소식이 [yellow]@[white]개 있습니다, [yellow]/news[white]를 입력하여 읽을 수 있습니다. ",
     "AUTOREADY_OFF_UNREAD_NEWS": "읽지 않은  [cyan]@ [yellow]/news[][]가 있어서 자동 준비가 설정되지 [red]않음",
     "NO_UNREAD_NEWS": "읽지 않은 소식이 없습니다.",
@@ -147,9 +147,13 @@
     "PLAYER_MATCHING_ANYONE_OR_SET_LIMIT": ", 또는 [yellow]/limit[]으로 제한을 설정해보세요."
   },
   "room": {
-    "WIN_FORMAT": "[green]승리!\n[white]새 ELO 변경: [orange]@->@[white] @\n상대 @[white] ELO 변경: [orange]@->@[white] @\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
-    "LOSE_FORMAT": "[red]패배!\n[white]새 ELO 변경: [orange]@->@[white] @\n상대 @[white] ELO 변경: [orange]@->@[white] @\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
-    "TIE_FORMAT": "[gray]무승부!\n[white]새 ELO 변경: [orange]@->@[white] @\n상대 @[white] ELO 변경: [orange]@->@[white] @\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
+    "MATCH_END_FORMAT_PVP": "[@]@!\n[white]새 ELO 변경: [orange]@->@[white] @\n상대 @[white] ELO 변경: [orange]@->@[white] @\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
+    "MATCH_END_FORMAT_AI": "[@]@!\n[white]이유: @\n\n[yellow]ranked.ddns.net [white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
+    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]경기 끝!\n[white]@ ELO 변경: [orange]@->@[white] @\n@[white] ELO 변경: [orange]@->@[white] @\nReason: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
+    "MATCH_END_FORMAT_AI_SPECTATOR": "[gray]경기 끝!\n[white]Reason: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
+    "WIN_FORMAT": "승리",
+    "LOSE_FORMAT": "패배",
+    "TIE_FORMAT": "무승부",
     "START_FORMAT": "[green]맵 [yellow]@[white]\n@[white] vs @[white]:\n승리 시 @\n패배 시 @\n무승부 시 @\nW/L @/@\n\n[yellow]/surrender[white]를 입력하여 항복하기",
     "BACK_FORMAT": "[red]HUB[white] @초 후에 로비로 돌아옵니다.",
     "TIEBREAKER": "타이 브레이커",
@@ -163,13 +167,11 @@
     "TIEBREAKER_FORMAT": "@[yellow]⚡[red]@[yellow]⚡\n@",
     "TIEBREAKER_TIED_CHAT": "[red][타이 브레이커]: 게임 동점.",
     "TIEBREAKER_WARNING": "[red]1분[white]후 타이 브레이커가 시작됩니다.",
-    "END_FORMAT_SPECTATOR": "[gray]경기 끝!\n[white]@ ELO 변경: [orange]@->@[white] @\n@[white] ELO 변경: [orange]@->@[white] @\nReason: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
     "JOINED_AS_SPECTATOR": "관전자로써 참여했습니다. [yellow]/hub[]를 입력해서 허브로 돌아갈 수 있습니다, 기본 채팅은 관전자 전용입니다, [yellow]/t[]를 입력해서 모두에게 말할 수 있습니다.",
     "ONLY_FOR_SPECTATOR": "[scarlet]이 명령어는 관전자 전용입니다.",
     "SPECTATOR_STATS_FORMAT": "@ @ [yellow]@[white]\n@\n@\n@ @ [yellow]@[white]\n@\n@",
     "MATCH_NOT_STARTED": "[scarlet]경기가 시작되지 않았거나 일시정지인 상태에선 항복할 수 없습니다.",
-    "START_FORMAT_NEW": "[green]맵 [yellow]@[white]\n@[white] vs @[white]\n\n[yellow]/surrender[white]를 입력해서 항복할 수 있습니다.",
-    "AI_TEST_MODE": "[red]테스트 모드, AI와 훈련하기: ELO 등급이 영향받지 않습니다.",
+    "START_FORMAT_NEW": "[green]맵 [yellow]@[white]\n@[white] vs @[white]\n\n[yellow]/surrender[white]를 입력해서 항복할 수 있습니다."
     "PC_TAB_SWITCHES_THE_CHAT_MODE": "쓸모있는 팁: <TAB> (Q키 왼쪽) 키는 채팅 모드를 일반과 [yellow]/t[]팀 체팅 사이로 바꿀 수 있습니다."
   }
 }

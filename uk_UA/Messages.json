@@ -114,7 +114,7 @@
     "PLAYER_RATING_FORMAT_LOCAL": "[white]@ [green]>[white] @ [yellow]@[white]",
     "PLAYER_RATING_FORMAT_GLOBAL": "[white]@ [green]>[white] @[white] ([yellow]@, [#@]@ [@]#@[white])",
     "SERVER_NAME": "[red]Рейтинг\n[yellow]⚡ [red]PvP [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1v1 з рейтингом [yellow]- Сезон Бета 2",
+    "SERVER_DESCRIPTION": "[red]1v1 з рейтингом [green]- Сезон I",
     "UNREAD_NEWS": "Ви маєте [yellow]@[white] непрочитаних новин, надішліть [yellow]/news[white], щоб їх прочитати.",
     "AUTOREADY_OFF_UNREAD_NEWS": "Ваша автоготовність ще [red]не [white] спрацювала, бо у вас є непрочитані новини [cyan]@ [yellow]/news",
     "NO_UNREAD_NEWS": "Ви маєте непрочитані новини",
@@ -147,9 +147,13 @@
     "PLAYER_MATCHING_ANYONE_OR_SET_LIMIT": ", або встановіть обмежння — [yellow]/limit"
   },
   "room": {
-    "WIN_FORMAT": "[green]Ви перемогли!\n[white]Нове Ело: [orange]@->@[white] @\nЕло супротивника @[white]: [orange]@->@[white] @\nПричина: @",
-    "LOSE_FORMAT": "[red]Ви програли!\n[white]Нове Ело: [orange]@->@[white] @\nЕло супротивника @[white]: [orange]@->@[white] @\nПричина: @",
-    "TIE_FORMAT": "[gray]Нічия!\n[white]Нове Ело: [orange]@->@[white] @\nЕло супротивника @[white]: [orange]@->@[white] @\nПричина: @",
+    "MATCH_END_FORMAT_PVP": "[@]@!\n[white]Нове Ело: [orange]@->@[white] @\nЕло супротивника @[white]: [orange]@->@[white] @\nПричина: @",
+    "MATCH_END_FORMAT_AI": "[@]@!\n[white]Причина: @",
+    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Гра завершено!\n[white]@ Ело: [orange]@->@[white] @\n@[white] Ело: [orange]@->@[white] @\nПричина: @\n\nДивіться повтор матчу на [yellow]ranked.ddns.net[white]\nІдентифікатор матчу: [yellow]@",
+    "MATCH_END_FORMAT_AI_SPECTATOR": "[gray]Гра завершено!\n[white]Причина: @\n\nДивіться повтор матчу на [yellow]ranked.ddns.net[white]\nІдентифікатор матчу: [yellow]@",
+    "WIN_FORMAT": "Ви перемогли",
+    "LOSE_FORMAT": "Ви програли",
+    "TIE_FORMAT": "Нічия",
     "START_FORMAT": "[green]Мапа [yellow]@[white]\n@[white] проти @[white]:\nперемог @\nпоразок @\nнічиїх @\nW/L @/@\n\n[yellow]/surrender[white], щоби капітулювати",
     "BACK_FORMAT": "Повернення до [red]ЦЕНТРУ[white] через @ секунд.",
     "TIEBREAKER": "Тай-брейк",
@@ -163,13 +167,11 @@
     "TIEBREAKER_FORMAT": "@[yellow]⚡[red]@[yellow]⚡\n@",
     "TIEBREAKER_TIED_CHAT": "[red][Тай-брейк]: Тай-брейк починається.",
     "TIEBREAKER_WARNING": "[white]Тай-брейк розпочинається черех [red]1 хвилину.",
-    "END_FORMAT_SPECTATOR": "[gray]Гра завершено!\n[white]@ Ело: [orange]@->@[white] @\n@[white] Ело: [orange]@->@[white] @\nПричина: @\n\nДивіться повтор матчу на [yellow]ranked.ddns.net[white]\nІдентифікатор матчу: [yellow]@",
     "JOINED_AS_SPECTATOR": "Ви приєднались у ролі спостерігача. Надішліть [yellow]/hub[], щоб повернутися до Центру.",
     "ONLY_FOR_SPECTATOR": "[scarlet]Ця команда лише для спостерігачів.",
     "SPECTATOR_STATS_FORMAT": "@ @ [yellow]@[white]\n@\n@\n@ @ [yellow]@[white]\n@\n@",
     "MATCH_NOT_STARTED": "[scarlet]Ви не можете капітулювати протягом паузи чи в нерозпочатому матчі.",
     "START_FORMAT_NEW": "[green]Мапа[yellow]@[white]\n@[white] проти @[white]\n\n[yellow]/surrender[white] для капітуляції",
-    "AI_TEST_MODE": "[red]Тестовий режим проти ШІ не впливає на ваш рейтинг",
     "PC_TAB_SWITCHES_THE_CHAT_MODE": "Корисна підказка: клавіша <TAB> (праворуч від Q) змінює режим чату на глобальний чи [yellow]/t[] командний."
   }
 }
