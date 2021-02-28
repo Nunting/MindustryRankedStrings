@@ -86,7 +86,12 @@
     "MAIL_CLEARED": "[green]Поштову скриньку очищено!",
     "NO_MAIL": "[green]Поштова скринька порожня!",
     "MAIL_NEXT_PAGE": "[green]Ця сторінка [yellow]@[], для іншого типу сторінки [yellow]/read all [page]",
-    "CMD_DESCRIPTION_ai": "матч проти ШІ"
+    "CMD_DESCRIPTION_ai": "матч проти ШІ",
+    "ACHIEVEMENT_UNLOCKED": "\n[#00FF00]Досягнення розблоковано!\n[gold]@\n[white]@\n",
+    "ACHIEVEMENT_DESCRIPTION_MICRO_MACHINE_V": "керуйте вручну одиницями 100 годин",
+    "ACHIEVEMENT_NAME_FLAWLESS_VICTORY": "Бездоганна перемога",
+    "ACHIEVEMENT_DESCRIPTION_FLAWLESS_VICTORY": "Виграйте битву без жодної втрати одиниці чи будівлі",
+    "ACHIEVEMENT_NAME_FASTER_THAN_LIGHT": "Надсвітловий"
   },
   "lobby": {
     "WELCOME_MESSAGE": "[red]Ласкаво просимо!\n\n[white]Важливе:\nнадішліть в чат\n[yellow]/r[white], щоби стати в чергу або вийти з неї\n[yellow]/help[white], щоб показати усі команди\n\n[red]Зверніть увагу, [white] що ця концепція знаходиться в режимі бета-тестування\nЗалиште свій відгук у [blue]Discord[white]:\n[yellow]@",
@@ -144,13 +149,10 @@
     "BUILDING_BLOCKED": "[scarlet]Будування у Центрі тимчасовано вимкнено адміністраторами",
     "PLAYER_MATCHING_FORMAT_AI": "Очікуємо ШІ [@]@ [white]([yellow]@[white])\nНапишіть [yellow]/r[white], щоб скасувати[white]",
     "AI_LEVEL_FORMAT": "[@]@[] - @",
-    "PLAYER_MATCHING_ANYONE_OR_SET_LIMIT": ", або встановіть обмежння — [yellow]/limit"
+    "PLAYER_MATCHING_ANYONE_OR_SET_LIMIT": ", або встановіть обмежння — [yellow]/limit",
+    "CANT_FIND_MAP": "[scarlet]Мапу [yellow]@[] не знайдено. Наявні мапи: [yellow]@"
   },
   "room": {
-    "MATCH_END_FORMAT_PVP": "[@]@!\n[white]Нове Ело: [orange]@->@[white] @\nЕло супротивника @[white]: [orange]@->@[white] @\nПричина: @",
-    "MATCH_END_FORMAT_AI": "[@]@!\n[white]Причина: @",
-    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Гра завершено!\n[white]@ Ело: [orange]@->@[white] @\n@[white] Ело: [orange]@->@[white] @\nПричина: @\n\nДивіться повтор матчу на [yellow]ranked.ddns.net[white]\nІдентифікатор матчу: [yellow]@",
-    "MATCH_END_FORMAT_AI_SPECTATOR": "[gray]Гра завершено!\n[white]Причина: @\n\nДивіться повтор матчу на [yellow]ranked.ddns.net[white]\nІдентифікатор матчу: [yellow]@",
     "WIN_FORMAT": "Ви перемогли",
     "LOSE_FORMAT": "Ви програли",
     "TIE_FORMAT": "Нічия",
@@ -172,6 +174,11 @@
     "SPECTATOR_STATS_FORMAT": "@ @ [yellow]@[white]\n@\n@\n@ @ [yellow]@[white]\n@\n@",
     "MATCH_NOT_STARTED": "[scarlet]Ви не можете капітулювати протягом паузи чи в нерозпочатому матчі.",
     "START_FORMAT_NEW": "[green]Мапа[yellow]@[white]\n@[white] проти @[white]\n\n[yellow]/surrender[white] для капітуляції",
-    "PC_TAB_SWITCHES_THE_CHAT_MODE": "Корисна підказка: клавіша <TAB> (праворуч від Q) змінює режим чату на глобальний чи [yellow]/t[] командний."
+    "PC_TAB_SWITCHES_THE_CHAT_MODE": "Корисна підказка: клавіша <TAB> (праворуч від Q) змінює режим чату на глобальний чи [yellow]/t[] командний.",
+    "MATCH_END_FORMAT_PVP": "[@]@!\n[white]Нове Ело: [orange]@->@[white] @\nЕло супротивника @[white]: [orange]@->@[white] @\nПричина: @",
+    "MATCH_END_FORMAT_AI": "[@]@!\n[white]Причина: @",
+    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Гра завершено!\n[white]@ Ело: [orange]@->@[white] @\n@[white] Ело: [orange]@->@[white] @\nПричина: @\n\nДивіться повтор матчу на [yellow]ranked.ddns.net[white]\nІдентифікатор матчу: [yellow]@",
+    "MATCH_END_FORMAT_AI_SPECTATOR": "[gray]Гра завершено!\n[white]Причина: @\n\nДивіться повтор матчу на [yellow]ranked.ddns.net[white]\nІдентифікатор матчу: [yellow]@",
+    "START_FORMAT_AI": "[green]Мапа [yellow]@[white]\n@[white] проти @[white]\nНе впливає на рейтинг\nВигр./Прогр. @/@\n\n[yellow]/surrender[white], щоби капітулювати"
   }
 }
