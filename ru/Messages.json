@@ -247,7 +247,6 @@
     "UNREAD_NEWS": "[white]Непрочитанных новостей: [yellow]@[white], напишите [yellow]/news[white] чтобы прочитать их.",
     "AUTOREADY_OFF_UNREAD_NEWS": "AutoReady [red]не[white] задействован потому что у вас есть непрочитанные новости, [cyan]@ [yellow]/news",
     "NO_UNREAD_NEWS": "Все новости уже прочитаны",
-    "NEWS_FORMAT": "@ - @\n\n@",
     "SUPPORTED_LANGUAGES": "Поддерживаемые языки: @",
     "NEW_JOIN_NUMBER": "[green]Ваш ключ [yellow]@[green], используйте его на втором аккаунте с помощью [yellow]/join @[green].\n\n[red]Сохраните его, запишите или сделайте скриншот.\nВаша история и рейтинг со второго аккаунта НЕ будут перенесены и станут недоступны!",
     "CANT_JOIN_LINKED_DISCORD": "[green]Ваш аккаунт привязан к Discord. Сначала отвяжите его с помощью [yellow]/unlinkdiscord[] или на сайте [yellow]ranked.ddns.net",
@@ -271,8 +270,6 @@
     "BUILDING_BLOCKED": "[scarlet]Строительство в лобби временно отключено администрацией",
     "PLAYER_MATCHING_FORMAT_AI": "Ожидаем AI [@]@ [white]([yellow]@[white])\n[yellow]/r[white] чтобы отменить[white]",
     "PLAYER_MATCHING_ANYONE_OR_SET_LIMIT": ", или установите [yellow]/limit",
-    "PLAYER_RATING_FORMAT_LOCAL": "\n[white]{0} [green]>[white] {1} [yellow]{2}[white]",
-    "PLAYER_RATING_FORMAT_GLOBAL": "\n[white]{0} [green]>[white] {1} ([yellow]{2}, {3})[white]",
     "IN_THE_QUEUE_VS_AI": "Вы находитесь в очереди против AI",
     "CANT_FIND_MAP": "[scarlet]Карта [yellow]@[] не найдена. Доступные карты: [yellow]@"
   },

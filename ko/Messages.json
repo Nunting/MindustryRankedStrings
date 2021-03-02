@@ -111,14 +111,11 @@
     "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\n사용 가능한 명령어: [yellow]/help\n\n[yellow]웹사이트: ranked.ddns.net\n[#7289da]디스코드 : discord.gg/Hjr92J7",
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "리더보드 ([#@]@ [@]#@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "리더보드 ([#@]@ [@]@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
-    "PLAYER_RATING_FORMAT_LOCAL": "[white]@ [green]>[white] @ [yellow]@[white]",
-    "PLAYER_RATING_FORMAT_GLOBAL": "[white]@ [green]>[white] @[white] ([yellow]@, [#@]@ [@]#@[white])",
     "SERVER_NAME": "[yellow]⚡ [red]PvP [yellow]⚡[red] 랭크전",
     "SERVER_DESCRIPTION": "[red]매치메이킹 1v1[green]- 시즌I",
     "UNREAD_NEWS": "읽지 않은 소식이 [yellow]@[white]개 있습니다, [yellow]/news[white]를 입력하여 읽을 수 있습니다. ",
     "AUTOREADY_OFF_UNREAD_NEWS": "읽지 않은  [cyan]@ [yellow]/news[][]가 있어서 자동 준비가 설정되지 [red]않음",
     "NO_UNREAD_NEWS": "읽지 않은 소식이 없습니다.",
-    "NEWS_FORMAT": "@ - @\n\n@",
     "SUPPORTED_LANGUAGES": "지원하는 언어: @",
     "NEW_JOIN_NUMBER": "[green]입장 키는[yellow]@[green]입니다, 이걸 두번째 계정에 [yellow]/join @[green]으로 사용하세요.\n\n[red]절대 이 키를 잃어버리지 마세요, 받아쓰거나 스크린샷을 찍으세요.\n\n보조 계정의 기록 및 등급이  전송되지 않고 접근할 수 없게 됩니다!",
     "CANT_JOIN_LINKED_DISCORD": "[green]계정이 디스코드와 연결되었습니다. [yellow]/unlinkdiscord[] 또는 [yellow]ranked.ddns.net[]를 통해 연결 해제할 수 있습니다.",
@@ -136,14 +133,12 @@
     "SPECTATE_LIST": "가능한 경기:\n@\n[yellow]/s [orange][경기id][]를 통해 입장하세요.",
     "SPECTATE_CANT_FIND_MATCH": "[scarlet]해당 경기를 찾을 수 없습니다.",
     "BUILD_RESTRICTION": "[scarlet]로비에서 건설하기 전에 [yellow]@[]번 이상 1v1 경기를 완료해야 합니다. [yellow]/r[]를 입력하고 상대를 기다리세요.",
-    "PLAYER_RATING_FORMAT_NEW": "[green]>[white] @[white], [yellow]@[white]/[yellow]@",
     "IN_THE_QUEUE_VS_AI": "AI와 훈련 대기열에서 대기 중..",
     "AI_WRONG_LEVEL": "[scarlet]잘못된 AI 레벨: [yellow]@\n[scarlet]가능한 AI 레벨: [yellow]easy, noob, normal, hard, extreme",
     "AI_EXAMPLE_USAGE": "사용 예시:\n[yellow]/ai easy\n/ai HARD[]\n사용 가능한 레벨과 ELO 레이팅:\n@추천: [yellow]/ai @",
     "ABOUT_TO_BEGIN_FORMAT_AI": "[red]AI @ 훈련 준비완료!\n@초 후 시작",
     "BUILDING_BLOCKED": "[scarlet]로비의 건물이 일시적으로 관리자 의해 차단됨",
     "PLAYER_MATCHING_FORMAT_AI": "AI [@]@ [white]([yellow]@[white])를 기다리는 중..\n[yellow]/r[white]를 입력하여 취소할 수 있습니다.[white]",
-    "AI_LEVEL_FORMAT": "[@]@[] - @",
     "PLAYER_MATCHING_ANYONE_OR_SET_LIMIT": ", 또는 [yellow]/limit[]으로 제한을 설정해보세요."
   },
   "room": {
@@ -169,7 +164,6 @@
     "TIEBREAKER_WARNING": "[red]1분[white]후 타이 브레이커가 시작됩니다.",
     "JOINED_AS_SPECTATOR": "관전자로써 참여했습니다. [yellow]/hub[]를 입력해서 허브로 돌아갈 수 있습니다, 기본 채팅은 관전자 전용입니다, [yellow]/t[]를 입력해서 모두에게 말할 수 있습니다.",
     "ONLY_FOR_SPECTATOR": "[scarlet]이 명령어는 관전자 전용입니다.",
-    "SPECTATOR_STATS_FORMAT": "@ @ [yellow]@[white]\n@\n@\n@ @ [yellow]@[white]\n@\n@",
     "MATCH_NOT_STARTED": "[scarlet]경기가 시작되지 않았거나 일시정지인 상태에선 항복할 수 없습니다.",
     "START_FORMAT_NEW": "[green]맵 [yellow]@[white]\n@[white] vs @[white]\n\n[yellow]/surrender[white]를 입력해서 항복할 수 있습니다."
     "PC_TAB_SWITCHES_THE_CHAT_MODE": "쓸모있는 팁: <TAB> (Q키 왼쪽) 키는 채팅 모드를 일반과 [yellow]/t[]팀 체팅 사이로 바꿀 수 있습니다."
