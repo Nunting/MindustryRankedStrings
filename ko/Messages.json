@@ -1,7 +1,7 @@
 {
   "common": {
     "INFO_FORMAT": "@부터 @랭크로 강등됨, 현재 ELO 등급: @ (@),  @부터 @랭크로 승급됨",
-    "PLAY_MORE": "[red]ELO 등급이 아직 없습니다. 기록할려면[yellow]@[red]번 이상의 경기를 플레이해야 합니다. ",
+    "PLAY_MORE": "[red]ELO 등급이 아직 없습니다. 기록할려면[yellow]@[red]번 이상의 경기를 플레이해야 합니다.",
     "LANGUAGE_NOT_SUPPORTED": "@ 언어는 지원되지 않습니다.",
     "LANGUAGE_CHANGED": "@에서 @으로 언어 변경됨",
     "UNMUTEALL_RESULT": "다른 플레이어들의 채팅을 [green]차단 해제[white]했습니다.",
@@ -32,7 +32,7 @@
     "LEADERBOARD_SWITCH_TO_GLOBAL": "리더보드 모드를 [green]global[]로 변경했습니다.",
     "INTERACTION_TOO_QUICKLY": "[scarlet]블록과 너무 빨리 상호 작용합니다. 대체 뭘 하는겁니까?",
     "INVALID_TIMER_DELAY": "[scarlet]잘못된 타이머 딜레이, 사용 예시: [yellow]/timer 1 30",
-    "TIMER_IS_UP": "[red]타이머: *대충 갤럭시 알람음*",
+    "TIMER_IS_UP": "[red]타이머: *갤럭시 알람음*",
     "TIMER_CLEARED": "[green]타이머 초기화됨",
     "TIMER_SET": "[green]타이머가 @:@로 성공적으로 설정됨.",
     "ALREADY_HAS_TIMER": "[red]타이머가 @분 @초 동안 이미 설정되어 있습니다, [yellow]/cleartimer[red]를 먼저 입력하세요.",
@@ -282,10 +282,10 @@
     "TIE_FORMAT": "무승부",
     "MATCH_NOT_STARTED": "[scarlet]경기가 시작되지 않았거나 일시정지인 상태에선 항복할 수 없습니다.",
     "JOINED_AS_SPECTATOR": "관전자로써 참여했습니다. [yellow]/hub[]를 입력해서 허브로 돌아갈 수 있습니다, 기본 채팅은 관전자 전용입니다, [yellow]/t[]를 입력해서 모두에게 말할 수 있습니다.",
-    "PC_TAB_SWITCHES_THE_CHAT_MODE": "쓸모있는 팁: <TAB> (Q키 왼쪽) 키는 채팅 모드를 일반과 [yellow]/t[]팀 체팅 사이로 바꿀 수 있습니다."
+    "PC_TAB_SWITCHES_THE_CHAT_MODE": "쓸모있는 팁: <TAB> (Q키 왼쪽) 키는 채팅 모드를 일반과 [yellow]/t[]팀 체팅 사이로 바꿀 수 있습니다.",
     "ONLY_FOR_SPECTATOR": "[scarlet]이 명령어는 관전자 전용입니다.",
     "START_FORMAT": "[green]맵 [yellow]@[white]\n@[white] vs @[white]:\n승리 시 @\n패배 시 @\n무승부 시 @\nW/L @/@\n\n[yellow]/surrender[white]를 입력하여 항복하기",
-    "START_FORMAT_NEW": "[green]맵 [yellow]@[white]\n@[white] vs @[white]\n\n[yellow]/surrender[white]를 입력해서 항복할 수 있습니다."
+    "START_FORMAT_NEW": "[green]맵 [yellow]@[white]\n@[white] vs @[white]\n\n[yellow]/surrender[white]를 입력해서 항복할 수 있습니다.",
     "START_FORMAT_AI": "[green]Map [yellow]@[white]\n@[white] vs @[white]\nRating is not affected\nW/L @/@\n\n[yellow]/surrender[white] to surrender",
     "BACK_FORMAT": "[red]HUB[white] @초 후에 로비로 돌아옵니다.",
     "TIEBREAKER": "타이 브레이커",
