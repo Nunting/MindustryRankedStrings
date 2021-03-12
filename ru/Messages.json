@@ -162,7 +162,7 @@
     "ACHIEVEMENT_NAME_LOGIC_GURU_I": "Просвещенный",
     "ACHIEVEMENT_DESCRIPTION_LOGIC_GURU_I": "Создай 50 микропроцессоров в одном матче 1 на 1",
     "ACHIEVEMENT_NAME_LOGIC_GURU_II": "Нужно быстрее!",
-    "ACHIEVEMENT_DESCRIPTION_LOGIC_GURU_II": "Создай 10 процессоров в одном матче 1 на 1",
+    "ACHIEVEMENT_DESCRIPTION_LOGIC_GURU_II": "Создай 20 процессоров в одном матче 1 на 1",
     "ACHIEVEMENT_NAME_LOGIC_GURU_III": "На максимальных оборотах!",
     "ACHIEVEMENT_DESCRIPTION_LOGIC_GURU_III": "Создай 5 гиперпроцессоров в одном матче 1 на 1",
     "ACHIEVEMENT_NAME_ROBOT": "Всё под контролем!",
@@ -218,7 +218,7 @@
     "ACHIEVEMENT_DESCRIPTION_IT_IS_OFFICIAL": "Привяжи игровую запись к дискорду"
   },
   "lobby": {
-    "WELCOME_MESSAGE": "[red]Добро пожаловать!\n\n[white]Важно:\nчерез 15 секунд Вы будете поставлены в очередь для матча 1 на 1 автоматически\n\nнапишите в чат\n[yellow]/r[white] чтобы встать или выйти из очереди\n[yellow]/ai[white] чтобы сразиться с компьютером\n[yellow]/help[white] чтобы посмотреть список всех команд\n\n[red]ВАЖНО[white] Сервер в стадии БЕТА\nОставляйте отзывы в [blue]Discord[white]:\n[yellow]@[white]\nили командой [yellow]/mail 0 [сообщение]",
+    "WELCOME_MESSAGE": "[red]Добро пожаловать!\n\n[white]Важно:\nчерез 15 секунд Вы будете поставлены в очередь для матча 1 на 1 автоматически\n\nнапишите в чат\n[yellow]/r[white] чтобы встать или выйти из очереди\n[yellow]/ai[white] чтобы сразиться с компьютером\n[yellow]/help[white] чтобы посмотреть список всех команд\n\nОставляйте отзывы в [blue]Discord[white]:\n[yellow]@[white]\nили командой [yellow]/mail 0 [сообщение]",
     "LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]➊ [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]➋ [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]➌ [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]➊ [white]@ @\n[orange]➋ [white]@ @\n[yellow]➌ [white]@ @",
     "HUB_IN_MATCHES_FORMAT": "[white]В бою: [yellow]@[white]",

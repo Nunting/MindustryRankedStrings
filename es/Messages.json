@@ -60,7 +60,7 @@
     "CMD_DESCRIPTION_linkdiscord": "connecta a tu Discord (a través del sitio web)"
   },
   "lobby": {
-    "WELCOME_MESSAGE": "[red]¡Bienvenido!\n\n[white]Importante:\nenviar a la chat\n[yellow]/r[white] para ponerse en cola o quitar de la cola\n[yellow]/ayuda[white] para ver a todos los comandos\n\n[red]NOTA[white] Este prototipo todavía está en BETA\nDeja comentarios en [blue] Discord[white]:\n[yellow]@",
+    "WELCOME_MESSAGE": "[red]¡Bienvenido!\n\n[white]Importante:\nenviar a la chat\n[yellow]/r[white] para ponerse en cola o quitar de la cola\n[yellow]/ayuda[white] para ver a todos los comandos\n\nDeja comentarios en [blue] Discord[white]:\n[yellow]@",
     "LEADERBOARD_FORMAT_TOP3": "Classificatiòn (global):\n[red]➊ [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]➋ [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]➌ [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Classificaciòn (global):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "HUB_IN_MATCHES_FORMAT": "[white]En partida: [yellow]@[white]",
