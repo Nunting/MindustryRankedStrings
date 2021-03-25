@@ -88,6 +88,7 @@
     "MAIL_CLEARED": "[green]Mailbox cleared!",
     "NO_MAIL": "[green]Mailbox is empty!",
     "MAIL_NEXT_PAGE": "[green]This is page [yellow]@[], for other page type [yellow]/read all [page]",
+    "KICKED_BY_ADMIN": "You have been kicked by admin @[white]#[yellow]@[]:\n@",
     "ACHIEVEMENT_UNLOCKED": "\n[#00FF00]Achievement unlocked!\n[gold]@\n[white]@\n",
     "ACHIEVEMENT_LIST_ITEM": "[@]@[]",
     "ACHIEVEMENT_NAME_I_WAS_THERE": "I Was There!",
@@ -286,8 +287,8 @@
     "ACHIEVEMENT_DESCRIPTION_GETTING_STARTED": "complete tutorial"
   },
   "lobby": {
-    "SERVER_NAME": "[red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1v1 with matchmaking [green]- Season I",
+    "SERVER_NAME": " [red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
+    "SERVER_DESCRIPTION": "[red]1v1 with matchmaking [green]- Season I\n[blue]+ tutorial",
     "WELCOME_MESSAGE": "[red]Welcome!\n\n[white]Important:\nYou will be queued automatically for 1v1 in [yellow]15[] seconds\n\nsend into chat\n[yellow]/r[white] to queue or dequeue\n[yellow]/ai[white] to match vs AI\n[yellow]/help[white] to list all commands\n\nLeave feedback in [blue]Discord[white]:\n[yellow]@[white]\nor in-game via [yellow]/mail 0 [your message]",
     "LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]➊ [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]➋ [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]➌ [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
@@ -321,7 +322,7 @@
     "WAITING_IN_QUEUE_FORMAT": "\nWaiting: @:@ / @:@",
     "SLOW_CONNECTION_KICK": "You have been away for too long. Please, reconnect to server.",
     "SLOW_CONNECTION_WARN": "[scarlet]WARNING: [red]Your connection seem to be slow. You have been removed from the queue.",
-    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\nAvailable commands: [yellow]/help\n\n[yellow]Site: ranked.ddns.net\n[#7289da]Discord \uE80D: discord.gg/Hjr92J7",
+    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\nAvailable commands: [yellow]/help\n\n[yellow]Site: ranked.ddns.net\n[#7289da]Discord \uE80D: @",
     "UNREAD_NEWS": "You have [yellow]@[white] unread news, send [yellow]/news[white] to read them.",
     "AUTOREADY_OFF_UNREAD_NEWS": "Your AutoReady is [red]not[white] triggered because you have unread [cyan]@ [yellow]/news",
     "NO_UNREAD_NEWS": "You have no unread news",
@@ -370,10 +371,10 @@
     "STARTING_SOON": "Starting the game in @ seconds",
     "OPPONENT_LEFT_WHILE_AWAY": "Your opponent left while you were away. If he doesn't come back soon, you win!",
     "OPPONENT_TAKES_TOO_LONG_TO_CONNECT": "It seems like your opponent takes too long to connect, @ seconds left.",
-    "OPPONENT_LEFT": "Your opponent left the match. Waiting @ seconds for reconnect, or you win! [red]Do not go away, or you may lose instead!",
+    "OPPONENT_LEFT": "Your opponent @ ([#@]@[]) left the match. Waiting @ seconds for reconnect, or you win! [red]Do not go away, or you may lose instead!",
     "HARD_SHUTDOWN_ROOM": "Room is restarting due to maintenance. Your rating was not changed.",
     "TIEBREAKER_DAMAGE": "[white]Each core gets [@]@[white] damage.",
-    "TIEBREAKER_WARNING": "[white]Tiebreaker starts in [red]1 minute.",
+    "TIEBREAKER_WARNING": "[white]Each core will start\ngetting damage in [red]1 minute.",
     "TIEBREAKER_FORMAT": "@[yellow]\u26A1[red]@[yellow]\u26A1\n@",
     "TIEBREAKER_TIED_CHAT": "[red][Tiebreaker]: Game tied.",
     "SPECTATOR_STATS_FORMAT": "@ @ [yellow]@[white]\n@\n@\n@ @ [yellow]@[white]\n@\n@"
@@ -408,7 +409,7 @@
     "TUTORIAL_BASIC_COUNTER_FLARES": "Simple counters. Flares\uF7F6.\n\nThere is always a simple counter\nagainst starting units.\nFor flares, it is scatter\uF860.\nBut making conveyors to them at\nstart is a waste of time, that is\nwhere [green]manual loading[] comes handy.\n\n- take some lead\uF8C3 from core\n- build scatter\uF860\n- put ammo into it\n- wait for enemy flares\n\nYou will see how enemy flares get easily\ndestroyed with a single turret.\nWhen there is no more ammo, put it in again.",
     "TUTORIAL_BASIC_COUNTER_PULSARS": "Simple counters. Pulsars\uF7FC.\n\nThere is always a simple counter\neven against tier 2 units.\nFor pulsars, it is hail and shock mines.\n- build unloader\uF864, configure it to silicon\uF82F\n- build one hail\uF85E next to it\n- wait until enemy comes\n- build shock mines\uF897 on enemy units",
     "TUTORIAL_BASIC_MINIMAP": "Minimap. Last step!\n\nIt is strongly advised to use minimap in\norder to check where enemy can come from.\nIf you don't have it enabled, visit\nSettings -> Graphics -> Show Minimap.\n\n- on mobile you can zoom out\n   if you swipe up at minimap\n- on PC you can scroll down\n   when hovered over minimap\n\nFind where the first enemy comes from\nand hurry up connecting power to defences!",
-    "TUTORIAL_BASIC_MINIMAP_HORIZONS_COUNTER": "Another simple counter.\nForce projectors\uF898 are\nvery effective against horizons\uF7F5",
+    "TUTORIAL_BASIC_MINIMAP_HORIZONS_COUNTER": "Another simple counter.\nForce projectors\uF898 are very\neffective against horizons\uF7F5",
     "TUTORIAL_BASIC_MINIMAP_PC_SHORTCUTS": "For PC there are shortcuts to select each block.\nKnowing some of them will speed you up [green]a lot[].\n\nMost common shortcuts:\n- [1, 2] scatter\uF860\n- [2, 1] mechanical drill\uF870\n- [3, 1] conveyor\uF896\n- [5, 1] power node\uF87F\n- [9, 1] mender\uF89B",
     "TUTORIAL_BASIC_COMPLETE": "[purple]Tutorial complete![]\n\nIn 1 minute you will be automatically transferred to lobby server and queued for 1v1 match. Note that sometimes it can take several minutes to find an opponent.\n\nIt is recommended to later try applying everything you learned in a training battle vs AI. When you get to the lobby use command [yellow]/ai[], but remember that AI is nowhere close to real [purple]fun and rewarding[] PvP.\n\nAlso, check all commands via [yellow]/help[]\n\n[green]Good luck, Have fun![]"
   }
