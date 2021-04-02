@@ -1,6 +1,6 @@
 {
   "common": {
-    "INFO_FORMAT": "@부터 @랭크로 강등됨, 현재 ELO 등급: @ (@),  @부터 @랭크로 승급됨",
+    "INFO_FORMAT": "@부터 @랭크로 강등됨, 현재 ELO 등급: @ (@),  @부터 @랭크로 승급됨\n@ -> @",
     "PLAY_MORE": "[red]ELO 등급이 아직 없습니다. 기록할려면[yellow]@[red]번 이상의 경기를 플레이해야 합니다.",
     "LANGUAGE_NOT_SUPPORTED": "@ 언어는 지원되지 않습니다.",
     "LANGUAGE_CHANGED": "@에서 @으로 언어 변경됨",

@@ -1,6 +1,6 @@
 {
   "common": {
-    "INFO_FORMAT": "Para bajar de rango a @: @, ELO actual: @ (@), siguiente rango @: @",
+    "INFO_FORMAT": "Para bajar de rango a @: @, ELO actual: @ (@), siguiente rango @: @\n@ -> @",
     "LANGUAGE_NOT_SUPPORTED": "Idioma no supportado: @.",
     "LANGUAGE_CHANGED": "Idioma cambiado: @ -> @",
     "UNMUTEALL_RESULT": "tu [green]has silenciado[white]a todos los otros jugadores.",
