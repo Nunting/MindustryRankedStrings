@@ -412,26 +412,5 @@
     "TUTORIAL_BASIC_MINIMAP_HORIZONS_COUNTER": "Another simple counter.\nForce projectors\uF898 are very\neffective against horizons\uF7F5",
     "TUTORIAL_BASIC_MINIMAP_PC_SHORTCUTS": "For PC there are shortcuts to select each block.\nKnowing some of them will speed you up [green]a lot[].\n\nMost common shortcuts:\n- [1, 2] scatter\uF860\n- [2, 1] mechanical drill\uF870\n- [3, 1] conveyor\uF896\n- [5, 1] power node\uF87F\n- [9, 1] mender\uF89B",
     "TUTORIAL_BASIC_COMPLETE": "[purple]Tutorial complete![]\n\nIn 1 minute you will be automatically transferred to lobby server and queued for 1v1 match. Note that sometimes it can take several minutes to find an opponent.\n\nIt is recommended to later try applying everything you learned in a training battle vs AI. When you get to the lobby use command [yellow]/ai[], but remember that AI is nowhere close to real [purple]fun and rewarding[] PvP.\n\nAlso, check all commands via [yellow]/help[]\n\n[green]Good luck, Have fun![]"
-  },
-  "fun": {
-    "FUN_BEGINS": "[red]Fun monster:[] Fun begins in @:@!\n* non-qualifying matches are unranked today",
-    "FUN_TRIGGER_1": "[red]Fun monster:[] whoa-ha-ha",
-    "FUN_TRIGGER_2": "[red]Fun monster:[] you did not expect that, did you?",
-    "FUN_TRIGGER_3": "[red]Fun monster:[] what can you do?!",
-    "FUN_TRIGGER_4": "[red]Fun monster:[] any response on THIS?!",
-    "FUN_TRIGGER_5": "[red]Fun monster:[] I want to play a little game with both of you!",
-    "FUN_TRIGGER_6": "[red]Fun monster:[] did YOU told it is NOT fun?",
-    "FUN_TRIGGER_7": "[red]Fun monster:[] my ELO is OVER 9000!",
-    "FUN_TRIGGER_8": "[red]Fun monster:[] weeeeeeeeehaaaaaaaa",
-    "FUN_TRIGGER_9": "[red]Fun monster:[] let the gaaaaamee begiiiin",
-    "FUN_TRIGGER_10": "[red]Fun monster:[] now THAT is fun!",
-    "FUN_TRIGGER_11": "[red]Fun monster:[] are you afraid of losing? I hope you are!",
-    "FUN_TRIGGER_12": "[red]Fun monster:[] people say nothing is impossible, but I do nothing every day. Except for today!",
-    "FUN_TRIGGER_13": "[red]Fun monster:[] usually I'm not a nice person. As well as today!",
-    "FUN_TRIGGER_14": "[red]Fun monster:[] gonna make rooooll out!",
-    "FUN_TRIGGER_15": "[red]Fun monster:[] fhdjsalvhcsjhkdh sorry it was my cat, did it press anything?",
-    "FUN_TRIGGER_16": "[red]Fun monster:[] zzzz.... eh, wat?",
-    "FUN_TRIGGER_17": "[red]Fun monster:[] There is nothing wrong happening, really! Except maybe this...",
-    "FUN_TRIGGER_18": "[red]Fun monster:[] You can't regret playing with me! Or can you?.."
   }
 }
