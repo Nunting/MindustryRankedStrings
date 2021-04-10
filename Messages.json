@@ -288,7 +288,7 @@
   },
   "lobby": {
     "SERVER_NAME": " [red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1v1 with matchmaking [green]- Season I\n[blue]+ tutorial",
+    "SERVER_DESCRIPTION": "[red]1v1 with matchmaking [pink]- Season II\n[blue]+ tutorial",
     "WELCOME_MESSAGE": "[red]Welcome!\n\n[white]Important:\nYou will be queued automatically for 1v1 in [yellow]15[] seconds\n\nsend into chat\n[yellow]/r[white] to queue or dequeue\n[yellow]/ai[white] to match vs AI\n[yellow]/help[white] to list all commands\n\nLeave feedback in [blue]Discord[white]:\n[yellow]@[white]\nor in-game via [yellow]/mail 0 [your message]",
     "LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]➊ [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]➋ [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]➌ [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
@@ -344,7 +344,8 @@
     "SPECTATE_LIST": "Available matches:\n@\nJoin via [yellow]/s [orange][matchid]",
     "SPECTATE_CANT_FIND_MATCH": "[scarlet]Can't find specified match",
     "BUILD_RESTRICTION": "[scarlet]You should complete [yellow]@[] more 1v1 matches before being able to build in lobby. Send [yellow]/r[] and wait for a match",
-    "BUILDING_BLOCKED": "[scarlet]Building in lobby is temporarily blocked by admins"
+    "BUILDING_BLOCKED": "[scarlet]Building in lobby is temporarily blocked by admins",
+    "LOGIC_DISABLED": "[red]Kind reminder: shooting via logic is disabled this season"
   },
   "room": {
     "MATCH_END_FORMAT_PVP": "[@]@!\n[white]New ELO: [orange]@->@[white] @\nOpponent's @[white] ELO: [orange]@->@[white] @\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",

@@ -117,7 +117,7 @@
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Список лідерів ([#@]@ [@]#@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Таблиця лідерів([#@]@ [@]@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "SERVER_NAME": " [red]Рейтинг\n[yellow]⚡ [red]PvP [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1v1 з рейтингом [green]- Сезон I",
+    "SERVER_DESCRIPTION": "[red]1v1 з рейтингом [pink]- Сезон II",
     "UNREAD_NEWS": "Ви маєте [yellow]@[white] непрочитаних новин, надішліть [yellow]/news[white], щоб їх прочитати.",
     "AUTOREADY_OFF_UNREAD_NEWS": "Ваша автоготовність ще [red]не [white] спрацювала, бо у вас є непрочитані новини [cyan]@ [yellow]/news",
     "NO_UNREAD_NEWS": "Ви маєте непрочитані новини",

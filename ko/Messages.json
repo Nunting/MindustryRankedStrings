@@ -213,7 +213,7 @@
   },
   "lobby": {
     "SERVER_NAME": "[yellow]⚡ [red]PvP [yellow]⚡[red] 경쟁전",
-    "SERVER_DESCRIPTION": "[red]매치메이킹 1v1[green]- 시즌 I",
+    "SERVER_DESCRIPTION": "[red]매치메이킹 1v1[pink]- 시즌 II",
     "WELCOME_MESSAGE": "[red]환영합니다!\n\n[white]중요 사항:\n[yellow]15[] 초 이내에 자동적으로 1v1 매칭 대기열에 입장할 것입니다.\n\n채팅 명령어\n[yellow]/r[white]를 입력하여 매칭/매칭 취소하기\n[yellow]/ai[white]를 입력하여 AI와 매칭하기\n[yellow]/help[white]를 입력하여 모든 명령어 보기\n\n[blue]Discord[white]:\n[yellow]@[white]에 접속하거나 인게임에서 [yellow]/mail 0 [메시지]를 통해 피드백을 남겨주세요.",
     "LEADERBOARD_FORMAT_TOP3": "리더보드 (global):\n[red]➊ [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]➋ [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]➌ [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "리더보드 (global):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
