@@ -304,8 +304,7 @@
     "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Матч завершён!\n[white]@ ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
     "MATCH_END_FORMAT_AI_SPECTATOR": "[gray]Матч завершён!\n[white]Причина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
     "START_FORMAT_AI": "[green]Карта [yellow]@[white]\n@[white] vs @[white]\nбезрейтинговый матч\nW/L @/@\n\n[yellow]/surrender[white] чтобы сдаться",
-    "START_FORMAT_NEW": "[green]Карта[yellow]@[white]\n@[white] vs @[white]\n\n[yellow]/surrender[white] чтобы сдаться",
-    "LOGIC_DISABLED": "[red]Напоминание: стрельба через логику выключена в этом сезоне"
+    "START_FORMAT_NEW": "[green]Карта[yellow]@[white]\n@[white] vs @[white]\n\n[yellow]/surrender[white] чтобы сдаться"
   },
   "tutorial": {
     "IN_THE_QUEUE_TUTORIAL": "Вы в очереди на обучение",
