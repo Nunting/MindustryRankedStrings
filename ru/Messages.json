@@ -217,12 +217,60 @@
     "ACHIEVEMENT_NAME_KABOOM": "КАБУМ",
     "ACHIEVEMENT_DESCRIPTION_KABOOM": "Взорви подконтрольную тебе группу камикадзе",
     "ACHIEVEMENT_NAME_IT_IS_OFFICIAL": "Мистер Официальность",
-    "ACHIEVEMENT_DESCRIPTION_IT_IS_OFFICIAL": "Привяжи игровую запись к дискорду"
+    "ACHIEVEMENT_DESCRIPTION_IT_IS_OFFICIAL": "Привяжи игровую запись к дискорду",
+	  "BALANCE_UNITS": "[red]Все боевые единицы[]
+        
+    - Стреляют на свой [green]максимальный[] радиус
+    - [green]Автоматически направляются[] к ближайшим станциям починки\uF848 если их здоровье меньше: t1-50%, t2-30%, t3-20%, t4-10%, t5-5%
+
+    [red]Наземные войска[]
+
+    - Прекращают движение во время стрельбы
+
+    [red]Воздушные войска[]
+
+    - Не кружатся над своей целью
+
+    [red]Моно[]\uF7F1[red], Поли[]\uF7F0[red] и Меги[]\uF7EF
+
+    - Добывают ресурсы если не заняты своими основными задачами
+    - Если количество меди\uF838 и свинца\uF837 больше 4000, они начинают добывать песок\uF834, титан\uF832 и торий\uF831 соответственно",
+    "BALANCE_STATS": "Здоровье изменено с помощью множителя входящего урона
+
+    Булава\uF7FF: [red]♥[]500⇨520, 30⇨32
+    Крепость\uF7FE: [red]♥[]800⇨850
+    Пульсар\uF7FC: [red]♥[]320⇨300, 12⇨10
+    Квазар\uF7FB: [red]♥[]650⇨630, 45⇨43
+    Ползун\uF7FA: [red]♥[]180⇨220
+    Атракс\uF7F9: [red]♥[]600⇨610
+    Спайрокт\uF7F8: [red]♥[]900⇨920
+    Горизонт\uF7F5: [red]♥[]340⇨300
+    Зенит\uF7F4: [red]♥[]700⇨650
+    Риссо\uF7E7:   по зданиям x1⇨x0.7, нет инерции снаряда
+    Минке\uF7ED:  по зданиям x1⇨x0.7
+    Брайд\uF7EC:  по зданиям x1⇨x0.7, нет инерции снаряда",
+    "BALANCE_BLOCKS": "[red]Строительные блоки[]
+
+    В процессе строительства HP блоков будет повышаться, начиная с 20 (в стандартной версии на протяжении всего процесса они имеют 20 HP).
+
+    [red]Силовые проекторы[]
+
+    - Снижают наносимый урон от падения до 33%, затем разделяют урон поровну между собой и блоками
+
+    [red]Ядра[]
+
+    - Ядра Штаб\uF868 и Атом\uF867 имеют встроенный силовой проектор
+    - Здоровье силового поля = 250 и 700
+    - Радиус силового поля = 8 и 14 ячеек
+    - Силовое поле снижает нанесенный урон от падения до 25% и 10%
+
+    - Ядро Штаб\uF868 [red]♥[]3500⇨3700
+    - Ядро Осколок\uF869 [red]♥[]1100⇨1500"
   },
   "lobby": {
     "WELCOME_MESSAGE": "[red]Добро пожаловать!\n\n[white]Важно:\nчерез 15 секунд Вы будете поставлены в очередь для матча 1 на 1 автоматически\n\nнапишите в чат\n[yellow]/r[white] чтобы встать или выйти из очереди\n[yellow]/ai[white] чтобы сразиться с компьютером\n[yellow]/help[white] чтобы посмотреть список всех команд\n\nОставляйте отзывы в [blue]Discord[white]:\n[yellow]@[white]\nили командой [yellow]/mail 0 [сообщение]",
     "LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]➊ [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]➋ [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]➌ [white]@[white] (@, [#@]@ [@]#@[white])",
-    "SHORT_LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]➊ [white]@ @\n[orange]➋ [white]@ @\n[yellow]➌ [white]@ @",
+    "SHORT_LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "HUB_IN_MATCHES_FORMAT": "[white]В бою: [yellow]@[white]",
     "HUB_STATUS_FORMAT": "[white]В очереди: [yellow]@[white]",
     "PLAYER_MATCHING_ANYONE_FORMAT": "Ищем [green]всех[white]",
@@ -243,7 +291,7 @@
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Лидеры ([#@]@ [@]#@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Лидеры ([#@]@ [@]@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
     "SERVER_NAME": " [red]Рейтинговый\n[yellow]⚡ [red]PvP [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1 на 1 с матчмейкингом [pink]- Сезон II\n[blue]+ обучение",
+    "SERVER_DESCRIPTION": "[red]1 на 1 с матчмейкингом [gold]- Сезон III\n[blue]+ обучение",
     "UNREAD_NEWS": "[white]Непрочитанных новостей: [yellow]@[white], напишите [yellow]/news[white] чтобы прочитать их.",
     "AUTOREADY_OFF_UNREAD_NEWS": "AutoReady [red]не[white] задействован потому что у вас есть непрочитанные новости, [cyan]@ [yellow]/news",
     "NO_UNREAD_NEWS": "Все новости уже прочитаны",

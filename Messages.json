@@ -336,7 +336,7 @@
   },
   "lobby": {
     "SERVER_NAME": " [red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1v1 with matchmaking [pink]- Season II\n[blue]+ tutorial",
+    "SERVER_DESCRIPTION": "[red]1v1 with matchmaking [gold]- Season III\n[blue]+ tutorial",
     "WELCOME_MESSAGE": "[red]Welcome!\n\n[white]Important:\nYou will be queued automatically for 1v1 in [yellow]15[] seconds\n\nsend into chat\n[yellow]/r[white] to queue or dequeue\n[yellow]/ai[white] to match vs AI\n[yellow]/help[white] to list all commands\n\nLeave feedback in [blue]Discord[white]:\n[yellow]@[white]\nor in-game via [yellow]/mail 0 [your message]",
     "LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]➊ [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]➋ [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]➌ [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
