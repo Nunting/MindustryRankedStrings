@@ -398,7 +398,7 @@
   "room": {
     "MATCH_END_FORMAT_PVP": "[@]@!\n[white]New ELO: [orange]@->@[white] @\nOpponent's @[white] ELO: [orange]@->@[white] @\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
     "MATCH_END_FORMAT_AI": "[@]@!\n[white]Reason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
-    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Match finished!\n[white]@ ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
+    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Match finished!\n[white]@[white] ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
     "MATCH_END_FORMAT_AI_SPECTATOR": "[gray]Match finished!\n[white]Reason: @\n\nWatch match replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
     "WIN_FORMAT": "Victory",
     "LOSE_FORMAT": "Defeat",
