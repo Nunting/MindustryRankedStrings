@@ -49,6 +49,7 @@
     "CMD_DESCRIPTION_ar": "toggle your AutoReady - if turned on, you are automatically queued in 15 seconds after entering the lobby",
     "CMD_DESCRIPTION_lb": "toggle between global/local leaderboard",
     "CMD_DESCRIPTION_limit": "sets preferred rating of your opponent",
+    "CMD_DESCRIPTION_balance": "lists all current balance changes",
     "CMD_DESCRIPTION_nolimit": "removes rating check between you and your opponent",
     "CMD_DESCRIPTION_s": "spectate a match",
     "CMD_DESCRIPTION_mapban": "ban a map",
@@ -389,7 +390,7 @@
     "MAP_BANS_ADDED": "You added [yellow]@[] to maps bans. New list: [yellow]@",
     "MAP_BANS_REMOVED": "You removed [yellow]@[] from map bans. New list: [yellow]@",
     "SPECTATE_MATCH_FORMAT": "[white]> [orange]@[]: [yellow]@[] @[white] vs [yellow]@[] @[white] +[yellow]@[white] spectators\nMap: [yellow]@[], duration: [yellow]@[] minutes",
-    "SPECTATE_LIST": "Available matches:\n@\nJoin via [yellow]/s [orange][matchid]",
+    "SPECTATE_LIST": "Available matches:\n@\nJoin via [yellow]/s [orange][roomid/nickname]",
     "SPECTATE_CANT_FIND_MATCH": "[scarlet]Can't find specified match",
     "BUILD_RESTRICTION": "[scarlet]You should complete [yellow]@[] more 1v1 matches before being able to build in lobby. Send [yellow]/r[] and wait for a match",
     "BUILDING_BLOCKED": "[scarlet]Building in lobby is temporarily blocked by admins"
