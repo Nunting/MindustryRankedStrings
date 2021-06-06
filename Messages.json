@@ -289,7 +289,7 @@
     "BALANCE_UNITS": "[red]All units[]
 	
 	- shoot at their [green]max[] range
-	- [green]automatically navigate[] to closest repair points\uF848 if their health is less than t1-50%, t2-30%, t3-20%, t4-10%, t5-5%
+	- [green]automatically navigate[] to closest repair points\uF848 if their health is less than t1-70%, t2-50%, t3-40%, t4-30%, t5-20%
 	
 	[red]Ground units[]
 	
@@ -305,15 +305,16 @@
 	- if both copper\uF838 and lead\uF837 are above 4000, they start mining sand\uF834, titanium\uF832 and thorium\uF831 accordingly",
 	"BALANCE_STATS": "Health changes are applied via incoming damage multiplier (logic backwards-compatible)
 	
-	Mace\uF7FF: [red]♥[]500⇨520, 30⇨32
-	Fortress\uF7FE: [red]♥[]800⇨850
-	Pulsar\uF7FC: [red]♥[]320⇨300, 12⇨10
-	Quasar\uF7FB: [red]♥[]650⇨630, 45⇨43
-	Crawler\uF7FA: [red]♥[]180⇨220
+	Mace\uF7FF: [red]♥[]500⇨530, 30⇨34
+	Fortress\uF7FE: [red]♥[]800⇨850, 54⇨60
+	Quasar\uF7FB: [red]♥[]650⇨640
+	Crawler\uF7FA: [red]♥[]180⇨220, 85⇨90
 	Atrax\uF7F9: [red]♥[]600⇨610
 	Spiroct\uF7F8: [red]♥[]900⇨920
 	Horizon\uF7F5: [red]♥[]340⇨300
-	Zenith\uF7F4: [red]♥[]700⇨650
+	Zenith\uF7F4: [red]♥[]700⇨650, 16⇨15
+  Antumbra\uF7F3: +20%
+  Eclipse: [red]♥[]20000⇨21000, +15%
 	Risso\uF7E7: buildings  x1⇨x0.7, no projectile inertia
 	Minke\uF7ED: buildings  x1⇨x0.7
 	Bryde\uF7EC: buildings  x1⇨x0.7, no projectile inertia",
