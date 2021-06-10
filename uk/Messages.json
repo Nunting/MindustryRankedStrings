@@ -423,10 +423,10 @@
     "MATCH_END_FORMAT_AI_SPECTATOR": "[gray]Гра завершено!\n[white]Причина: @\n\nДивіться повтор матчу на [yellow]ranked.ddns.net[white]\nІдентифікатор матчу: [yellow]@",
     "START_FORMAT_AI": "[green]Мапа [yellow]@[white]\n@[white] проти @[white]\nНе впливає на рейтинг\nВигр./Прогр. @/@\n\n[yellow]/surrender[white], щоби капітулювати",
     "SPECTATOR_STATS_FORMAT": "@ @ [yellow]@[white]\n@\n@\n@ @ [yellow]@[white]\n@\n@",
-    "PLAYER_RECONNECTED": "Гравець @[white] ([#@]@[]) під'єднався знов, у нього лишилось [yellow]@[] повторних з'єднань.",
+    "PLAYER_RECONNECTED": "Гравець @[white] ([#@]@[white]) під'єднався знов, у нього лишилось [yellow]@[] повторних з'єднань.",
     "SPECTATOR_CONNECTED": "Глядач @ [white] під'єднався.",
     "SPECTATOR_DISCONNECTED": "Глядач @[white] від'єднався.",
-    "PLAYER_DISCONNECTED": "Гравець @[white] ([#@]@[]) від'єднався, у нього лишилось [yellow]@[] повторних підключен і він все ще може повернутися назад."
+    "PLAYER_DISCONNECTED": "Гравець @[white] ([#@]@[white]) від'єднався, у нього лишилось [yellow]@[] повторних підключен і він все ще може повернутися назад."
   },
   "tutorial": {
     "IN_THE_QUEUE_TUTORIAL": "Ви в черзі на навчання",
