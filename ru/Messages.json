@@ -37,6 +37,7 @@
     "CMD_DESCRIPTION_mute": "выключить чат с игроком по его ID",
     "CMD_DESCRIPTION_muteall": "выключить чат со всеми игроками",
     "CMD_DESCRIPTION_mutes": "список игроков с которыми выключен чат",
+    "CMD_DESCRIPTION_wait": "продлить время ожидания отсоединенного противника в матче",
     "CMD_DESCRIPTION_me": "информация о своём аккаунте",
     "CMD_DESCRIPTION_achi": "показать список достижений",
     "CHAT_AUTOTRANSLATE_ON": "Перевод чата [green]включен",
@@ -51,7 +52,7 @@
     "CMD_DESCRIPTION_chatlang": "установить языки для автоперевода чата",
     "CMD_DESCRIPTION_timer": "поставить таймер",
     "CMD_DESCRIPTION_cleartimer": "сбросить таймер",
-    "DISCORD_LINK_SUCCESS": "[green]Аккаунт успешно привязан к [yellow]@",
+    "DISCORD_LINK_SUCCESS": "[green]Аккаунт успешно привязан к [yellow]@#@",
     "DISCORD_LINK_INVALID_DISCORD_TOKEN": "[scarlet]Токен не найден, получите свой токен на сайте [yellow]ranked.ddns.net",
     "DISCORD_LINK_ALREADY_LINKED": "[scarlet]Ваш аккаунт уже привязан к [green]@[], используйте [yellow]/unlinkdiscord[] чтобы отвязать",
     "DISCORD_UNLINK_SUCCESS": "[green]Аккаунт успешно отвязан",
@@ -66,6 +67,7 @@
     "CMD_DESCRIPTION_s": "наблюдать за матчем",
     "CMD_DESCRIPTION_mapban": "заблокировать карту",
     "PLAY_MORE": "[red]Ваш рейтинг ещё не установлен, осталось сыграть [yellow]@[red] матчей.",
+    "N_MATCHES_REQUIRED": "[red]Вам нужно сыгрыть ещё [yellow]@[red] матчей чтобы выполнить эту команду",
     "CMD_DESCRIPTION_read": "показывает входящие сообщения",
     "CMD_DESCRIPTION_mail": "отправить сообщение игроку (даже оффлайн)",
     "CMD_DESCRIPTION_ui": "настройки интерфейса",
@@ -84,19 +86,13 @@
     "MAIL_NEXT_PAGE": "[green]Страница [yellow]@[], для другой страницы напишите [yellow]/read all [номер_страницы]",
     "CMD_DESCRIPTION_ai": "битва с AI (компьютером)",
     "ACHIEVEMENT_UNLOCKED": "\n[#00FF00]Открыто достижение!\n[gold]@\n[white]@\n",
-    "UI_LEADERBOARD_DESCRIPTION": "таблица в лобби",
-    "UI_TIMER_DESCRIPTION": "таймер в бою",
-    "UI_QUEUE_INFO": "информация об очереди в лобби",
-    "UI_STATS": "инфо при наблюдении матчей",
-    "UI_TIPS": "советы в чате лобби",
-    "UI_MAIL": "оповещение о новых сообщениях",
-    "UI_MAIL_TYPE": "отображение сообщений в почте",
-    "UI_leaderboard": "таблица лидеров в лобби",
-    "UI_timer": "таймер в бою",
     "UI_queue_info": "информация об очереди в лобби",
-    "UI_stats": "статистика при наблюдении",
-    "UI_tips": "советы в чате в лобби",
-    "UI_mail": "оповещения о новых сообщениях",
+    "UI_stats": "инфо при наблюдении матчей",
+    "UI_tips": "советы в чате лобби",
+    "UI_mail": "оповещение о новых сообщениях",
+    "UI_leaderboard": "таблица лидеров в лобби",
+    "UI_mapname": "название текущей карты",
+    "UI_timer": "таймер в бою",
     "MAIL_FORMAT": "[green]@[] @[yellow]#@[white]: @\n[green]Ответить можно командой [yellow]/mail @ [message...]",
     "KICKED_BY_ADMIN": "Вас кикнул админ @[white]#[yellow]@[]:\n@",
     "ACHIEVEMENT_DESCRIPTION_DAGGER_SPAMMER_V": "Создай 1000 кинжалов в одном матче 1 на 1",
@@ -231,6 +227,7 @@
     [red]Воздушные войска[]
 
     - Не кружатся над своей целью
+    - Динамические взрывы (такие как бомбинг пиратитом) наносят на 66% меньше урона
 
     [red]Моно[]\uF7F1[red], Поли[]\uF7F0[red] и Меги[]\uF7EF
 
@@ -239,13 +236,13 @@
     "BALANCE_STATS": "Здоровье изменено с помощью множителя входящего урона
 
     Булава\uF7FF: [red]♥[]500⇨530, 30⇨34
-    Крепость\uF7FE: [red]♥[]800⇨850, 54⇨60
+    Крепость\uF7FE: [red]♥[]800⇨900, 54⇨62
     Квазар\uF7FB: [red]♥[]650⇨640
-    Ползун\uF7FA: [red]♥[]180⇨220, 85⇨90
+    Ползун\uF7FA: [red]♥[]180⇨220, 85⇨94
     Атракс\uF7F9: [red]♥[]600⇨610
     Спайрокт\uF7F8: [red]♥[]900⇨920
     Горизонт\uF7F5: [red]♥[]340⇨300
-    Зенит\uF7F4: [red]♥[]700⇨650, 16⇨15
+    Зенит\uF7F4: [red]♥[]700⇨600, 16⇨15
     Затемь\uF7F3: +20%
     Затмение\uF7F2: [red]♥[]20000⇨21000, +15%
     Риссо\uF7E7:   по зданиям x1⇨x0.7, нет инерции снаряда
@@ -255,9 +252,10 @@
 
     В процессе строительства HP блоков будет повышаться, начиная с 20 (в стандартной версии на протяжении всего процесса они имеют 20 HP).
 
-    [red]Силовые проекторы[]
+    [red]Силовой проектор[]
 
-    - Снижают наносимый урон от падения до 33%, затем разделяют урон поровну между собой и блоками
+    - Не отменяет рассекающий урон, но уменьшает его в 20 раз (например, от горизонтов\uF7F5)
+    - Снижает наносимый урон от падения до 33%, затем разделяет урон поровну между щитом и блоками
 
     [red]Ядра[]
 
@@ -271,14 +269,16 @@
   },
   "lobby": {
     "WELCOME_MESSAGE": "[red]Добро пожаловать!\n\n[white]Важно:\nчерез 15 секунд Вы будете поставлены в очередь для матча 1 на 1 автоматически\n\nнапишите в чат\n[yellow]/r[white] чтобы встать или выйти из очереди\n[yellow]/ai[white] чтобы сразиться с компьютером\n[yellow]/help[white] чтобы посмотреть список всех команд\n\nОставляйте отзывы в [blue]Discord[white]:\n[yellow]@[white]\nили командой [yellow]/mail 0 [сообщение]",
-    "LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]➊ [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]➋ [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]➌ [white]@[white] (@, [#@]@ [@]#@[white])",
-    "SHORT_LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
+    "LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]\uE1B3 [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]\uE1B4 [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]\uE1B5 [white]@[white] (@, [#@]@ [@]#@[white])",
+    "SHORT_LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "HUB_IN_MATCHES_FORMAT": "[white]В бою: [yellow]@[white]",
     "HUB_STATUS_FORMAT": "[white]В очереди: [yellow]@[white]",
     "PLAYER_MATCHING_ANYONE_FORMAT": "Ищем [green]всех[white]",
     "PLAYER_MATCHING_FORMAT": "Ищем [yellow]@[white] - [yellow]@\n[yellow]/limit[white] чтобы изменить\n[yellow]/nolimit[white] чтобы убрать",
     "IN_QUEUE_FORMAT": "[green]Вы в очереди[white]",
     "NOT_IN_QUEUE_FORMAT": "[red]Вы не в очереди, напишите [yellow]/r\n[red]или [yellow]/ai[red] для сражения с компьютером[white]",
+    "SPECTATE_SUGGESTION": "[red]либо наблюдайте за боем командой [yellow]/s @\n[yellow]@ @[red] против [yellow]@ @[white]",
+    "SPECTATE_SUGGESTION_SHORT": "[red]либо наблюдайте за боем командой [yellow]/s @\n[white]@[red] против [white]@[white]",
     "EMPTY_LEADERBOARD": "Ожидание игроков",
     "NOT_WAITING_FOR_MATCH": "Вы [red]НЕ[white] в очереди.",
     "IN_THE_QUEUE": "Вы в очереди.",
@@ -290,8 +290,8 @@
     "SLOW_CONNECTION_KICK": "Вы отсутствовали слишком долго. Пожалуйста, переподключитесь к серверу.",
     "SLOW_CONNECTION_WARN": "[scarlet]ВНИМАНИЕ: [red]Похоже, у Вас медленное соединение. Вы были удалены из очереди.",
     "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] сервер от SeaPy\nПосмотреть список команд: [yellow]/help\n\n[yellow]Сайт: ranked.ddns.net\n[#7289da]Дискорд : @",
-    "LEADERBOARD_FORMAT_TOP3_LOCAL": "Лидеры ([#@]@ [@]#@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
-    "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Лидеры ([#@]@ [@]@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
+    "LEADERBOARD_FORMAT_TOP3_LOCAL": "Лидеры ([#@]@ [@]#@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
+    "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Лидеры ([#@]@ [@]@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "SERVER_NAME": " [red]Рейтинговый\n[yellow]⚡ [red]PvP [yellow]⚡",
     "SERVER_DESCRIPTION": "[red]1 на 1 с матчмейкингом [gold]- Сезон III\n[blue]+ обучение",
     "UNREAD_NEWS": "[white]Непрочитанных новостей: [yellow]@[white], напишите [yellow]/news[white] чтобы прочитать их.",
@@ -337,9 +337,9 @@
     "SPECTATOR_CONNECTED": "Наблюдатель @[white] подключился.",
     "SPECTATOR_DISCONNECTED": "Наблюдатель @[white] отключился.",
     "STARTING_SOON": "Игра начнётся через @ секунд",
-    "OPPONENT_LEFT_WHILE_AWAY": "Ваш противник вышел пока вас не было. Если он не вернётся, вы победили!",
+    "OPPONENT_LEFT_WHILE_AWAY": "Ваш противник вышел пока вас не было. Если он не вернётся, вы победили! Вы можете подождать его дольше командой [yellow]/wait",
     "OPPONENT_TAKES_TOO_LONG_TO_CONNECT": "Похоже, противник очень долго подключается, осталось @ секунд.",
-    "OPPONENT_LEFT": "Ваш противник @ ([#@]@[white]) покинул игру. Ждём его @ секунд, или Вы победили! [red]Не покидайте игру, иначе можете проиграть!",
+    "OPPONENT_LEFT": "Ваш противник @ ([#@]@[white]) покинул игру. Ждём его @ секунд, или Вы победили! Вы можете подождать его дольше командой [yellow]/wait[]. [red]Не покидайте игру, иначе можете проиграть!",
     "HARD_SHUTDOWN_ROOM": "Комната перезапускается. Ваш рейтинг не изменён.",
     "TIEBREAKER_DAMAGE": "[white]Каждое ядро получает [@]@[white] урона.",
     "TIEBREAKER_FORMAT": "@[yellow]⚡[red]@[yellow]⚡\n@",
@@ -354,7 +354,12 @@
     "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Матч завершён!\n[white]@[white] ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
     "MATCH_END_FORMAT_AI_SPECTATOR": "[gray]Матч завершён!\n[white]Причина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
     "START_FORMAT_AI": "[green]Карта [yellow]@[white]\n@[white] vs @[white]\nбезрейтинговый матч\nW/L @/@\n\n[yellow]/surrender[white] чтобы сдаться",
-    "START_FORMAT_NEW": "[green]Карта[yellow]@[white]\n@[white] vs @[white]\n\n[yellow]/surrender[white] чтобы сдаться"
+    "START_FORMAT_NEW": "[green]Карта[yellow]@[white]\n@[white] vs @[white]\n\n[yellow]/surrender[white] чтобы сдаться",
+    "NOTHING_TO_WAIT": "[scarlet]Нечего ждать",
+    "RECONNECTION_ADVANCED": "Игрок @[white] ([#@]@[white]) продлил таймер ожидания до @ секунд",
+    "NO_MORE_ADVANCEMENTS": "У вас больше нет продлений таймера",
+    "PLAYER_OFFERS_DRAW": "[green]Игрок @[green] ([#@]@[green]) предлагает ничью",
+    "PLAYER_NOT_OFFERS_DRAW": "[green]Игрок @[green] ([#@]@[green]) больше не предлагает ничью"
   },
   "tutorial": {
     "IN_THE_QUEUE_TUTORIAL": "Вы в очереди на обучение",

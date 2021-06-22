@@ -2,6 +2,7 @@
   "common": {
     "INFO_FORMAT": "To downgrade to @: @, current ELO: @ (@), next rank @: @.\nStarting rating next season: @ -> @",
     "PLAY_MORE": "[red]You rating is yet unknown. You should play [yellow]@[red] more matches to calibrate",
+    "N_MATCHES_REQUIRED": "[red]You should play [yellow]@[red] more matches to perform this",
     "LANGUAGE_NOT_SUPPORTED": "This language is not supported: @.",
     "LANGUAGE_CHANGED": "Language changed: @ -> @",
     "UNMUTEALL_RESULT": "You [green]unmuted[white] all other players.",
@@ -37,7 +38,7 @@
     "TIMER_SET": "[green]Timer successfully set to @:@",
     "ALREADY_HAS_TIMER": "[red]Timer is already set in @ minutes @ seconds, send [yellow]/cleartimer[red] first",
     "KICK_PLAYER_ID_ONLINE": "[scarlet]You are already online from another device. If you think there is an error, please contact admins at @",
-    "DISCORD_LINK_SUCCESS": "[green]Your account was successfully linked to user [yellow]@",
+    "DISCORD_LINK_SUCCESS": "[green]Your account was successfully linked to user [yellow]@#@",
     "DISCORD_LINK_INVALID_DISCORD_TOKEN": "[red]Token was not found, get your token at [yellow]ranked.ddns.net",
     "DISCORD_LINK_ALREADY_LINKED": "[scarlet]Your account is already linked to user [green]@[], send [yellow]/unlinkdiscord[] to unlink",
     "DISCORD_UNLINK_SUCCESS": "[green]Your account was unlinked successfully",
@@ -67,13 +68,16 @@
     "CMD_DESCRIPTION_read": "shows your incoming messages",
     "CMD_DESCRIPTION_mail": "sends message to another player (works offline)",
     "CMD_DESCRIPTION_ui": "configure your UI",
+    "CMD_DESCRIPTION_map": "show map info",
     "CMD_DESCRIPTION_ai": "match vs AI",
     "CMD_DESCRIPTION_achi": "show your achievements",
+    "CMD_DESCRIPTION_wait": "advance the timer for disconnected opponent (in a match)",
     "UI_leaderboard": "leaderboard in lobby",
     "UI_timer": "timer in match",
     "UI_queue_info": "info about queue in lobby",
     "UI_stats": "stats in spectating",
     "UI_tips": "tips in lobby chat",
+    "UI_mapname": "current map's name",
     "UI_mail": "notification about new messages",
     "READ_EXAMPLE_USAGE": "[scarlet]Example usage:\n[yellow]/read[] - shows next unread message\n[yellow]/read all[] - shows recent messages\n[yellow]/read all 4[] - shows recent messages, page 4\n[yellow]/read clear - clears stored messages (limit 500)",
     "UI_EXAMPLE_USAGE": "[scarlet]Example usage:\n[yellow]/ui[] - shows current UI configuration\n[yellow]/ui - timer[] - removes timer from matches\n[yellow]/ui + queue_info[] - enables queue info",
@@ -298,6 +302,7 @@
 	[red]Flying units[]
 	
 	- do not circle around their target
+  - dynamic explosions (aka blast bombing) deal 66% less damage
 	
 	[red]Mono[]\uF7F1[red], Poly[]\uF7F0[red] and Mega[]\uF7EF
 	
@@ -306,25 +311,26 @@
 	"BALANCE_STATS": "Health changes are applied via incoming damage multiplier (logic backwards-compatible)
 	
 	Mace\uF7FF: [red]♥[]500⇨530, 30⇨34
-	Fortress\uF7FE: [red]♥[]800⇨850, 54⇨60
+	Fortress\uF7FE: [red]♥[]800⇨900, 54⇨62
 	Quasar\uF7FB: [red]♥[]650⇨640
-	Crawler\uF7FA: [red]♥[]180⇨220, 85⇨90
+	Crawler\uF7FA: [red]♥[]180⇨220, 85⇨94
 	Atrax\uF7F9: [red]♥[]600⇨610
 	Spiroct\uF7F8: [red]♥[]900⇨920
 	Horizon\uF7F5: [red]♥[]340⇨300
-	Zenith\uF7F4: [red]♥[]700⇨650, 16⇨15
+	Zenith\uF7F4: [red]♥[]700⇨600, 16⇨15
   Antumbra\uF7F3: +20%
   Eclipse: [red]♥[]20000⇨21000, +15%
 	Risso\uF7E7: buildings  x1⇨x0.7, no projectile inertia
 	Minke\uF7ED: buildings  x1⇨x0.7
 	Bryde\uF7EC: buildings  x1⇨x0.7, no projectile inertia",
-	"BALANCE_BLOCKS": "[red]Construcion blocks[]
+	"BALANCE_BLOCKS": "[red]Construction blocks[]
 	
 	Have their HP proportional to build progress, starting from 20 (vanilla version has 20 HP for the whole progress).
 	
-	[red]Force projectors[]
-	
-	- Reduce falling damage down to 33%, then split the damage in half to themselves and to blocks
+	[red]Force projector[]
+
+  - Does not eliminate splash damage, but reduces it x20 times (for example, from horizons\uF7F5)
+	- Reduces falling damage down to 33%, then splits the damage in half to shield and to blocks
 	
 	[red]Cores[]
 	
@@ -340,10 +346,10 @@
     "SERVER_NAME": " [red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
     "SERVER_DESCRIPTION": "[red]1v1 with matchmaking [gold]- Season III\n[blue]+ tutorial",
     "WELCOME_MESSAGE": "[red]Welcome!\n\n[white]Important:\nYou will be queued automatically for 1v1 in [yellow]15[] seconds\n\nsend into chat\n[yellow]/r[white] to queue or dequeue\n[yellow]/ai[white] to match vs AI\n[yellow]/help[white] to list all commands\n\nLeave feedback in [blue]Discord[white]:\n[yellow]@[white]\nor in-game via [yellow]/mail 0 [your message]",
-    "LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]➊ [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]➋ [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]➌ [white]@[white] (@, [#@]@ [@]#@[white])",
-    "SHORT_LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
-    "LEADERBOARD_FORMAT_TOP3_LOCAL": "Leaderboard ([#@]@ [@]#@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
-    "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Leaderboard ([#@]@ [@]@[white]):\n[red]➊ [white]@[yellow] @\n[orange]➋ [white]@[yellow] @\n[yellow]➌ [white]@[yellow] @",
+    "LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]\uE1B3 [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]\uE1B4 [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]\uE1B5 [white]@[white] (@, [#@]@ [@]#@[white])",
+    "SHORT_LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
+    "LEADERBOARD_FORMAT_TOP3_LOCAL": "Leaderboard ([#@]@ [@]#@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
+    "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Leaderboard ([#@]@ [@]@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "HUB_IN_MATCHES_FORMAT": "[white]In matches: [yellow]@[white]",
     "HUB_STATUS_FORMAT": "[white]In queue: [yellow]@[white]",
     "PLAYER_RATING_FORMAT_LOCAL": "[white]@ [green]>[white] @ [yellow]@[white]",
@@ -355,6 +361,8 @@
     "PLAYER_MATCHING_FORMAT_AI": "Waiting for AI [@]@ [white]([yellow]@[white])\n[yellow]/r[white] to cancel[white]",
     "IN_QUEUE_FORMAT": "[green]You are in queue[white]",
     "NOT_IN_QUEUE_FORMAT": "[red]You are not in queue, send [yellow]/r\n[red]or [yellow]/ai[red] to warmup vs AI[white]",
+    "SPECTATE_SUGGESTION": "[red]or spectate a match via [yellow]/s @\n[yellow]@ @[red] vs [yellow]@ @[white]",
+    "SPECTATE_SUGGESTION_SHORT": "[red]or spectate a match via [yellow]/s @\n@[red] vs @[white]",
     "OPPONENT_LEFT_QUEUE": "[red]Your opponent left, looking for another one[white]",
     "EMPTY_LEADERBOARD": "Waiting more players",
     "NOT_WAITING_FOR_MATCH": "You are [red]NOT waiting[white] for a match.",
@@ -419,15 +427,20 @@
     "SPECTATOR_DISCONNECTED": "Spectator @[white] disconnected.",
     "PLAYER_DISCONNECTED": "Player @[white] ([#@]@[white]) disconnected, he has [yellow]@[] reconnections left and can still come back.",
     "STARTING_SOON": "Starting the game in @ seconds",
-    "OPPONENT_LEFT_WHILE_AWAY": "Your opponent left while you were away. If he doesn't come back soon, you win!",
+    "OPPONENT_LEFT_WHILE_AWAY": "Your opponent left while you were away. If he doesn't come back soon, you win! You can wait for longer with [yellow]/wait",
     "OPPONENT_TAKES_TOO_LONG_TO_CONNECT": "It seems like your opponent takes too long to connect, @ seconds left.",
-    "OPPONENT_LEFT": "Your opponent @[white] ([#@]@[white]) left the match. Waiting @ seconds for reconnect, or you win! [red]Do not go away, or you may lose instead!",
+    "OPPONENT_LEFT": "Your opponent @[white] ([#@]@[white]) left the match. Waiting @ seconds for reconnect, or you win! You can wait for longer with [yellow]/wait[]. [red]Do not go away, or you may lose instead!",
     "HARD_SHUTDOWN_ROOM": "Room is restarting due to maintenance. Your rating was not changed.",
     "TIEBREAKER_DAMAGE": "[white]Each core gets [@]@[white] damage.",
     "TIEBREAKER_WARNING": "[white]Each core will start\ngetting damage in [red]1 minute.",
     "TIEBREAKER_FORMAT": "@[yellow]\u26A1[red]@[yellow]\u26A1\n@",
     "TIEBREAKER_TIED_CHAT": "[red][Tiebreaker]: Game tied.",
-    "SPECTATOR_STATS_FORMAT": "@ @ [yellow]@[white]\n@\n@\n@ @ [yellow]@[white]\n@\n@"
+    "SPECTATOR_STATS_FORMAT": "@ @ [yellow]@[white] @@\n@\n@\n@ @ [yellow]@[white] @@\n@\n@",
+    "NOTHING_TO_WAIT": "[scarlet]Nothing to wait for",
+    "RECONNECTION_ADVANCED": "Player @[white] ([#@]@[white]) advanced waiting timer up to @ seconds",
+    "NO_MORE_ADVANCEMENTS": "You have no more timer advancements",
+    "PLAYER_OFFERS_DRAW": "[green]Player @[green] ([#@]@[green]) offers a draw",
+    "PLAYER_NOT_OFFERS_DRAW": "[green]Player @[green] ([#@]@[green]) doesn't offer a draw anymore"
   },
   "tutorial": {
     "IN_THE_QUEUE_TUTORIAL": "You are in the queue for tutorial",
