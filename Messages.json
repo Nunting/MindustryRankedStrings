@@ -290,6 +290,8 @@
     "ACHIEVEMENT_DESCRIPTION_PAINTER": "build pixel-art in 1v1 match",
     "ACHIEVEMENT_NAME_GETTING_STARTED": "Getting started",
     "ACHIEVEMENT_DESCRIPTION_GETTING_STARTED": "complete tutorial",
+    "ACHIEVEMENT_NAME_ELITE_SECRET": "Elite Secret",
+    "ACHIEVEMENT_DESCRIPTION_ELITE_SECRET": "secret achievement",
     "BALANCE_UNITS": "[red]All units[]
 	
 	- shoot at their [green]max[] range
