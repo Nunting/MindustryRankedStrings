@@ -1,6 +1,6 @@
 {
   "common": {
-    "INFO_FORMAT": "Para bajar de rango a @: @, ELO actual: @ (@), siguiente rango @: @\n@ -> @",
+    "INFO_FORMAT": "Para bajar de rango a @: @, rango actual: @ (@), siguiente rango @: @\n@ -> @",
     "LANGUAGE_NOT_SUPPORTED": "Idioma no supportado: @.",
     "LANGUAGE_CHANGED": "Idioma cambiado: @ -> @",
     "UNMUTEALL_RESULT": "tu [green]has silenciado[white]a todos los otros jugadores.",
@@ -95,7 +95,7 @@
     "JOIN_SUCCESS": "[verde]¡La inscripción fue exitosa!"
   },
   "room": {
-    "MATCH_END_FORMAT_PVP": "[@]¡@!\n[white]Nuevo ELO: [orange]@->@[white] @\nELO @[white] del adversario: [orange]@->@[white] @\nRazón: @",
+    "MATCH_END_FORMAT_PVP": "[@]¡@!\n[white]Nuevo rango: [orange]@->@[white] @\nRango @[white] del adversario: [orange]@->@[white] @\nRazón: @",
     "MATCH_END_FORMAT_AI": "[@]¡@!\n[white]Razón: @",
     "WIN_FORMAT": "Ganaste",
     "LOSE_FORMAT": "Perdiste",

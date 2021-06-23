@@ -1,6 +1,6 @@
 {
   "common": {
-    "INFO_FORMAT": "To downgrade to @: @, current ELO: @ (@), next rank @: @.\nStarting rating next season: @ -> @",
+    "INFO_FORMAT": "To downgrade to @: @, current rating: @ (@), next rank @: @.\nStarting rating next season: @ -> @",
     "PLAY_MORE": "[red]You rating is yet unknown. You should play [yellow]@[red] more matches to calibrate",
     "N_MATCHES_REQUIRED": "[red]You should play [yellow]@[red] more matches to perform this",
     "LANGUAGE_NOT_SUPPORTED": "This language is not supported: @.",
@@ -290,8 +290,8 @@
     "ACHIEVEMENT_DESCRIPTION_PAINTER": "build pixel-art in 1v1 match",
     "ACHIEVEMENT_NAME_GETTING_STARTED": "Getting started",
     "ACHIEVEMENT_DESCRIPTION_GETTING_STARTED": "complete tutorial",
-    "ACHIEVEMENT_NAME_ELITE_SECRET": "Elite Secret",
-    "ACHIEVEMENT_DESCRIPTION_ELITE_SECRET": "secret achievement",
+    "ACHIEVEMENT_NAME_ELEET_SECRET": "Eleet Secret",
+    "ACHIEVEMENT_DESCRIPTION_ELEET_SECRET": "secret achievement",
     "BALANCE_UNITS": "[red]All units[]
 	
 	- shoot at their [green]max[] range
@@ -313,7 +313,7 @@
 	"BALANCE_STATS": "Health changes are applied via incoming damage multiplier (logic backwards-compatible)
 	
 	Mace\uF7FF: [red]♥[]500⇨530, 30⇨34
-	Fortress\uF7FE: [red]♥[]800⇨900, 54⇨62
+	Fortress\uF7FE: [red]♥[]800⇨1000, 54⇨62
 	Quasar\uF7FB: [red]♥[]650⇨640
 	Crawler\uF7FA: [red]♥[]180⇨220, 85⇨94
 	Atrax\uF7F9: [red]♥[]600⇨610
@@ -331,7 +331,6 @@
 	
 	[red]Force projector[]
 
-  - Does not eliminate splash damage, but reduces it x20 times (for example, from horizons\uF7F5)
 	- Reduces falling damage down to 33%, then splits the damage in half to shield and to blocks
 	
 	[red]Cores[]
@@ -407,9 +406,9 @@
     "BUILDING_BLOCKED": "[scarlet]Building in lobby is temporarily blocked by admins"
   },
   "room": {
-    "MATCH_END_FORMAT_PVP": "[@]@!\n[white]New ELO: [orange]@->@[white] @\nOpponent's @[white] ELO: [orange]@->@[white] @\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
+    "MATCH_END_FORMAT_PVP": "[@]@!\n[white]New rating: [orange]@->@[white] @\nOpponent's @[white] rating: [orange]@->@[white] @\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
     "MATCH_END_FORMAT_AI": "[@]@!\n[white]Reason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
-    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Match finished!\n[white]@[white] ELO: [orange]@->@[white] @\n@[white] ELO: [orange]@->@[white] @\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
+    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Match finished!\n[white]@[white] rating: [orange]@->@[white] @\n@[white] rating: [orange]@->@[white] @\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
     "MATCH_END_FORMAT_AI_SPECTATOR": "[gray]Match finished!\n[white]Reason: @\n\nWatch match replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
     "WIN_FORMAT": "Victory",
     "LOSE_FORMAT": "Defeat",
