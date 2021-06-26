@@ -22,13 +22,13 @@
     "RATING_LIMIT_CHANGED": "Будем искать противников с рейтингом @ - @",
     "RATING_LIMIT_MAX": "99999 максимум, или напишите [yellow]/nolimit",
     "MUTED_UNTIL": "[scarlet]Предупреждение: ты был замьючен до @ за спам.",
-    "MUTED_EVERYONE": "Примечание: Ты выключил чат с другими игроками. Используй [yellow]/muteall[white] для включения.",
+    "MUTED_EVERYONE": "Примечание: Вы выключили чат с другими игроками. Используйте [yellow]/muteall[white] для включения.",
     "MESSAGE_LIMIT": "[scarlet]Вы можете отправить только @ сообщений за  последние @ секунд.",
     "NO_MUTES": "Нет мьютов.",
     "LEADERBOARD_SWITCH_TO_LOCAL": "Таблица лидеров теперь [green]локальная",
     "LEADERBOARD_SWITCH_TO_GLOBAL": "Таблица лидеров теперь [green]глобальная",
     "CMD_DESCRIPTION_r": "встать или выйти из очереди",
-    "CMD_DESCRIPTION_ar": "меняет AutoReady - если включен, то Вы автоматически встанете в очередь через 15 после входа в лобби",
+    "CMD_DESCRIPTION_ar": "меняет AutoReady - если включен, то Вы автоматически встаёте в PvP очередь через 15 после входа в лобби",
     "CMD_DESCRIPTION_lb": "переключает между глобальной/локальной таблицей лидеров",
     "CMD_DESCRIPTION_limit": "устанавливает рейтинг противников для поиска",
     "CMD_DESCRIPTION_balance": "показывает все текущие изменения в балансе",
@@ -242,7 +242,7 @@
     Атракс\uF7F9: [red]♥[]600⇨610
     Спайрокт\uF7F8: [red]♥[]900⇨920
     Горизонт\uF7F5: [red]♥[]340⇨300
-    Зенит\uF7F4: [red]♥[]700⇨600, 16⇨15
+    Зенит\uF7F4: [red]♥[]700⇨580, 16⇨15
     Затемь\uF7F3: +20%
     Затмение\uF7F2: [red]♥[]20000⇨21000, +15%
     Риссо\uF7E7:   по зданиям x1⇨x0.7, нет инерции снаряда
@@ -292,7 +292,7 @@
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Лидеры ([#@]@ [@]#@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Лидеры ([#@]@ [@]@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "SERVER_NAME": " [red]Рейтинговый\n[yellow]⚡ [red]PvP [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1 на 1 с матчмейкингом [gold]- Сезон III\n[blue]+ обучение",
+    "SERVER_DESCRIPTION": "[red]1 на 1 с матчмейкингом [cyan]- Сезон IV\n[blue]+ обучение",
     "UNREAD_NEWS": "[white]Непрочитанных новостей: [yellow]@[white], напишите [yellow]/news[white] чтобы прочитать их.",
     "AUTOREADY_OFF_UNREAD_NEWS": "AutoReady [red]не[white] задействован потому что у вас есть непрочитанные новости, [cyan]@ [yellow]/news",
     "NO_UNREAD_NEWS": "Все новости уже прочитаны",

@@ -47,7 +47,7 @@
     "INTERNAL_ERROR": "[scarlet]Internal error, please contact admins on Discord @",
     "CURRENT_CHATLANG": "Current chat languages: @",
     "CMD_DESCRIPTION_r": "queue or unqueue yourself",
-    "CMD_DESCRIPTION_ar": "toggle your AutoReady - if turned on, you are automatically queued in 15 seconds after entering the lobby",
+    "CMD_DESCRIPTION_ar": "toggle your AutoReady - if turned on, you are automatically queued for PvP in 15 seconds after entering the lobby",
     "CMD_DESCRIPTION_lb": "toggle between global/local leaderboard",
     "CMD_DESCRIPTION_limit": "sets preferred rating of your opponent",
     "CMD_DESCRIPTION_balance": "lists all current balance changes",
@@ -319,7 +319,7 @@
 	Atrax\uF7F9: [red]♥[]600⇨610
 	Spiroct\uF7F8: [red]♥[]900⇨920
 	Horizon\uF7F5: [red]♥[]340⇨300
-	Zenith\uF7F4: [red]♥[]700⇨600, 16⇨15
+	Zenith\uF7F4: [red]♥[]700⇨580, 16⇨15
   Antumbra\uF7F3: +20%
   Eclipse: [red]♥[]20000⇨21000, +15%
 	Risso\uF7E7: buildings  x1⇨x0.7, no projectile inertia
@@ -345,7 +345,7 @@
   },
   "lobby": {
     "SERVER_NAME": " [red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1v1 with matchmaking [gold]- Season III\n[blue]+ tutorial",
+    "SERVER_DESCRIPTION": "[red]1v1 with matchmaking [cyan]- Season IV\n[blue]+ tutorial",
     "WELCOME_MESSAGE": "[red]Welcome!\n\n[white]Important:\nYou will be queued automatically for 1v1 in [yellow]15[] seconds\n\nsend into chat\n[yellow]/r[white] to queue or dequeue\n[yellow]/ai[white] to match vs AI\n[yellow]/help[white] to list all commands\n\nLeave feedback in [blue]Discord[white]:\n[yellow]@[white]\nor in-game via [yellow]/mail 0 [your message]",
     "LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]\uE1B3 [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]\uE1B4 [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]\uE1B5 [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
