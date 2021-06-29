@@ -72,6 +72,8 @@
     "CMD_DESCRIPTION_ai": "match vs AI",
     "CMD_DESCRIPTION_achi": "show your achievements",
     "CMD_DESCRIPTION_wait": "advance the timer for disconnected opponent (in a match)",
+    "CMD_DESCRIPTION_tapeffect": "chooses your effect on tapping (in lobby, for donors)",
+    "CMD_DESCRIPTION_spawn": "spawns any unit (in lobby, for donors)",
     "UI_leaderboard": "leaderboard in lobby",
     "UI_timer": "timer in match",
     "UI_queue_info": "info about queue in lobby",
@@ -341,7 +343,8 @@
 	- force field fall damage reduction down to 25% and 10%
 	
 	- Foundation core\uF868 [red]♥[]3500⇨3700
-	- Shard core\uF869 [red]♥[]1100⇨1500"
+	- Shard core\uF869 [red]♥[]1100⇨1500",
+    "ONLY_FOR_DONORS": "[red]You are not donor to execute command @. Consider supporting the server at [yellow]ranked.ddns.net"
   },
   "lobby": {
     "SERVER_NAME": " [red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
