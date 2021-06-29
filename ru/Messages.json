@@ -97,6 +97,7 @@
     "UI_timer": "таймер в бою",
     "MAIL_FORMAT": "[green]@[] @[yellow]#@[white]: @\n[green]Ответить можно командой [yellow]/mail @ [message...]",
     "KICKED_BY_ADMIN": "Вас кикнул админ @[white]#[yellow]@[]:\n@",
+    "ACHIEVEMENT_LIST_ITEM": "[@]@[] / [@]@[] получили",
     "ACHIEVEMENT_DESCRIPTION_DAGGER_SPAMMER_V": "Создай 1000 кинжалов в одном матче 1 на 1",
     "ACHIEVEMENT_NAME_MICRO_MACHINE_IV": "Микро машина!",
     "ACHIEVEMENT_DESCRIPTION_MICRO_MACHINE_IV": "Управляй группой юнитов 24 часа",

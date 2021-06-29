@@ -97,7 +97,7 @@
     "MAIL_NEXT_PAGE": "[green]This is page [yellow]@[], for other page type [yellow]/read all [page]",
     "KICKED_BY_ADMIN": "You have been kicked by admin @[white]#[yellow]@[]:\n@",
     "ACHIEVEMENT_UNLOCKED": "\n[#00FF00]Achievement unlocked!\n[gold]@\n[white]@\n",
-    "ACHIEVEMENT_LIST_ITEM": "[@]@[]",
+    "ACHIEVEMENT_LIST_ITEM": "[@]@[] / [@]@[] reached",
     "ACHIEVEMENT_NAME_I_WAS_THERE": "I Was There!",
     "ACHIEVEMENT_DESCRIPTION_I_WAS_THERE": "login with account from beta",
     "ACHIEVEMENT_NAME_DAGGER_SPAMMER_I": "Dagger Spammer I",
