@@ -79,6 +79,7 @@
     "UI_queue_info": "info about queue in lobby",
     "UI_stats": "stats in spectating",
     "UI_cursor": "cursor in spectating",
+    "UI_camera": "camera in spectating",
     "UI_tips": "tips in lobby chat",
     "UI_mapname": "current map's name",
     "UI_mail": "notification about new messages",
