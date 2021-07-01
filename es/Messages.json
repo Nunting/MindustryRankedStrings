@@ -60,7 +60,6 @@
     "CMD_DESCRIPTION_linkdiscord": "connecta a tu Discord (a través del sitio web)"
   },
   "lobby": {
-    "WELCOME_MESSAGE": "[red]¡Bienvenido!\n\n[white]Importante:\nenviar a la chat\n[yellow]/r[white] para ponerse en cola o quitar de la cola\n[yellow]/ayuda[white] para ver a todos los comandos\n\nDeja comentarios en [blue] Discord[white]:\n[yellow]@",
     "LEADERBOARD_FORMAT_TOP3": "Classificatiòn (global):\n[red]\uE1B3 [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]\uE1B4 [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]\uE1B5 [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Classificaciòn (global):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "HUB_IN_MATCHES_FORMAT": "[white]En partida: [yellow]@[white]",
@@ -84,10 +83,9 @@
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Clasificación ([#@]@ [@]#@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Clasificación ([#@]@ [@]@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "SERVER_NAME": "[yellow]⚡ [red]PvP con clasificación  [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1v1 con emparejamiento [cyan]- Temporada IV",
+    "SERVER_DESCRIPTION": "[red]1 vs 1 con emparejamiento\n[cyan]Temporada IV",
     "UNREAD_NEWS": "Tienes [yellow]@[white] noticias no leídas, envía [yellow]/news[white] para leerlas.",
     "AUTOREADY_OFF_UNREAD_NEWS": "Tu AutoReady [red]no[white] es activado porque tienes nuevas noticias [cyan]@[yellow]/news",
-    "NO_UNREAD_NEWS": "No tienes noticias no leìdas",
     "SUPPORTED_LANGUAGES": "Idiomas suportados: @",
     "NEW_JOIN_NUMBER": "[green]Tu clave para unirte es [yellow]@[green], úsala en la cuenta secundaria con [yellow]/join @[green].\n\n[red]No pierde esta llave, anótela o haz una captura de pantalla.\n¡Tu historia y calificación de la cuenta secundaria NO se transferirán y serán inaccesibles!",
     "CANT_JOIN_LINKED_DISCORD": "[green]Tu cuenta está conectada con discord. Desvincularlo mediante [yellow]/unlinkdiscord[] o mediante el sitio web [yellow]ranked.ddns.net",

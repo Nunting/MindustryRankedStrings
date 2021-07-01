@@ -212,8 +212,7 @@
   },
   "lobby": {
     "SERVER_NAME": "[yellow]⚡ [red]PvP [yellow]⚡[red] 경쟁전",
-    "SERVER_DESCRIPTION": "[red]매치메이킹 1v1[cyan]- 시즌 IV",
-    "WELCOME_MESSAGE": "[red]환영합니다!\n\n[white]중요 사항:\n[yellow]15[] 초 이내에 자동적으로 1v1 매칭 대기열에 입장할 것입니다.\n\n채팅 명령어\n[yellow]/r[white]를 입력하여 매칭/매칭 취소하기\n[yellow]/ai[white]를 입력하여 AI와 매칭하기\n[yellow]/help[white]를 입력하여 모든 명령어 보기\n\n[blue]Discord[white]:\n[yellow]@[white]에 접속하거나 인게임에서 [yellow]/mail 0 [메시지]를 통해 피드백을 남겨주세요.",
+    "SERVER_DESCRIPTION": "[red]매치메이킹 1 vs 1\n[cyan]시즌 IV",
     "LEADERBOARD_FORMAT_TOP3": "리더보드 (global):\n[red]\uE1B3 [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]\uE1B4 [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]\uE1B5 [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "리더보드 (global):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "리더보드 ([#@]@ [@]#@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
@@ -248,7 +247,6 @@
     "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\n사용 가능한 명령어: [yellow]/help\n\n[yellow]웹사이트: ranked.ddns.net\n[#7289da]디스코드 : @",
     "UNREAD_NEWS": "읽지 않은 소식이 [yellow]@[white]개 있습니다, [yellow]/news[white]를 입력하여 읽을 수 있습니다.",
     "AUTOREADY_OFF_UNREAD_NEWS": "안않은 [cyan]@ [yellow]/news[][]가 있어서 자동 준비가 설정되지 [red]않았습니다.",
-    "NO_UNREAD_NEWS": "안읽은 소식이 없습니다.",
     "NEWS_FORMAT": "@ - @\n\n@",
     "SUPPORTED_LANGUAGES": "지원하는 언어: @",
     "NEW_JOIN_NUMBER": "[green]입장 키는[yellow]@[green]입니다, 이걸 두번째 계정에 [yellow]/join @[green]으로 사용하세요.\n\n[red]절대 이 키를 잃어버리지 마세요, 받아쓰거나 스크린샷을 찍으세요.\n\n보조 계정의 기록 및 등급이  전송되지 않고 접근할 수 없게 됩니다!",

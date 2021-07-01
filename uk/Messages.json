@@ -335,7 +335,6 @@
     "KICKED_BY_ADMIN": "Вас вигнав адміністратор @[white]#[yellow]@[]:\n@"
   },
   "lobby": {
-    "WELCOME_MESSAGE": "[red]Ласкаво просимо!\n\n[white]Важливе:\nнадішліть в чат\n[yellow]/r[white], щоби стати в чергу або вийти з неї\n[yellow]/help[white], щоб показати усі команди\n\nЗалиште свій відгук у [blue]Discord[white]:\n[yellow]@",
     "LEADERBOARD_FORMAT_TOP3": "Таблиця лідерів (глобальна):\n[red]\uE1B3 [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]\uE1B4 [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]\uE1B5 [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Таблиця лідерів (глобальна):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "HUB_IN_MATCHES_FORMAT": "[white]У матчах: [yellow]@[white]",
@@ -358,10 +357,9 @@
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Список лідерів ([#@]@ [@]#@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Таблиця лідерів([#@]@ [@]@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "SERVER_NAME": " [red]Рейтинг\n[yellow]⚡ [red]PvP [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1v1 з рейтингом [cyan]- Сезон IV",
+    "SERVER_DESCRIPTION": "[red]1v1 з рейтингом\n[cyan]Сезон IV",
     "UNREAD_NEWS": "Ви маєте [yellow]@[white] непрочитаних новин, надішліть [yellow]/news[white], щоб їх прочитати.",
     "AUTOREADY_OFF_UNREAD_NEWS": "Ваша автоготовність ще [red]не [white] спрацювала, бо у вас є непрочитані новини [cyan]@ [yellow]/news",
-    "NO_UNREAD_NEWS": "Ви маєте непрочитані новини",
     "SUPPORTED_LANGUAGES": "Підтримувані мови: @",
     "NEW_JOIN_NUMBER": "[green]Ваш приєднальний ключ — [yellow]@[green], використайте його на іншій обліківці використавши[yellow]/join @[green].\n\n[red]Не втрачайте цей ключ, запишіть його або зробіть зняток екрана.\nВаша історія та рейтинг на іншій обліківці НЕ будуть передані та стануть недоступними!",
     "CANT_JOIN_LINKED_DISCORD": "[green]Ваш обліковий запис привʼязано до Discord. Відвʼяжіть його за допомогою команди [yellow]/unlinkdiscord[] або через вебсайт [yellow]ranked.ddns.net",
