@@ -290,7 +290,7 @@
     "PLAYER_MATCHING_ANYONE_FORMAT": "Ищем [green]всех[white]",
     "PLAYER_MATCHING_FORMAT": "Ищем [yellow]@[white] - [yellow]@\n[yellow]/limit[white] чтобы изменить\n[yellow]/nolimit[white] чтобы убрать",
     "IN_QUEUE_FORMAT": "[green]Вы в очереди[white]",
-    "NOT_IN_QUEUE_FORMAT": "[red]Вы не в очереди, напишите [yellow]/r\n[red]или [yellow]/ai[red] для сражения с компьютером[white]",
+    "NOT_IN_QUEUE_FORMAT": "[yellow]/ai[red] для сражения с компьютером[white]",
     "SPECTATE_SUGGESTION": "[red]либо наблюдайте за боем командой [yellow]/s @\n[yellow]@ @[red] против [yellow]@ @[white]",
     "SPECTATE_SUGGESTION_SHORT": "[red]либо наблюдайте за боем командой [yellow]/s @\n[white]@[red] против [white]@[white]",
     "EMPTY_LEADERBOARD": "Ожидание игроков",
@@ -335,7 +335,11 @@
     "PLAYER_MATCHING_ANYONE_OR_SET_LIMIT": ", или установите [yellow]/limit",
     "IN_THE_QUEUE_VS_AI": "Вы находитесь в очереди против AI",
     "CANT_FIND_MAP": "[scarlet]Карта [yellow]@[] не найдена. Доступные карты: [yellow]@",
-    "ADMIN_IS_ONLINE": "[green]Привет! Админ @ сейчас на сервере! Если у тебя есть вопросы, задавай их в чате!"
+    "QUEUED_BUTTON": "В очереди",
+    "NOT_QUEUED_BUTTON": "Не в очереди",
+    "OPEN_NEWS": "[yellow]Новости \uE809@[]",
+    "SPAWNING": "Игрок @[white] создаёт @ @ в координатах @:@ для команды @",
+    "TOO_MANY_UNITS": "[scarlet]Уже слишком много юнитов. Возможно, вы захотите использовать команду [yellow]/killall"
   },
   "room": {
     "WIN_FORMAT": "Победа",

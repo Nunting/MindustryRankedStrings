@@ -375,7 +375,7 @@ Leave feedback in [blue]Discord[white]:
     "PLAYER_MATCHING_FORMAT": "Searching [yellow]@[white] - [yellow]@\n[yellow]/limit[white] to change or [yellow]/nolimit[white]",
     "PLAYER_MATCHING_FORMAT_AI": "Waiting for AI [@]@ [white]([yellow]@[white])\n[yellow]/r[white] to cancel[white]",
     "IN_QUEUE_FORMAT": "[green]You are in queue[white]",
-    "NOT_IN_QUEUE_FORMAT": "[red]You are not in queue, send [yellow]/r\n[red]or [yellow]/ai[red] to warmup vs AI[white]",
+    "NOT_IN_QUEUE_FORMAT": "[yellow]/ai[red] to warmup vs AI[white]",
     "SPECTATE_SUGGESTION": "[red]or spectate a match via [yellow]/s @\n[yellow]@ @[red] vs [yellow]@ @[white]",
     "SPECTATE_SUGGESTION_SHORT": "[red]or spectate a match via [yellow]/s @\n@[red] vs @[white]",
     "OPPONENT_LEFT_QUEUE": "[red]Your opponent left, looking for another one[white]",
@@ -416,7 +416,11 @@ Leave feedback in [blue]Discord[white]:
     "SPECTATE_LIST": "Available matches:\n@\nJoin via [yellow]/s [orange][roomid/nickname]",
     "SPECTATE_CANT_FIND_MATCH": "[scarlet]Can't find specified match",
     "BUILD_RESTRICTION": "[scarlet]You should complete [yellow]@[] more 1v1 matches before being able to build in lobby. Send [yellow]/r[] and wait for a match",
-    "BUILDING_BLOCKED": "[scarlet]Building in lobby is temporarily blocked by admins"
+    "BUILDING_BLOCKED": "[scarlet]Building in lobby is temporarily blocked by admins",
+    "NOT_QUEUED_BUTTON": "Not queued",
+    "OPEN_NEWS": "[yellow]News \uE809@[]",
+    "SPAWNING": "Player @[white] spawns @ of @ at @:@ for team @",
+    "TOO_MANY_UNITS": "[scarlet]There are too many units. You might want to use [yellow]/killall"
   },
   "room": {
     "MATCH_END_FORMAT_PVP": "[@]@!\n[white]New rating: [orange]@->@[white] @\nOpponent's @[white] rating: [orange]@->@[white] @\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",

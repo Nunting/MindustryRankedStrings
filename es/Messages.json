@@ -68,7 +68,6 @@
     "PLAYER_MATCHING_ANYONE_OR_SET_LIMIT": ", o fijar un limite [yellow]/limit",
     "PLAYER_MATCHING_FORMAT": "Buscando [yellow]@[white] - [yellow]@\n[yellow]/limit[white] para cambiar, o [yellow]/nolimit[white]",
     "IN_QUEUE_FORMAT": "[green]Estàs en cola[white]",
-    "NOT_IN_QUEUE_FORMAT": "[red]No estàs en cola, envia [yellow]/r[white]",
     "EMPTY_LEADERBOARD": "Esperando a más jugadores",
     "NOT_WAITING_FOR_MATCH": "[red]NO estás esperando[white] a una partida.",
     "IN_THE_QUEUE": "Ahora estás en cola.",
