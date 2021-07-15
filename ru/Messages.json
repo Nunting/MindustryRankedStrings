@@ -98,6 +98,7 @@
     "UI_leaderboard": "таблица лидеров в лобби",
     "UI_mapname": "название текущей карты",
     "UI_timer": "таймер в бою",
+    "UI_tap_spectate": "включает наблюдение за матчем по нажатию в лобби",
     "MAIL_FORMAT": "[green]@[] @[yellow]#@[white]: @\n[green]Ответить можно командой [yellow]/mail @ [message...]",
     "KICKED_BY_ADMIN": "Вас кикнул админ @[white]#[yellow]@[]:\n@",
     "ACHIEVEMENT_LIST_ITEM": "[@]@[] / [@]@[] получили",

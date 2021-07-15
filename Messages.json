@@ -84,6 +84,7 @@
     "UI_tips": "tips in lobby chat",
     "UI_mapname": "current map's name",
     "UI_mail": "notification about new messages",
+    "UI_tap_spectate": "allows to tap in lobby for spectating a match",
     "READ_EXAMPLE_USAGE": "[scarlet]Example usage:\n[yellow]/read[] - shows next unread message\n[yellow]/read all[] - shows recent messages\n[yellow]/read all 4[] - shows recent messages, page 4\n[yellow]/read clear - clears stored messages (limit 500)",
     "UI_EXAMPLE_USAGE": "[scarlet]Example usage:\n[yellow]/ui[] - shows current UI configuration\n[yellow]/ui - timer[] - removes timer from matches\n[yellow]/ui + queue_info[] - enables queue info",
     "UI_ELEMENT_ENABLED": "UI element @ is now [green]enabled",
