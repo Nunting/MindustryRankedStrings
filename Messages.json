@@ -75,6 +75,7 @@
     "CMD_DESCRIPTION_wait": "advance the timer for disconnected opponent (in a match)",
     "CMD_DESCRIPTION_tapeffect": "chooses your effect on tapping (in lobby, for donors)",
     "CMD_DESCRIPTION_spawn": "spawns any unit (in lobby, for donors)",
+    "CMD_DESCRIPTION_report": "report player",
     "UI_leaderboard": "leaderboard in lobby",
     "UI_timer": "timer in match",
     "UI_queue_info": "info about queue in lobby",
@@ -346,7 +347,13 @@
 	
 	- Foundation core\uF868 [red]♥[]3500⇨3700
 	- Shard core\uF869 [red]♥[]1100⇨1500",
-    "ONLY_FOR_DONORS": "[red]You are not donor to execute command @. Consider supporting the server at [yellow]ranked.ddns.net"
+    "ONLY_FOR_DONORS": "[red]You are not donor to execute command @. Consider supporting the server at [yellow]ranked.ddns.net",
+    "REPORT_USAGE": "You can [yellow]/report[] players by their [yellow]player ID number[].
+Currently online:
+@
+[white]Example: [yellow]/report 12345 griefer in lobby[]
+[white]Example #2: [yellow]/report 23456 AFK in matches[]",
+    "PLAYER_ENTRY": "[white]ID#[yellow]@[]: @"
   },
   "lobby": {
     "SERVER_NAME": " [red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
@@ -417,11 +424,15 @@ Leave feedback in [blue]Discord[white]:
     "SPECTATE_LIST": "Available matches:\n@\nJoin via [yellow]/s [orange][roomid/nickname]",
     "SPECTATE_CANT_FIND_MATCH": "[scarlet]Can't find specified match",
     "BUILD_RESTRICTION": "[scarlet]You should complete [yellow]@[] more 1v1 matches before being able to build in lobby. Send [yellow]/r[] and wait for a match",
+    "BUILD_RESTRICTION_HIDDEN_NAME": "[scarlet]Building in lobby is restricted for hidden names.",
     "BUILDING_BLOCKED": "[scarlet]Building in lobby is temporarily blocked by admins",
     "NOT_QUEUED_BUTTON": "Not queued",
     "OPEN_NEWS": "[yellow]News \uE809@[]",
     "SPAWNING": "Player @[white] spawns @ of @ at @:@ for team @",
-    "TOO_MANY_UNITS": "[scarlet]There are too many units. You might want to use [yellow]/killall"
+    "TOO_MANY_UNITS": "[scarlet]There are too many units. You might want to use [yellow]/killall",
+    "USING_HIDDEN_NAME": "You are using [green]hidden name feature[]: your ID[yellow]#@[] is not shown in chat and your rating is obfuscated. To disable this, use a proper nickname instead of barcodes.",
+    "YOU_WERE_REPORTED": "[red]You've been reported by @[red] for [white]@[red]. Admins will review this later.",
+    "REPORT_SAVED": "[green]Your report for player [white]@[green] ID[yellow]#@[green] with reason [white]@[green] was saved."
   },
   "room": {
     "MATCH_END_FORMAT_PVP": "[@]@!\n[white]New rating: [orange]@->@[white] @\nOpponent's @[white] rating: [orange]@->@[white] @\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
