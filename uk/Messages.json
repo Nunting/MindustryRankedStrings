@@ -412,7 +412,7 @@
     "JOINED_AS_SPECTATOR": "Ви приєднались у ролі спостерігача. Надішліть [yellow]/hub[], щоб повернутися до Центру.",
     "ONLY_FOR_SPECTATOR": "[scarlet]Ця команда лише для спостерігачів.",
     "MATCH_NOT_STARTED": "[scarlet]Ви не можете капітулювати протягом паузи чи в нерозпочатому матчі.",
-    "START_FORMAT_NEW": "[green]Мапа[yellow]@[white]\n@[white] проти @[white]\n\n[yellow]/surrender[white] для капітуляції",
+    "START_FORMAT_NEW": "[green]Мапа [yellow]@[white]\n@[white] проти @[white]\n\n[yellow]/surrender[white] для капітуляції",
     "PC_TAB_SWITCHES_THE_CHAT_MODE": "Корисна підказка: клавіша <TAB> (праворуч від Q) змінює режим чату на глобальний чи [yellow]/t[] командний.",
     "MATCH_END_FORMAT_PVP": "[@]@!\n[white]Нове Ело: [orange]@->@[white] @\nЕло супротивника @[white]: [orange]@->@[white] @\nПричина: @",
     "MATCH_END_FORMAT_AI": "[@]@!\n[white]Причина: @",
