@@ -469,8 +469,9 @@ Leave feedback in [blue]Discord[white]:
     "NOTHING_TO_WAIT": "[scarlet]Nothing to wait for",
     "RECONNECTION_ADVANCED": "Player @[white] ([#@]@[white]) advanced waiting timer up to @ seconds",
     "NO_MORE_ADVANCEMENTS": "You have no more timer advancements",
-    "PLAYER_OFFERS_DRAW": "[green]Player @[green] ([#@]@[green]) offers a draw",
-    "PLAYER_NOT_OFFERS_DRAW": "[green]Player @[green] ([#@]@[green]) doesn't offer a draw anymore",
+    "PLAYER_OFFERS_DRAW": "[green]Player @[green] ([#@]@[green]) offers a draw.",
+    "PLAYER_NOT_OFFERS_DRAW": "[green]Player @[green] ([#@]@[green]) doesn't offer a draw anymore.",
+    "DRAW_USAGE": "Send [yellow]/draw[] to accept a draw.",
     "ADMIN_FORCED_TUTORIAL": "[green]Seems like you are new to the server and administrator has forced a tutorial for you.\n\nIt will start shortly, and you will learn how to do simple things there.\n\nIt will take about 10 minutes."
   },
   "tutorial": {

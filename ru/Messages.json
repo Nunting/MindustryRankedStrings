@@ -388,8 +388,9 @@
     "RECONNECTION_ADVANCED": "Игрок @[white] ([#@]@[white]) продлил таймер ожидания до @ секунд",
     "NO_MORE_ADVANCEMENTS": "У вас больше нет продлений таймера",
     "PLAYER_OFFERS_DRAW": "[green]Игрок @[green] ([#@]@[green]) предлагает ничью",
-    "PLAYER_NOT_OFFERS_DRAW": "[green]Игрок @[green] ([#@]@[green]) больше не предлагает ничью"
-  },
+    "PLAYER_NOT_OFFERS_DRAW": "[green]Игрок @[green] ([#@]@[green]) больше не предлагает ничью",
+    "DRAW_USAGE": "Напишите команду [yellow]/draw[] чтобы согласиться на ничью."
+},
   "tutorial": {
     "IN_THE_QUEUE_TUTORIAL": "Вы в очереди на обучение",
     "TUTORIAL_STARTING": "Обучение загружается...",
