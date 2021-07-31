@@ -82,7 +82,7 @@
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Clasificación ([#@]@ [@]#@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Clasificación ([#@]@ [@]@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "SERVER_NAME": "[yellow]⚡ [red]PvP con clasificación  [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1 vs 1 con emparejamiento\n[cyan]Temporada IV",
+    "SERVER_DESCRIPTION": "[red]1 vs 1 con emparejamiento\n[lime]Temporada V",
     "UNREAD_NEWS": "Tienes [yellow]@[white] noticias no leídas, envía [yellow]/news[white] para leerlas.",
     "AUTOREADY_OFF_UNREAD_NEWS": "Tu AutoReady [red]no[white] es activado porque tienes nuevas noticias [cyan]@[yellow]/news",
     "SUPPORTED_LANGUAGES": "Idiomas suportados: @",

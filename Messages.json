@@ -322,19 +322,21 @@
   Health changes are applied via incoming damage multiplier (logic backwards-compatible)
 
   Dagger\uF800: reload 14⇨13
-	Mace\uF7FF: [red]♥[]500⇨530, 30⇨34, reload 14⇨11
+	Mace\uF7FF: [red]♥[]500⇨560, 30⇨34, reload 14⇨11
 	Fortress\uF7FE: [red]♥[]800⇨1000, 54⇨62
-	Crawler\uF7FA: [red]♥[]180⇨220, 85⇨94
+  Nova\uF7FD: [red]♥[]120⇨160, 14⇨16
+  Quasar\uF7FB: [red]♥[]640⇨700
+	Crawler\uF7FA: [red]♥[]180⇨220, 85⇨90
 	Atrax\uF7F9: [red]♥[]600⇨610, reload 10⇨9
 	Spiroct\uF7F8: [red]♥[]900⇨920, reload 15⇨14
-  Flare\uF7F6: 9⇨7
-	Horizon\uF7F5: [red]♥[]340⇨240
+  Flare\uF7F6: 9⇨6
+	Horizon\uF7F5: [red]♥[]340⇨270
 	Zenith\uF7F4: [red]♥[]700⇨580, 16⇨15
   Antumbra\uF7F3: +20%
-  Eclipse\uF7F2: [red]♥[]20000⇨21000, +15%
-	Risso\uF7E7: buildings  x1⇨x0.7, no projectile inertia
+  Eclipse\uF7F2: [red]♥[]20000⇨21000, +25%
+	Risso\uF7E7: [red]♥[]280⇨220, buildings  x1⇨x0.7, no projectile inertia
 	Minke\uF7ED: buildings  x1⇨x0.7
-	Bryde\uF7EC: buildings  x1⇨x0.7, no projectile inertia",
+	Bryde\uF7EC: 80⇨70, buildings  x1⇨x0.7, no projectile inertia",
 	"BALANCE_BLOCKS": "[yellow]Construction blocks[]
 	
 	Have their HP proportional to build progress, starting from 20 (vanilla version has 20 HP for the whole progress).
@@ -357,7 +359,7 @@ Currently online:
   },
   "lobby": {
     "SERVER_NAME": " [red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1 vs 1 with matchmaking\n[cyan]Season IV",
+    "SERVER_DESCRIPTION": "[red]1 vs 1 with matchmaking\n[lime]Season V",
     "WELCOME_MESSAGE": "[red]Welcome to Ranked PvP!
 
 [white]Tap the label in top-left corner to get into 1 vs 1 queue (or write [yellow]/r[])
