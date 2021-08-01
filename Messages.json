@@ -355,7 +355,8 @@ Currently online:
 @
 [white]Example: [yellow]/report 12345 griefer in lobby[]
 [white]Example #2: [yellow]/report 23456 AFK in matches[]",
-    "PLAYER_ENTRY": "[white]ID#[yellow]@[]: @"
+    "PLAYER_ENTRY": "[white]ID#[yellow]@[]: @",
+    "NAME_NOT_ALLOWED_PREFIX": "Your name starting with\n[red]@[]\nis not allowed. Choose another name."
   },
   "lobby": {
     "SERVER_NAME": " [red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
