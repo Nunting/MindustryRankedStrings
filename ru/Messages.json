@@ -235,6 +235,7 @@
     [yellow]Воздушные войска[]
 
     - Не кружатся над своей целью
+    - Игнорируют нейтральные постройки
     - Динамические взрывы (такие как бомбинг пиратитом) наносят на 66% меньше урона
 
     [yellow]Моно[]\uF7F1[yellow], Поли[]\uF7F0[yellow] и Меги[]\uF7EF
@@ -354,15 +355,18 @@
 Сейчас онлайн:
 @
 [white]Пример: [yellow]/report 12345 гриферит в лобби[]
-[white]Пример #2: [yellow]/report 23456 стоит афк в матчах[]"
+[white]Пример #2: [yellow]/report 23456 стоит афк в матчах[]
+[white]Для блокировки в чате используйте команду [yellow]/mute[]",
+    "BUILDING_BANNED": "[red]Для вас заброкирована постройка в лобби до @"
   },
   "room": {
     "WIN_FORMAT": "Победа",
     "LOSE_FORMAT": "Поражение",
     "TIE_FORMAT": "Ничья",
-    "START_FORMAT": "[green]Карта [yellow]@[white]\n@[white] vs @[white]:\nпобеда @\nпоражение @\nничья @\nW/L @/@\n\n[yellow]/surrender[white] чтобы сдаться",
+    "SURRENDER_USAGE": "[yellow]/surrender[white] чтобы сдаться",
+    "START_FORMAT": "[green]Карта [yellow]@[white]\n@\n@",
     "BACK_FORMAT": "Возвращаемся в [red]ЛОББИ[white] через @ секунд.",
-    "TIEBREAKER": "Tiebreaker",
+    "TIEBREAKER": "Тай-брейк",
     "RECONNECTS_LEFT": "У Вас осталось [red]@[] переподключений! Чтобы сдаться напишите [yellow]/surrender",
     "PLAYER_RECONNECTED": "Игрок @[white] ([#@]@[white]) переподключился, у него осталось [yellow]@[] переподключений.",
     "PLAYER_DISCONNECTED": "Игрок @[white] ([#@]@[white]) отключился, у него осталось [yellow]@[] переподключений и он ещё может вернуться.",
@@ -375,24 +379,28 @@
     "HARD_SHUTDOWN_ROOM": "Комната перезапускается. Ваш рейтинг не изменён.",
     "TIEBREAKER_DAMAGE": "[white]Каждое ядро получает [@]@[white] урона.",
     "TIEBREAKER_FORMAT": "@[yellow]⚡[red]@[yellow]⚡\n@",
-    "TIEBREAKER_TIED_CHAT": "[red][Tiebreaker]: Ничья.",
+    "TIEBREAKER_TIED_CHAT": "[red][Тай-брейк]: Ничья.",
     "TIEBREAKER_WARNING": "[white]Через минуту каждое ядро\nначнёт получать урон.",
     "JOINED_AS_SPECTATOR": "Вы присоединились в качестве наблюдателя. Напишите [yellow]/hub[] для возврата в лобби, канал чата по-умолчанию только для наблюдателей, команда [yellow]/t[] отправит сообщение всем.",
     "ONLY_FOR_SPECTATOR": "[scarlet]Данная команда только для наблюдателей",
     "MATCH_NOT_STARTED": "[scarlet]Нельзя сдаться в матче который остановлен или ещё не начат.",
     "PC_TAB_SWITCHES_THE_CHAT_MODE": "Полезный совет: клавиша <TAB> (слева от Q/Й) переключает режимы между обычным и командой [yellow]/t[].",
-    "MATCH_END_FORMAT_PVP": "[@]@!\n[white]Новый рейтинг: [orange]@->@[white] @\nРейтинг @[white]: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
-    "MATCH_END_FORMAT_AI": "[@]@!\n[white]Причина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
-    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Матч завершён!\n[white]@[white] рейтинг: [orange]@->@[white] @\n@[white] рейтинг: [orange]@->@[white] @\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
-    "MATCH_END_FORMAT_AI_SPECTATOR": "[gray]Матч завершён!\n[white]Причина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
-    "START_FORMAT_AI": "[green]Карта [yellow]@[white]\n@[white] vs @[white]\nбезрейтинговый матч\nW/L @/@\n\n[yellow]/surrender[white] чтобы сдаться",
-    "START_FORMAT_NEW": "[green]Карта [yellow]@[white]\n@[white] vs @[white]\n\n[yellow]/surrender[white] чтобы сдаться",
+    "MATCH_END_FORMAT_PVP": "[@]@!\n@\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "MATCH_END_FORMAT_UNRANKED": "[@]@!\n[white]Причина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Матч завершён!\n@\nПричина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "MATCH_END_FORMAT_UNRANKED_SPECTATOR": "[gray]Матч завершён!\n[white]Причина: @\n\nПосмотрите повтор на сайте [yellow]ranked.ddns.net[white]\nID боя: [yellow]@",
+    "START_FORMAT_UNRANKED": "[green]Карта [yellow]@[white]\nбезрейтинговый матч\n@\n@",
     "NOTHING_TO_WAIT": "[scarlet]Нечего ждать",
     "RECONNECTION_ADVANCED": "Игрок @[white] ([#@]@[white]) продлил таймер ожидания до @ секунд",
     "NO_MORE_ADVANCEMENTS": "У вас больше нет продлений таймера",
     "PLAYER_OFFERS_DRAW": "[green]Игрок @[green] ([#@]@[green]) предлагает ничью",
     "PLAYER_NOT_OFFERS_DRAW": "[green]Игрок @[green] ([#@]@[green]) больше не предлагает ничью",
-    "DRAW_USAGE": "Напишите команду [yellow]/draw[] чтобы согласиться на ничью."
+    "DRAW_USAGE": "Напишите команду [yellow]/draw[] чтобы согласиться на ничью.",
+    "REASON_victory": "победа",
+    "REASON_tiebreaker": "тай-брейк",
+    "REASON_abandoned": "вышел",
+    "REASON_agreement": "соглашение",
+    "REASON_surrender": "сдался"
 },
   "tutorial": {
     "IN_THE_QUEUE_TUTORIAL": "Вы в очереди на обучение",

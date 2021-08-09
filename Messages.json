@@ -300,21 +300,22 @@
     "ACHIEVEMENT_NAME_ELEET_SECRET": "Eleet Secret",
     "ACHIEVEMENT_DESCRIPTION_ELEET_SECRET": "secret achievement",
     "BALANCE_UNITS": "[yellow]All units[]
-	
+
 	- shoot at their [green]max[] range
 	- [green]automatically navigate[] to closest repair points\uF848 if their health is less than t1-70%, t2-50%, t3-40%, t4-30%, t5-20%
-	
+
 	[yellow]Ground units[]
-	
+
 	- stop moving when shooting at enemy
-	
+
 	[yellow]Flying units[]
-	
+
 	- do not circle around their target
+  - ignore neutral structures
   - dynamic explosions (aka blast bombing) deal 66% less damage
-	
+
 	[yellow]Mono[]\uF7F1[yellow], Poly[]\uF7F0[yellow] and Mega[]\uF7EF
-	
+
 	- mine when not doing their default tasks
 	- if both copper\uF838 and lead\uF837 are above 4000, they start mining sand\uF834, titanium\uF832 and thorium\uF831 accordingly",
 	"BALANCE_STATS": "[yellow]Stats[]
@@ -338,15 +339,15 @@
 	Minke\uF7ED: buildings  x1⇨x0.7
 	Bryde\uF7EC: 80⇨70, buildings  x1⇨x0.7, no projectile inertia",
 	"BALANCE_BLOCKS": "[yellow]Construction blocks[]
-	
+
 	Have their HP proportional to build progress, starting from 20 (vanilla version has 20 HP for the whole progress).
-	
+
 	[yellow]Force projector[]
 
 	- Reduces falling damage down to 33%, then splits the damage in half to shield and to blocks
-	
+
 	[yellow]Cores[]
-	
+
 	- Foundation core\uF868 [red]♥[]3500⇨3700
 	- Shard core\uF869 [red]♥[]1100⇨1500",
     "ONLY_FOR_DONORS": "[red]You are not donor to execute command @. Consider supporting the server at [yellow]ranked.ddns.net",
@@ -435,23 +436,31 @@ Leave feedback in [blue]Discord[white]:
     "TOO_MANY_UNITS": "[scarlet]There are too many units. You might want to use [yellow]/killall",
     "USING_HIDDEN_NAME": "You are using [green]hidden name feature[]: your ID[yellow]#@[] is not shown in chat and your rating is obfuscated. To disable this, use a proper nickname instead of barcodes.",
     "YOU_WERE_REPORTED": "[red]You've been reported by @[red] for [white]@[red]. Admins will review this later.",
-    "REPORT_SAVED": "[green]Your report for player [white]@[green] ID[yellow]#@[green] with reason [white]@[green] was saved."
+    "REPORT_SAVED": "[green]Your report for player [white]@[green] ID[yellow]#@[green] with reason [white]@[green] was saved.",
+    "BUILDING_BANNED": "[red]Building in lobby is blocked for you until @"
   },
   "room": {
-    "MATCH_END_FORMAT_PVP": "[@]@!\n[white]New rating: [orange]@->@[white] @\nOpponent's @[white] rating: [orange]@->@[white] @\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
-    "MATCH_END_FORMAT_AI": "[@]@!\n[white]Reason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
-    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Match finished!\n[white]@[white] rating: [orange]@->@[white] @\n@[white] rating: [orange]@->@[white] @\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
-    "MATCH_END_FORMAT_AI_SPECTATOR": "[gray]Match finished!\n[white]Reason: @\n\nWatch match replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
+    "SINGLE_PLAYER_RATING_DELTA": "[white]@[white]: [orange]@->@[white] @",
+    "MATCH_END_FORMAT_PVP": "[@]@!\n@\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
+    "MATCH_END_FORMAT_UNRANKED": "[@]@!\n[white]Reason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
+    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Match finished!\n@\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
+    "MATCH_END_FORMAT_UNRANKED_SPECTATOR": "[gray]Match finished!\n[white]Reason: @\n\nWatch match replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
+    "START_1V1": "[white]@[white] vs @[white]\nW/L @/@",
+    "SURRENDER_USAGE": "[yellow]/surrender[white] to surrender",
+    "START_FORMAT": "[green]Map [yellow]@\n@\n@",
+    "START_FORMAT_UNRANKED": "[green]Map [yellow]@\nUnranked match\n@\n@",
     "WIN_FORMAT": "Victory",
     "LOSE_FORMAT": "Defeat",
     "TIE_FORMAT": "Draw",
+    "REASON_victory": "victory",
+    "REASON_tiebreaker": "tiebreaker",
+    "REASON_abandoned": "abandoned",
+    "REASON_agreement": "agreement",
+    "REASON_surrender": "surrender",
     "MATCH_NOT_STARTED": "[scarlet]You can't surrender in paused or not started match.",
     "JOINED_AS_SPECTATOR": "You joined as spectator. Type [yellow]/hub[] to get back to hub, default chat is spectator-only, use [yellow]/t[] to send message to everyone.",
     "PC_TAB_SWITCHES_THE_CHAT_MODE": "Useful tip: <TAB> (left from Q) key switches the chat mode between normal and [yellow]/t[] command.",
     "ONLY_FOR_SPECTATOR": "[scarlet]This command is only for spectators",
-    "START_FORMAT": "[green]Map [yellow]@[white]\n@[white] vs @[white]:\nwin @\nlose @\ndraw @\nW/L @/@\n\n[yellow]/surrender[white] to surrender",
-    "START_FORMAT_NEW": "[green]Map [yellow]@[white]\n@[white] vs @[white]\n\n[yellow]/surrender[white] to surrender",
-    "START_FORMAT_AI": "[green]Map [yellow]@[white]\n@[white] vs @[white]\nRating is not affected\nW/L @/@\n\n[yellow]/surrender[white] to surrender",
     "BACK_FORMAT": "Getting back to [red]HUB[] in @ seconds.",
     "TIEBREAKER": "Tiebreaker",
     "RECONNECTS_LEFT": "You have [red]@[] reconnects left! To surrender send [yellow]/surrender",
