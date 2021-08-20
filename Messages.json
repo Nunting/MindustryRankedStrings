@@ -86,6 +86,7 @@
     "UI_mapname": "current map's name",
     "UI_mail": "notification about new messages",
     "UI_tap_spectate": "allows to tap in lobby for spectating a match",
+    "UI_tiebreaker": "shows fullscreen warning before tiebreaker starts",
     "READ_EXAMPLE_USAGE": "[scarlet]Example usage:\n[yellow]/read[] - shows next unread message\n[yellow]/read all[] - shows recent messages\n[yellow]/read all 4[] - shows recent messages, page 4\n[yellow]/read clear - clears stored messages (limit 500)",
     "UI_EXAMPLE_USAGE": "[scarlet]Example usage:\n[yellow]/ui[] - shows current UI configuration\n[yellow]/ui - timer[] - removes timer from matches\n[yellow]/ui + queue_info[] - enables queue info",
     "UI_ELEMENT_ENABLED": "UI element @ is now [green]enabled",
@@ -226,7 +227,7 @@
     "ACHIEVEMENT_NAME_IT_IS_OFFICIAL": "It Is Official",
     "ACHIEVEMENT_DESCRIPTION_IT_IS_OFFICIAL": "link your discord account",
     "ACHIEVEMENT_NAME_PEW_PEW": "Pew-Pew",
-    "ACHIEVEMENT_DESCRIPTION_PEW_PEW": "spend 5 minutes shooting in a single 1v1 match",
+    "ACHIEVEMENT_DESCRIPTION_PEW_PEW": "spend 5 minutes shooting in a single match",
     "ACHIEVEMENT_NAME_COLLECTOR": "Collector",
     "ACHIEVEMENT_DESCRIPTION_COLLECTOR": "put every resource into the core",
     "ACHIEVEMENT_NAME_SCREW_THAT": "Screw That!",
@@ -294,7 +295,7 @@
     "ACHIEVEMENT_NAME_I_VE_GOT_NO_POWA": "I've Got No Powa!",
     "ACHIEVEMENT_DESCRIPTION_I_VE_GOT_NO_POWA": "build power-based turret without generators",
     "ACHIEVEMENT_NAME_PAINTER": "Painter",
-    "ACHIEVEMENT_DESCRIPTION_PAINTER": "build pixel-art in 1v1 match",
+    "ACHIEVEMENT_DESCRIPTION_PAINTER": "build pixel-art in a ranked match",
     "ACHIEVEMENT_NAME_GETTING_STARTED": "Getting started",
     "ACHIEVEMENT_DESCRIPTION_GETTING_STARTED": "complete tutorial",
     "ACHIEVEMENT_NAME_ELEET_SECRET": "Eleet Secret",
@@ -302,11 +303,12 @@
     "BALANCE_UNITS": "[yellow]All units[]
 
 	- shoot at their [green]max[] range
-	- [green]automatically navigate[] to closest repair points\uF848 if their health is less than t1-70%, t2-50%, t3-40%, t4-30%, t5-20%
+	- [green]automatically navigate[] to closest repair points\uF848 if their health is less than t1-70%, t2-50%, t3-40%, t4-35%, t5-30%
 
 	[yellow]Ground units[]
 
-	- stop moving when shooting at enemy
+	- stop moving when shooting at enemy to benefit from their range
+  - this does not apply to Mace\uF7FF, Pulsar\uF7FC, Quasar\uF7FB, Atrax\uF7F9, Spiroct\uF7F8
 
 	[yellow]Flying units[]
 
@@ -317,7 +319,8 @@
 	[yellow]Mono[]\uF7F1[yellow], Poly[]\uF7F0[yellow] and Mega[]\uF7EF
 
 	- mine when not doing their default tasks
-	- if both copper\uF838 and lead\uF837 are above 4000, they start mining sand\uF834, titanium\uF832 and thorium\uF831 accordingly",
+	- if both copper\uF838 and lead\uF837 are above 4000, they start mining sand\uF834, titanium\uF832 and thorium\uF831 accordingly
+  - Poly\uF7F0 does not babysit stuck building plans when resources are not sufficient",
 	"BALANCE_STATS": "[yellow]Stats[]
 
   Health changes are applied via incoming damage multiplier (logic backwards-compatible)
@@ -326,7 +329,7 @@
 	Mace\uF7FF: [red]♥[]500⇨560, 30⇨34, reload 14⇨11
 	Fortress\uF7FE: [red]♥[]800⇨1000, 54⇨62
   Nova\uF7FD: [red]♥[]120⇨160, 14⇨16
-  Quasar\uF7FB: [red]♥[]640⇨700
+  Quasar\uF7FB: [red]♥[]650⇨700
 	Crawler\uF7FA: [red]♥[]180⇨220, 85⇨90
 	Atrax\uF7F9: [red]♥[]600⇨610, reload 10⇨9
 	Spiroct\uF7F8: [red]♥[]900⇨920, reload 15⇨14
@@ -360,8 +363,10 @@ Currently online:
     "NAME_NOT_ALLOWED_PREFIX": "Your name starting with\n[red]@[]\nis not allowed. Choose another name."
   },
   "lobby": {
-    "SERVER_NAME": " [red]Ranked\n[yellow]⚡ [red]PvP [yellow]⚡",
+    "SERVER_NAME": " [red]Ranked\n[yellow]⚡ [red]1 v 1 [yellow]⚡",
+    "SERVER_NAME_2V2": " [red]Ranked\n[yellow]⚡ [red]2 v 2 [yellow]⚡",
     "SERVER_DESCRIPTION": "[red]1 vs 1 with matchmaking\n[lime]Season V",
+    "SERVER_DESCRIPTION_2V2": "[red]2 vs 2 with matchmaking\n[lime]Season V",
     "WELCOME_MESSAGE": "[red]Welcome to Ranked PvP!
 
 [white]Tap the label in top-left corner to get into 1 vs 1 queue (or write [yellow]/r[])
@@ -390,7 +395,7 @@ Leave feedback in [blue]Discord[white]:
     "NOT_IN_QUEUE_FORMAT": "[yellow]/ai[red] to warmup vs AI[white]",
     "SPECTATE_SUGGESTION": "[red]or spectate a match via [yellow]/s @\n[yellow]@ @[red] vs [yellow]@ @[white]",
     "SPECTATE_SUGGESTION_SHORT": "[red]or spectate a match via [yellow]/s @\n@[red] vs @[white]",
-    "OPPONENT_LEFT_QUEUE": "[red]Your opponent left, looking for another one[white]",
+    "PLAYER_LEFT_QUEUE": "[red]Player left the queue, looking for another one[white]",
     "EMPTY_LEADERBOARD": "Waiting more players",
     "NOT_WAITING_FOR_MATCH": "You are [red]NOT waiting[white] for a match.",
     "IN_THE_QUEUE": "You are in the queue now.",
@@ -399,7 +404,6 @@ Leave feedback in [blue]Discord[white]:
     "AI_EXAMPLE_USAGE": "Example usages:\n[yellow]/ai easy\n/ai HARD[]\nAvailable levels and their rating:\n@Recommended: [yellow]/ai @[]\nYou can also select map: [yellow]/ai @ @",
     "AI_LEVEL_FORMAT": "[@]@[] - @",
     "ABOUT_TO_BEGIN_FORMAT": "[red]Match found!\nStarting in @ seconds.",
-    "ABOUT_TO_BEGIN_FORMAT_AI": "[red]Match vs AI @ is ready!\nStarting in @ seconds.",
     "AUTOREADY_IS_ON": "AutoReady is [green]ON.[white] You will be queued in @ seconds.",
     "SUGGESTING_TUTORIAL": "You haven't completed tutorial! Consider doing that by sending [yellow]/tut[]",
     "HARD_SHUTDOWN": "Server is restarting due to maintenance. Try reconnecting in a couple minutes.",
@@ -440,25 +444,29 @@ Leave feedback in [blue]Discord[white]:
     "BUILDING_BANNED": "[red]Building in lobby is blocked for you until @"
   },
   "room": {
-    "SINGLE_PLAYER_RATING_DELTA": "[white]@[white]: [orange]@->@[white] @",
-    "MATCH_END_FORMAT_PVP": "[@]@!\n@\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
-    "MATCH_END_FORMAT_UNRANKED": "[@]@!\n[white]Reason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
-    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]Match finished!\n@\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
-    "MATCH_END_FORMAT_UNRANKED_SPECTATOR": "[gray]Match finished!\n[white]Reason: @\n\nWatch match replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
-    "START_1V1": "[white]@[white] vs @[white]\nW/L @/@",
+    "SINGLE_PLAYER_FINISH_INFO_RANKED_FORMAT": "#[@]@[] [white]@[white]: [orange]@->@[white] @",
+    "SINGLE_PLAYER_FINISH_INFO_UNRANKED_FORMAT": "#[@]@[] [white]@[white]",
+    "MATCH_END_FORMAT": "[@]@!@\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
+    "MATCH_END_FORMAT_SPECTATOR": "[gray]Match finished!@\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
+    "START_1V1": "[white]@[white] vs @[white]\nW/L [green]@[]/[red]@",
     "SURRENDER_USAGE": "[yellow]/surrender[white] to surrender",
     "START_FORMAT": "[green]Map [yellow]@\n@\n@",
     "START_FORMAT_UNRANKED": "[green]Map [yellow]@\nUnranked match\n@\n@",
     "WIN_FORMAT": "Victory",
     "LOSE_FORMAT": "Defeat",
     "TIE_FORMAT": "Draw",
+    "FINISH_FORMAT": "#[yellow]@[] of [yellow]@[]",
+    "RATING_CALCULATION_NEXT_TEAM_ELIMINATION_WARNING": "[red]Your rating change will be calculated when some next team will be eliminated",
+    "RATING_CHANGE": "Your rating: [orange]@->@[white] @",
+    "PLAYER_MATCHMAKING_UNLOCKED": "You can now leave the match and search for a new one. [yellow]/hub[]",
     "REASON_victory": "victory",
     "REASON_tiebreaker": "tiebreaker",
     "REASON_abandoned": "abandoned",
     "REASON_agreement": "agreement",
     "REASON_surrender": "surrender",
+    "ONLY_FOR_TWO_TEAMS": "[scarlet]This command is available only for two-teamed matches.",
     "MATCH_NOT_STARTED": "[scarlet]You can't surrender in paused or not started match.",
-    "JOINED_AS_SPECTATOR": "You joined as spectator. Type [yellow]/hub[] to get back to hub, default chat is spectator-only, use [yellow]/t[] to send message to everyone.",
+    "JOINED_AS_SPECTATOR": "You joined as spectator.\nType [yellow]/hub[] to get back to hub.\nTapping on team's cores will reveal toggle additional information about teams\n.Default chat is spectator-only, use [yellow]/t[] to send message to everyone.",
     "PC_TAB_SWITCHES_THE_CHAT_MODE": "Useful tip: <TAB> (left from Q) key switches the chat mode between normal and [yellow]/t[] command.",
     "ONLY_FOR_SPECTATOR": "[scarlet]This command is only for spectators",
     "BACK_FORMAT": "Getting back to [red]HUB[] in @ seconds.",
@@ -469,21 +477,23 @@ Leave feedback in [blue]Discord[white]:
     "SPECTATOR_DISCONNECTED": "Spectator @[white] disconnected.",
     "PLAYER_DISCONNECTED": "Player @[white] ([#@]@[white]) disconnected, he has [yellow]@[] reconnections left and can still come back.",
     "STARTING_SOON": "Starting the game in @ seconds",
-    "OPPONENT_LEFT_WHILE_AWAY": "Your opponent left while you were away. If he doesn't come back soon, you win! You can wait for longer with [yellow]/wait",
-    "OPPONENT_TAKES_TOO_LONG_TO_CONNECT": "It seems like your opponent takes too long to connect, @ seconds left.",
+    "PLAYERS_TAKE_TOO_LONG_TO_CONNECT": "It seems like other players take too long to connect, waiting @ more seconds.",
     "OPPONENT_LEFT": "Your opponent @[white] ([#@]@[white]) left the match. Waiting @ seconds for reconnect, or you win! You can wait for longer with [yellow]/wait[]. [red]Do not go away, or you may lose instead!",
     "HARD_SHUTDOWN_ROOM": "Room is restarting due to maintenance. Your rating was not changed.",
     "TIEBREAKER_DAMAGE": "[white]Each core gets [@]@[white] damage.",
     "TIEBREAKER_WARNING": "[white]Each core will start\ngetting damage in [red]1 minute.",
     "TIEBREAKER_FORMAT": "@[yellow]\u26A1[red]@[yellow]\u26A1\n@",
-    "TIEBREAKER_TIED_CHAT": "[red][Tiebreaker]: Game tied.",
-    "SPECTATOR_STATS_FORMAT": "@ @ [yellow]@[white] @@\n@\n@\n@ @ [yellow]@[white] @@\n@\n@",
+    "TIEBREAKER_USAGE": "To move this warning into small popup use command [yellow]/ui - tiebreaker[]",
+    "TIEBREAKER_FORMAT_FULL": "@[yellow]\u26A1[red]@[yellow]\u26A1\n@\n\n@",
+    "SPECTATOR_STATS_PLAYER_FORMAT": "@ [yellow]@[white] @",
+    "SPECTATOR_STATS_FORMAT": "@\n@\n@\n@",
     "NOTHING_TO_WAIT": "[scarlet]Nothing to wait for",
     "RECONNECTION_ADVANCED": "Player @[white] ([#@]@[white]) advanced waiting timer up to @ seconds",
     "NO_MORE_ADVANCEMENTS": "You have no more timer advancements",
     "PLAYER_OFFERS_DRAW": "[green]Player @[green] ([#@]@[green]) offers a draw.",
     "PLAYER_NOT_OFFERS_DRAW": "[green]Player @[green] ([#@]@[green]) doesn't offer a draw anymore.",
     "DRAW_USAGE": "Send [yellow]/draw[] to accept a draw.",
+    "RECONNECTED_AFTER_ABANDONED": "You have reconnected after you have abandoned the match. You can still watch it as a spectator, or start searching a new match.",
     "ADMIN_FORCED_TUTORIAL": "[green]Seems like you are new to the server and administrator has forced a tutorial for you.\n\nIt will start shortly, and you will learn how to do simple things there.\n\nIt will take about 10 minutes."
   },
   "tutorial": {

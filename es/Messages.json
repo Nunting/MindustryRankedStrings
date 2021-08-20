@@ -92,8 +92,7 @@
     "JOIN_SUCCESS": "[verde]¡La inscripción fue exitosa!"
   },
   "room": {
-    "MATCH_END_FORMAT_PVP": "[@]¡@!\n@\nRazón: @",
-    "MATCH_END_FORMAT_UNRANKED": "[@]¡@!\n[white]Razón: @",
+    "MATCH_END_FORMAT": "[@]¡@!@\nRazón: @",
     "WIN_FORMAT": "Ganaste",
     "LOSE_FORMAT": "Perdiste",
     "TIE_FORMAT": "Empate",
@@ -103,12 +102,8 @@
     "TIEBREAKER": "Desempate",
     "RECONNECTS_LEFT": "Puedes reconectarte [red]@[] veces",
     "STARTING_SOON": "La partida comienza en @ segundos",
-    "OPPONENT_LEFT_WHILE_AWAY": "Tu adversario se fue mientre no estabas. Si no vuelve pronto, ¡tú ganas!",
-    "OPPONENT_TAKES_TOO_LONG_TO_CONNECT": "Parece que tu adversario tarda demasiado en conectarse, quedan @ segundos.",
     "OPPONENT_LEFT": "Tu oponente @ ([#@]@[]) abandonó la partida. Esperando @ segundos para que vuelve a conectarse. ¡Si no, tu ganas! [red]¡No abandona, o podrías perder!",
     "HARD_SHUTDOWN_ROOM": "Room se está reiniciando por mantenimiento. Tu rango no se modificó.",
-    "TIEBREAKER_DAMAGE": "[white]Cada núcleo recibe [@]@[white] daño.",
-    "TIEBREAKER_FORMAT": "@[yellow]⚡[red]@[yellow]⚡\n@",
-    "TIEBREAKER_TIED_CHAT": "[red][Tiebraker]: Empate."
+    "TIEBREAKER_DAMAGE": "[white]Cada núcleo recibe [@]@[white] daño."
   }
 }

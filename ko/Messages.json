@@ -228,7 +228,6 @@
     "PLAYER_MATCHING_FORMAT_AI": "AI [@]@ [white]([yellow]@[white])를 기다리는 중..\n[yellow]/r[white]를 입력하여 취소할 수 있습니다.[white]",
     "IN_QUEUE_FORMAT": "[green]대기열에서 대기중[white]",
     "NOT_IN_QUEUE_FORMAT": "[yellow]/ai[red]를 입력해서 AI와 훈련할 수 있습니다.[white]",
-    "OPPONENT_LEFT_QUEUE": "[red]상대가 떠났습니다. 다른 상대 찾는중..[white]",
     "EMPTY_LEADERBOARD": "플레이어를 더 기다리는 중\n",
     "NOT_WAITING_FOR_MATCH": "대기열에서 [red]퇴장[white]했습니다.",
     "IN_THE_QUEUE": "대기열에 [green]입장[]했습니다.",
@@ -237,7 +236,6 @@
     "AI_EXAMPLE_USAGE": "사용 예시:\n[yellow]/ai easy\n/ai HARD[]\n사용 가능한 레벨과 등급 레이팅:\n@추천: [yellow]/ai @",
     "AI_LEVEL_FORMAT": "[@]@[] - @",
     "ABOUT_TO_BEGIN_FORMAT": "[red]매칭 완료!\n@ 초 후에 시작됨.",
-    "ABOUT_TO_BEGIN_FORMAT_AI": "[red]AI @ 훈련 준비완료!\n@초 후 시작",
     "AUTOREADY_IS_ON": "자동 준비가 [green]활성화[]되었습니다.[white] @초 안에 대기열에 입장합니다.",
     "HARD_SHUTDOWN": "점검으로 인해 서버가 재시작 중입니다.  잠시 후 재접속해주세요.",
     "MAX_LIMIT_DIFF": "99999가 최댓값입니다. [yellow]/nolimit[]를 입력하세요.",
@@ -268,10 +266,8 @@
     "BUILDING_BLOCKED": "[scarlet]로비의 건물이 일시적으로 관리자 의해 차단됨"
   },
   "room": {
-    "MATCH_END_FORMAT_PVP": "[@]@!\n@\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
-    "MATCH_END_FORMAT_UNRANKED": "[@]@!\n[white]이유: @\n\n[yellow]ranked.ddns.net [white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
-    "MATCH_END_FORMAT_PVP_SPECTATOR": "[gray]경기 끝!\n[white]@ 등급 변경: [orange]@->@[white] @\n@[white] 등급 변경: [orange]@->@[white] @\nReason: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
-    "MATCH_END_FORMAT_UNRANKED_SPECTATOR": "[gray]경기 끝!\n[white]Reason: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
+    "MATCH_END_FORMAT": "[@]@!@\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
+    "MATCH_END_FORMAT_SPECTATOR": "[gray]경기 끝!@\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
     "WIN_FORMAT": "승리",
     "LOSE_FORMAT": "패배",
     "TIE_FORMAT": "무승부",
@@ -285,13 +281,9 @@
     "TIEBREAKER": "타이 브레이커",
     "RECONNECTS_LEFT": "[red]@[]와 다시 연결됩니다! [yellow]/surrender[]를 입력하여 항복할 수 있습니다.",
     "STARTING_SOON": "@초 후 게임 시작",
-    "OPPONENT_LEFT_WHILE_AWAY": "자리르 비운 동안 상대가 떠났습니다. 상대가 돌아오지 않을 경우, 승리합니다!",
-    "OPPONENT_TAKES_TOO_LONG_TO_CONNECT": "상대가 다시 연결하는데 너무 오래 걸리는 것 같습니다, @초 남음.",
     "OPPONENT_LEFT": "상대가 @ ([#@]@[]) 경기를 떠났습니다. @초 동안 재연결을 시도합니다, 아니면 승리합니다! [red]절대 나가지 마세요, 아니면 대신 패배할 수도 있습니다!",
     "HARD_SHUTDOWN_ROOM": "점검으로 인해 경기가 재시작되는 중입니다. 등급 등급은 변경되지 않았습니다.",
     "TIEBREAKER_DAMAGE": "[white]각 코어가 [@]@[white]만큼 피해 입음.",
-    "TIEBREAKER_WARNING": "[red]1분[white]후 타이 브레이커가 시작됩니다.",
-    "TIEBREAKER_FORMAT": "@[yellow]⚡[red]@[yellow]⚡\n@",
-    "TIEBREAKER_TIED_CHAT": "[red][타이 브레이커]: 게임 동점."
+    "TIEBREAKER_WARNING": "[red]1분[white]후 타이 브레이커가 시작됩니다."
   }
 }
