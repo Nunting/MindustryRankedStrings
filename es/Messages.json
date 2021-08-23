@@ -92,7 +92,7 @@
     "JOIN_SUCCESS": "[verde]¡La inscripción fue exitosa!"
   },
   "room": {
-    "MATCH_END_FORMAT": "[@]¡@!@\nRazón: @",
+    "MATCH_END_FORMAT": "[@]¡@![white]@\nRazón: @",
     "WIN_FORMAT": "Ganaste",
     "LOSE_FORMAT": "Perdiste",
     "TIE_FORMAT": "Empate",

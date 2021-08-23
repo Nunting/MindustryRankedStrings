@@ -86,6 +86,7 @@
     "UI_mapname": "current map's name",
     "UI_mail": "notification about new messages",
     "UI_tap_spectate": "allows to tap in lobby for spectating a match",
+    "UI_tap_hub": "allows to tap on /hub while spectating to get back into lobby",
     "UI_tiebreaker": "shows fullscreen warning before tiebreaker starts",
     "READ_EXAMPLE_USAGE": "[scarlet]Example usage:\n[yellow]/read[] - shows next unread message\n[yellow]/read all[] - shows recent messages\n[yellow]/read all 4[] - shows recent messages, page 4\n[yellow]/read clear - clears stored messages (limit 500)",
     "UI_EXAMPLE_USAGE": "[scarlet]Example usage:\n[yellow]/ui[] - shows current UI configuration\n[yellow]/ui - timer[] - removes timer from matches\n[yellow]/ui + queue_info[] - enables queue info",
@@ -300,84 +301,24 @@
     "ACHIEVEMENT_DESCRIPTION_GETTING_STARTED": "complete tutorial",
     "ACHIEVEMENT_NAME_ELEET_SECRET": "Eleet Secret",
     "ACHIEVEMENT_DESCRIPTION_ELEET_SECRET": "secret achievement",
-    "BALANCE_UNITS": "[yellow]All units[]
-
-	- shoot at their [green]max[] range
-	- [green]automatically navigate[] to closest repair points\uF848 if their health is less than t1-70%, t2-50%, t3-40%, t4-35%, t5-30%
-
-	[yellow]Ground units[]
-
-	- stop moving when shooting at enemy to benefit from their range
-  - this does not apply to Mace\uF7FF, Pulsar\uF7FC, Quasar\uF7FB, Atrax\uF7F9, Spiroct\uF7F8
-
-	[yellow]Flying units[]
-
-	- do not circle around their target
-  - ignore neutral structures
-  - dynamic explosions (aka blast bombing) deal 66% less damage
-
-	[yellow]Mono[]\uF7F1[yellow], Poly[]\uF7F0[yellow] and Mega[]\uF7EF
-
-	- mine when not doing their default tasks
-	- if both copper\uF838 and lead\uF837 are above 4000, they start mining sand\uF834, titanium\uF832 and thorium\uF831 accordingly
-  - Poly\uF7F0 does not babysit stuck building plans when resources are not sufficient",
-	"BALANCE_STATS": "[yellow]Stats[]
-
-  Health changes are applied via incoming damage multiplier (logic backwards-compatible)
-
-  Dagger\uF800: reload 14⇨13
-	Mace\uF7FF: [red]♥[]500⇨560, 30⇨34, reload 14⇨11
-	Fortress\uF7FE: [red]♥[]800⇨1000, 54⇨62
-  Nova\uF7FD: [red]♥[]120⇨160, 14⇨16
-  Quasar\uF7FB: [red]♥[]650⇨700
-	Crawler\uF7FA: [red]♥[]180⇨220, 85⇨90
-	Atrax\uF7F9: [red]♥[]600⇨610, reload 10⇨9
-	Spiroct\uF7F8: [red]♥[]900⇨920, reload 15⇨14
-  Flare\uF7F6: 9⇨6
-	Horizon\uF7F5: [red]♥[]340⇨270
-	Zenith\uF7F4: [red]♥[]700⇨580, 16⇨15
-  Antumbra\uF7F3: +20%
-  Eclipse\uF7F2: [red]♥[]20000⇨21000, +25%
-	Risso\uF7E7: [red]♥[]280⇨220, buildings  x1⇨x0.7, no projectile inertia
-	Minke\uF7ED: buildings  x1⇨x0.7
-	Bryde\uF7EC: 80⇨70, buildings  x1⇨x0.7, no projectile inertia",
-	"BALANCE_BLOCKS": "[yellow]Construction blocks[]
-
-	Have their HP proportional to build progress, starting from 20 (vanilla version has 20 HP for the whole progress).
-
-	[yellow]Force projector[]
-
-	- Reduces falling damage down to 33%, then splits the damage in half to shield and to blocks
-
-	[yellow]Cores[]
-
-	- Foundation core\uF868 [red]♥[]3500⇨3700
-	- Shard core\uF869 [red]♥[]1100⇨1500",
+    "BALANCE_UNITS": "[yellow]All units[]\n\n- shoot at their [green]max[] range\n- [green]automatically navigate[] to closest repair points\uF848 if their health is less than t1-70%, t2-50%, t3-40%, t4-35%, t5-30%\n\n[yellow]Ground units[]\n\n- stop moving when shooting at enemy to benefit from their range\n- this does not apply to Mace\uF7FF, Pulsar\uF7FC, Quasar\uF7FB, Atrax\uF7F9, Spiroct\uF7F8\n\n[yellow]Flying units[]\n\n- do not circle around their target\n- ignore neutral structures\n- dynamic explosions (aka blast bombing) deal 66% less damage\n\n[yellow]Mono[]\uF7F1[yellow], Poly[]\uF7F0[yellow] and Mega[]\uF7EF\n\n- mine when not doing their default tasks\n- if both copper\uF838 and lead\uF837 are above 4000, they start mining sand\uF834, titanium\uF832 and thorium\uF831 accordingly\n- Poly\uF7F0 does not babysit stuck building plans when resources are not sufficient",
+    "BALANCE_STATS": "[yellow]Stats[]\n\nHealth changes are applied via incoming damage multiplier (logic backwards-compatible)\n\nDagger\uF800: reload 14⇨13\nMace\uF7FF: [red]♥[]500⇨560, 30⇨34, reload 14⇨11\nFortress\uF7FE: [red]♥[]800⇨1000, 54⇨62\nNova\uF7FD: [red]♥[]120⇨160, 14⇨16\nQuasar\uF7FB: [red]♥[]650⇨700\nCrawler\uF7FA: [red]♥[]180⇨220, 85⇨90\nAtrax\uF7F9: [red]♥[]600⇨610, reload 10⇨9\nSpiroct\uF7F8: [red]♥[]900⇨920, reload 15⇨14\nFlare\uF7F6: 9⇨6\nHorizon\uF7F5: [red]♥[]340⇨270\nZenith\uF7F4: [red]♥[]700⇨580, 16⇨15\nAntumbra\uF7F3: +20%\nEclipse\uF7F2: [red]♥[]20000⇨21000, +25%\nRisso\uF7E7: [red]♥[]280⇨220, buildings  x1⇨x0.7, no projectile inertia\nMinke\uF7ED: buildings  x1⇨x0.7\nBryde\uF7EC: 80⇨70, buildings  x1⇨x0.7, no projectile inertia",
+    "BALANCE_BLOCKS": "[yellow]Construction blocks[]\n\nHave their HP proportional to build progress, starting from 20 (vanilla version has 20 HP for the whole progress).\n\n[yellow]Force projector[]\n\n- Reduces falling damage down to 33%, then splits the damage in half to shield and to blocks\n\n[yellow]Cores[]\n\n- Foundation core\uF868 [red]♥[]3500⇨3700\n- Shard core\uF869 [red]♥[]1100⇨1500",
     "ONLY_FOR_DONORS": "[red]You are not donor to execute command @. Consider supporting the server at [yellow]ranked.ddns.net",
-    "REPORT_USAGE": "You can [yellow]/report[] players by their [yellow]player ID number[].
-Currently online:
-@
-[white]Example: [yellow]/report 12345 griefer in lobby[]
-[white]Example #2: [yellow]/report 23456 AFK in matches[]",
+    "REPORT_USAGE": "You can [yellow]/report[] players by their [yellow]player ID number[].\nCurrently online:\n@\n[white]Example: [yellow]/report 12345 griefer in lobby[]\n[white]Example #2: [yellow]/report 23456 AFK in matches[]",
     "PLAYER_ENTRY": "[white]ID#[yellow]@[]: @",
     "NAME_NOT_ALLOWED_PREFIX": "Your name starting with\n[red]@[]\nis not allowed. Choose another name."
   },
   "lobby": {
-    "SERVER_NAME": " [red]Ranked\n[yellow]⚡ [red]1 v 1 [yellow]⚡",
-    "SERVER_NAME_2V2": " [red]Ranked\n[yellow]⚡ [red]2 v 2 [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1 vs 1 with matchmaking\n[lime]Season V",
-    "SERVER_DESCRIPTION_2V2": "[red]2 vs 2 with matchmaking\n[lime]Season V",
-    "WELCOME_MESSAGE": "[red]Welcome to Ranked PvP!
-
-[white]Tap the label in top-left corner to get into 1 vs 1 queue (or write [yellow]/r[])
-matchmaking can take several minutes
-
-write [yellow]/help[white] to list all commands
-
-you are adviced to complete [yellow]/tutorial[] before going for 1 vs 1
-
-Leave feedback in [blue]Discord[white]:
-[yellow]@[white]",
+    "SERVER_NAME": "[yellow]⚡ [red]Ranked 1 vs 1 [yellow]⚡",
+    "SERVER_NAME_2V2": "[yellow]⚡ [red]Ranked [blue]2 vs 2 [yellow]⚡",
+    "SERVER_NAME_3V3": "[yellow]⚡ [red]Ranked [purple]3 vs 3 [yellow]⚡",
+    "SERVER_NAME_HEX": "[yellow]⚡ [red]Ranked [green]H E X [yellow]⚡",
+    "SERVER_DESCRIPTION": "[red]rating-based matchmaking\n[lime]Season V",
+    "SERVER_DESCRIPTION_2V2": "[lime]Season V",
+    "SERVER_DESCRIPTION_3V3": "[lime]Season V",
+    "SERVER_DESCRIPTION_HEX": "[green]new quality level of hex\n[lime]Season V",
+    "WELCOME_MESSAGE": "[red]Welcome to Ranked PvP!\n\n[white]Tap the label in top-left corner to get into queue (or write [yellow]/r[])\nmatchmaking can take several minutes\n\nwrite [yellow]/help[white] to list all commands\n\nyou are adviced to complete [yellow]/tutorial[] before going for a match\n\nLeave feedback in [blue]Discord[white]:\n[yellow]@[white]",
     "LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]\uE1B3 [white]@[white] (@, [#@]@ [@]#@[white])\n[orange]\uE1B4 [white]@[white] (@, [#@]@ [@]#@[white])\n[yellow]\uE1B5 [white]@[white] (@, [#@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Leaderboard ([#@]@ [@]#@[white]):\n[red]\uE1B3 [white]@[yellow] @\n[orange]\uE1B4 [white]@[yellow] @\n[yellow]\uE1B5 [white]@[yellow] @",
@@ -393,8 +334,8 @@ Leave feedback in [blue]Discord[white]:
     "PLAYER_MATCHING_FORMAT_AI": "Waiting for AI [@]@ [white]([yellow]@[white])\n[yellow]/r[white] to cancel[white]",
     "IN_QUEUE_FORMAT": "[green]You are in queue[white]",
     "NOT_IN_QUEUE_FORMAT": "[yellow]/ai[red] to warmup vs AI[white]",
-    "SPECTATE_SUGGESTION": "[red]or spectate a match via [yellow]/s @\n[yellow]@ @[red] vs [yellow]@ @[white]",
-    "SPECTATE_SUGGESTION_SHORT": "[red]or spectate a match via [yellow]/s @\n@[red] vs @[white]",
+    "SPECTATE_SUGGESTION": "[red]or spectate a match via [yellow]/s @\n[yellow]@ @[red], [yellow]@ @[white]",
+    "SPECTATE_SUGGESTION_SHORT": "[red]or spectate a match via [yellow]/s @\n@[red], @[white]",
     "PLAYER_LEFT_QUEUE": "[red]Player left the queue, looking for another one[white]",
     "EMPTY_LEADERBOARD": "Waiting more players",
     "NOT_WAITING_FOR_MATCH": "You are [red]NOT waiting[white] for a match.",
@@ -431,7 +372,7 @@ Leave feedback in [blue]Discord[white]:
     "SPECTATE_MATCH_FORMAT": "[white]> [orange]@[]: [yellow]@[] @[white] vs [yellow]@[] @[white] +[yellow]@[white] spectators\nMap: [yellow]@[], duration: [yellow]@[] minutes",
     "SPECTATE_LIST": "Available matches:\n@\nJoin via [yellow]/s [orange][roomid/nickname]",
     "SPECTATE_CANT_FIND_MATCH": "[scarlet]Can't find specified match",
-    "BUILD_RESTRICTION": "[scarlet]You should complete [yellow]@[] more 1v1 matches before being able to build in lobby. Send [yellow]/r[] and wait for a match",
+    "BUILD_RESTRICTION": "[scarlet]You should complete [yellow]@[] more ranked matches before being able to build in lobby. Send [yellow]/r[] and wait for a match",
     "BUILD_RESTRICTION_HIDDEN_NAME": "[scarlet]Building in lobby is restricted for hidden names.",
     "BUILDING_BLOCKED": "[scarlet]Building in lobby is temporarily blocked by admins",
     "NOT_QUEUED_BUTTON": "Not queued",
@@ -444,10 +385,10 @@ Leave feedback in [blue]Discord[white]:
     "BUILDING_BANNED": "[red]Building in lobby is blocked for you until @"
   },
   "room": {
-    "SINGLE_PLAYER_FINISH_INFO_RANKED_FORMAT": "#[@]@[] [white]@[white]: [orange]@->@[white] @",
-    "SINGLE_PLAYER_FINISH_INFO_UNRANKED_FORMAT": "#[@]@[] [white]@[white]",
-    "MATCH_END_FORMAT": "[@]@!@\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
-    "MATCH_END_FORMAT_SPECTATOR": "[gray]Match finished!@\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
+    "SINGLE_PLAYER_FINISH_INFO_RANKED_FORMAT": "#[@]@[] @[white]: [orange]@->@[white]@",
+    "SINGLE_PLAYER_FINISH_INFO_UNRANKED_FORMAT": "#[@]@[] @[white]",
+    "MATCH_END_FORMAT": "[@]@![white]@\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
+    "MATCH_END_FORMAT_SPECTATOR": "[gray]Match finished![white]@\nReason: @\n\nWatch replay at [yellow]ranked.ddns.net[white]\nMatch ID: [yellow]@",
     "START_1V1": "[white]@[white] vs @[white]\nW/L [green]@[]/[red]@",
     "SURRENDER_USAGE": "[yellow]/surrender[white] to surrender",
     "START_FORMAT": "[green]Map [yellow]@\n@\n@",

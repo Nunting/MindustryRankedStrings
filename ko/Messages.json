@@ -262,12 +262,12 @@
     "SPECTATE_MATCH_FORMAT": "[white]> [orange]@[]: [yellow]@[] @[white] vs [yellow]@[] @[white] + 관전자 [yellow]@[white]명\n맵: [yellow]@[], 시간: [yellow]@[]분",
     "SPECTATE_LIST": "가능한 경기:\n@\n[yellow]/s [orange][경기id][]를 통해 입장하세요.",
     "SPECTATE_CANT_FIND_MATCH": "[scarlet]해당 경기를 찾을 수 없습니다.",
-    "BUILD_RESTRICTION": "[scarlet]로비에서 건설하기 전에 [yellow]@[]번 이상 1v1 경기를 완료해야 합니다. [yellow]/r[]를 입력하고 상대를 기다리세요.",
+    "BUILD_RESTRICTION": "[scarlet]로비에서 건설하기 전에 [yellow]@[]번 이상 경기를 완료해야 합니다. [yellow]/r[]를 입력하고 상대를 기다리세요.",
     "BUILDING_BLOCKED": "[scarlet]로비의 건물이 일시적으로 관리자 의해 차단됨"
   },
   "room": {
-    "MATCH_END_FORMAT": "[@]@!@\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
-    "MATCH_END_FORMAT_SPECTATOR": "[gray]경기 끝!@\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
+    "MATCH_END_FORMAT": "[@]@![white]@\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
+    "MATCH_END_FORMAT_SPECTATOR": "[gray]경기 끝![white]@\n이유: @\n\n[yellow]ranked.ddns.net[white]에서 경기 리플레이를 볼 수 있습니다.\n경기 ID: [yellow]@",
     "WIN_FORMAT": "승리",
     "LOSE_FORMAT": "패배",
     "TIE_FORMAT": "무승부",
