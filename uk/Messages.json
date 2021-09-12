@@ -297,7 +297,7 @@
     "PLAYER_MATCHING_ANYONE_FORMAT": "Шукаємо [green]будь-кого[white]",
     "PLAYER_MATCHING_FORMAT": "Шукаємо в діапазоні [yellow]@[white] - [yellow]@\n[yellow]/limit[white], щоб змінити діапазон, або використайте [yellow]/nolimit[] для зняття обмежень[white]",
     "IN_QUEUE_FORMAT": "[green]Ви в черзі[white]",
-    "NOT_IN_QUEUE_FORMAT": "[yellow]/ai[red] зробіть розминку проти ШІ[white]",
+    "NOT_IN_QUEUE_FORMAT": "[yellow]/ai[white] зробіть розминку проти ШІ[white]",
     "EMPTY_LEADERBOARD": "Очікуємо більше гравців",
     "NOT_WAITING_FOR_MATCH": "Ви наразі [red]НЕ шукаєте[white] матч.",
     "IN_THE_QUEUE": "Тепер ви в черзі.",
