@@ -411,7 +411,8 @@
     "GROUP_LEADER_CHANGED": "Group leader changed to @",
     "GROUP_INVITE_USAGE": "Specify player to invite by their [yellow]ID[]:\n@",
     "GROUP_INVITED": "@[white] invited you to join group. Accept with command [yellow]/g @",
-    "GROUP_INVITE_SUCCESS": "You successfully invited player @[white] into your group."
+    "GROUP_INVITE_SUCCESS": "You successfully invited player @[white] into your group.",
+    "NOT_ALLOWED_MATCH_TYPE": "This action is not allowed for current match type."
   },
   "room": {
     "SINGLE_PLAYER_FINISH_INFO_RANKED_FORMAT": "#[@]@[] @[white]: [orange]@->@[white]@",
