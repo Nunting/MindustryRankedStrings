@@ -412,7 +412,8 @@
     "GROUP_INVITE_USAGE": "Specify player to invite by their [yellow]ID[]:\n@",
     "GROUP_INVITED": "@[white] invited you to join group. Accept with command [yellow]/g @",
     "GROUP_INVITE_SUCCESS": "You successfully invited player @[white] into your group.",
-    "NOT_ALLOWED_MATCH_TYPE": "This action is not allowed for current match type."
+    "NOT_ALLOWED_MATCH_TYPE": "This action is not allowed for current match type.",
+    "LOBBY_AI_NOTICE": "[red]Lobby AI[]\n\nTake this power with respect to other players. Try to make this [green]fun for others, not fun to yourself[].\n\nPlease note some players may take lobby gameplay too serious - [yellow]please, do not ruin their experience[].\n\n[green]SeaPy"
   },
   "room": {
     "SINGLE_PLAYER_FINISH_INFO_RANKED_FORMAT": "#[@]@[] @[white]: [orange]@->@[white]@",
