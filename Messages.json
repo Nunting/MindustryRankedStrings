@@ -1,5 +1,6 @@
 {
   "common": {
+    "CREDIT_INFO": "[red]Mindustry Ranked[] by [green]SeaPy[]\n[yellow]Site: ranked.ddns.net[]\n[#7289da]Discord \uE80D: https://discord.gg/Md9zfaJjbz[]",
     "INFO_FORMAT": "To downgrade to @: @, current rating: @ (@), next rank @: @.\nStarting rating next season: @ -> @",
     "TAP_HERE": "tap here",
     "PLAY_MORE": "[red]You rating is yet unknown. You should play [yellow]@[red] more matches to calibrate",
@@ -320,7 +321,8 @@
     "CHAT_PREFIX_SPECTATORS": "[@]Spectators[]:",
     "CHAT_PREFIX_TEAM_ONLY_FORMAT": "([#@]@[]):",
     "CHAT_PREFIX_GROUP_ONLY_FORMAT": "([@]Group[]):",
-    "HISTORICAL_MATCH_ENTRY": "Match#@ @ [yellow]@\n[white]@\n@"
+    "HISTORICAL_MATCH_ENTRY": "Match#@ @ [yellow]@\n[white]@\n@",
+    "ONBOARDING_NOLIMIT_ENABLED_INITIAL_WARNING": "You are using [red]non-limited[] matchmaking. With such settings you are very likely to fight against high-skilled players [red]and lose fast[].\n\nConsider using wider limit instead:\n[yellow]/limit 200[]"
   },
   "lobby": {
     "SERVER_NAME": "[yellow]⚡ [red]Ranked 1 vs 1 [yellow]⚡",
@@ -359,10 +361,10 @@
     "ABOUT_TO_BEGIN_FORMAT": "[red]Match found!\nStarting in @ seconds.",
     "AUTOREADY_IS_ON": "AutoReady is [green]ON.[white] You will be queued in @ seconds.",
     "SUGGESTING_TUTORIAL": "You haven't completed tutorial! Consider doing that by sending [yellow]/tut[]",
-    "HARD_SHUTDOWN": "Server is restarting due to maintenance. Try reconnecting in a couple minutes.",
+    "HARD_SHUTDOWN": "Server is restarting due to maintenance. Try reconnecting in a couple minutes.\n\n@",
     "MAX_LIMIT_DIFF": "99999 max, or send [yellow]/nolimit",
     "WAITING_IN_QUEUE_FORMAT": "\nWaiting: @:@ / @:@",
-    "SLOW_CONNECTION_KICK": "You have been away for too long. Please, reconnect to server.",
+    "SLOW_CONNECTION_KICK": "You have been away for too long. Please, reconnect to server.\n\n@",
     "SLOW_CONNECTION_WARN": "[scarlet]WARNING: [red]Your connection seem to be slow. You have been removed from the queue.",
     "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\nAvailable commands: [yellow]/help\n\n[yellow]Site: ranked.ddns.net\n[#7289da]Discord \uE80D: @",
     "UNREAD_NEWS": "You have [yellow]@[white] unread news, send [yellow]/news[white] to read them.",
@@ -442,7 +444,9 @@
     "REASON_surrender": "surrender",
     "ONLY_FOR_TWO_TEAMS": "[scarlet]This command is available only for two-teamed matches.",
     "MATCH_NOT_STARTED": "[scarlet]You can't surrender in paused or not started match.",
-    "JOINED_AS_SPECTATOR": "You joined as spectator.\nType [yellow]/hub[] to get back to hub.\nTapping on team's cores toggles additional information.\nDefault chat is spectator-only, use [yellow]/t[] to send message to everyone.",
+    "JOINED_AS_SPECTATOR": "You joined as spectator.\nType [yellow]/hub[] to get back to hub.",
+    "SPECTATOR_STATS_TIP": "Tapping on team's cores toggles additional information.",
+    "SPECTATOR_CHAT_TIP": "Default chat is spectator-only, use [yellow]/t[] to send message to everyone.",
     "PC_TAB_SWITCHES_THE_CHAT_MODE": "Useful tip: <TAB> (left from Q) key switches the chat mode between normal and [yellow]/t[] command.",
     "ONLY_FOR_SPECTATOR": "[scarlet]This command is only for spectators",
     "BACK_FORMAT": "Getting back to [red]HUB[] in @ seconds.",
@@ -507,6 +511,6 @@
     "TUTORIAL_BASIC_MINIMAP": "Minimap. Last step!\n\nIt is strongly advised to use minimap in\norder to check where enemy can come from.\nIf you don't have it enabled, visit\nSettings -> Graphics -> Show Minimap.\n\n- on mobile you can zoom out\n   if you swipe up at minimap\n- on PC you can scroll down\n   when hovered over minimap\n\nFind where the first enemy comes from\nand hurry up connecting power to defences!\nYour objective here is to destroy\neach type of the enemy using turrets.",
     "TUTORIAL_BASIC_MINIMAP_HORIZONS_COUNTER": "Another simple counter.\nForce projectors\uF898 are very\neffective against horizons\uF7F5",
     "TUTORIAL_BASIC_MINIMAP_PC_SHORTCUTS": "For PC there are shortcuts to select each block.\nKnowing some of them will speed you up [green]a lot[].\n\nMost common shortcuts:\n- [1, 2] scatter\uF860\n- [2, 1] mechanical drill\uF870\n- [3, 1] conveyor\uF896\n- [5, 1] power node\uF87F\n- [9, 1] mender\uF89B",
-    "TUTORIAL_BASIC_COMPLETE": "[purple]Tutorial complete![]\n\nIn 1 minute you will be automatically transferred to lobby server and queued for 1v1 match. Note that sometimes it can take several minutes to find an opponent.\nDon't forget to check [yellow]/balance[] changes.\n\nIt is recommended to later try applying everything you learned in a training battle vs AI. When you get to the lobby use command [yellow]/ai[], but remember that AI is nowhere close to real [purple]fun and rewarding[] PvP.\n\nAlso, check all commands via [yellow]/help[]\n\n[green]Good luck, Have fun![]"
+    "TUTORIAL_BASIC_COMPLETE": "[purple]Tutorial complete![]\n\nIn 1 minute you will be automatically transferred to lobby server.\nDon't forget to check [yellow]/balance[] changes.\n\nIt is recommended to later try applying everything you learned in a training battle vs AI. When you get to the lobby use command [yellow]/ai[], but remember that AI is nowhere close to real [purple]fun and rewarding[] PvP.\n\nAlso, check all commands via [yellow]/help[]\n\n[green]Good luck, Have fun![]"
   }
 }
