@@ -245,7 +245,7 @@
     "ONBOARDING_NOLIMIT_ENABLED_INITIAL_WARNING": "У вас настроен [red]нелимитированный[] матчмейкинг. С такими настройками вы скорее всего встретите профессиональных противников и [red]быстро проиграете[].\n\nВместо этого попробуйте использовать более широкий лимит:\n[yellow]/limit 200[]"
   },
   "lobby": {
-    "WELCOME_MESSAGE": "[red]Добро пожаловать в рейтинговый PvP!\n\n[white]Чтобы встать в очередь нажмите на надпись в левом верхнем углу (или напишите [yellow]/r[])\nподбор игроков может занять несколько минут\n\nнапишитe [yellow]/help[white] чтобы посмотреть все команды сервера\n\nрекомендуется пройти обучение командой [yellow]/tutorial[] перед боем\n\nОтставить отзыв можно в [blue]Discord[white]:\n[yellow]@[white]",
+    "WELCOME_MESSAGE": "[red]Добро пожаловать в рейтинговый PvP!\n\n[white]Чтобы встать в очередь нажмите на надпись\nв левом верхнем углу (или напишите [yellow]/r[])\nподбор игроков может занять несколько минут\n\nнапишитe [yellow]/help[white] чтобы посмотреть все команды сервера\n\nрекомендуется пройти обучение\nкомандой [yellow]/tutorial[] перед боем\n\nОтставить отзыв можно в [blue]Discord \uE80D[white]\n[yellow]@[white]",
     "LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]\uE1B3 [white]@[white] ([@]@[white], [@]@ [@]#@[white])\n[orange]\uE1B4 [white]@[white] ([@]@[white], [@]@ [@]#@[white])\n[yellow]\uE1B5 [white]@[white] ([@]@[white], [@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Лидеры (глобально):\n[red]\uE1B3 [white]@ [@]@\n[orange]\uE1B4 [white]@ [@]@\n[yellow]\uE1B5 [white]@ [@]@",
     "HUB_IN_MATCHES_FORMAT": "[white]В бою: [yellow]@[white]",

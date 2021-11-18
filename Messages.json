@@ -333,7 +333,7 @@
     "SERVER_DESCRIPTION_2V2": "[#00ff]Season VI",
     "SERVER_DESCRIPTION_3V3": "[#00ff]Season VI",
     "SERVER_DESCRIPTION_HEX": "[green]new quality level of hex\n[#00ff]Season VI",
-    "WELCOME_MESSAGE": "[red]Welcome to Ranked PvP!\n\n[white]Tap the label in top-left corner to get into queue (or write [yellow]/r[])\nmatchmaking can take several minutes\n\nwrite [yellow]/help[white] to list all commands\n\nyou are advised to complete [yellow]/tutorial[] before going for a match\n\nLeave feedback in [blue]Discord[white]:\n[yellow]@[white]",
+    "WELCOME_MESSAGE": "[red]Welcome to Ranked PvP!\n\n[white]Tap the label in top-left corner\nto get into the queue (or write [yellow]/r[])\nmatchmaking can take several minutes\n\nwrite [yellow]/help[white] to list all commands\n\nyou are advised to complete\n[yellow]/tutorial[] before going for a match\n\nLeave feedback in\n[blue]Discord \uE80D[white]\n[yellow]@[white]",
     "LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]\uE1B3 [white]@[white] ([@]@[white], [@]@ [@]#@[white])\n[orange]\uE1B4 [white]@[white] ([@]@[white], [@]@ [@]#@[white])\n[yellow]\uE1B5 [white]@[white] ([@]@[white], [@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "Leaderboard (global):\n[red]\uE1B3 [white]@ [@]@\n[orange]\uE1B4 [white]@ [@]@\n[yellow]\uE1B5 [white]@ [@]@",
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Leaderboard ([@]@ [@]#@[white]):\n[red]\uE1B3 [white]@ [@]@\n[orange]\uE1B4 [white]@ [@]@\n[yellow]\uE1B5 [white]@ [@]@",
