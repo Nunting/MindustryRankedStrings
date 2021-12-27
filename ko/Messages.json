@@ -212,7 +212,7 @@
   },
   "lobby": {
     "SERVER_NAME": "[yellow]⚡ [red]PvP [yellow]⚡[red] 경쟁전",
-    "SERVER_DESCRIPTION": "[red]매치메이킹 1 vs 1\n[#00ff]시즌 VI",
+    "SERVER_DESCRIPTION": "[red]매치메이킹 1 vs 1\n[#ff00ff]시즌 VII",
     "LEADERBOARD_FORMAT_TOP3": "리더보드 (global):\n[red]\uE1B3 [white]@[white] ([@]@[white], [@]@ [@]#@[white])\n[orange]\uE1B4 [white]@[white] ([@]@[white], [@]@ [@]#@[white])\n[yellow]\uE1B5 [white]@[white] ([@]@[white], [@]@ [@]#@[white])",
     "SHORT_LEADERBOARD_FORMAT_TOP3": "리더보드 (global):\n[red]\uE1B3 [white]@ [@]@\n[orange]\uE1B4 [white]@ [@]@\n[yellow]\uE1B5 [white]@ [@]@",
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "리더보드 ([@]@ [@]#@[white]):\n[red]\uE1B3 [white]@ [@]@\n[orange]\uE1B4 [white]@ [@]@\n[yellow]\uE1B5 [white]@ [@]@",
