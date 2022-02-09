@@ -383,7 +383,7 @@
     "PLAYER_NOT_OFFERS_SURRENDER": "[green]Союзник [white]@[green] больше не предлагает сдаться.",
     "DRAW_USAGE": "[yellow]/draw[] чтобы согласиться на ничью",
     "RECONNECTED_AFTER_ABANDONED": "Вы переподключились после того как покинули игру. Вы всё ещё можете её досмотреть как наблюдатель, или начать поиск нового матча.",
-    "REASON_victory": "победа",
+    "REASON_defeat": "поражён",
     "REASON_tiebreaker": "тай-брейк",
     "REASON_abandoned": "вышел",
     "REASON_agreement": "соглашение",

@@ -446,7 +446,7 @@
     "RATING_CALCULATION_NEXT_TEAM_ELIMINATION_WARNING": "[red]Your rating change will be calculated when some next team will be eliminated",
     "RATING_CHANGE": "Your rating: [orange]@->@[white] @",
     "PLAYER_MATCHMAKING_UNLOCKED": "You can now leave the match and search for a new one. [yellow]/hub[]",
-    "REASON_victory": "victory",
+    "REASON_defeat": "defeat",
     "REASON_tiebreaker": "tiebreaker",
     "REASON_abandoned": "abandoned",
     "REASON_agreement": "agreement",
