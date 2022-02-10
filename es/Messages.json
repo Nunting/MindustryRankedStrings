@@ -78,7 +78,7 @@
     "WAITING_IN_QUEUE_FORMAT": "\nEsperando: @:@ / @:@",
     "SLOW_CONNECTION_KICK": "Has estado lejo por demasiado tiempo. Por favor, vuelve a conectarte al server.\n\n@",
     "SLOW_CONNECTION_WARN": "[scarlet]ADVERTENCIA: [red]tu conexión parece ser lenta. Has sido removido de la cola.",
-    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\nComandos disponibles: [yellow]/help\n\n[yellow]Site: ranked.ddns.net\n[#7289da]Discord \uE80D: @",
+    "SERVER_AUTHOR_INFO_LABEL": "[red]Mindustry Ranked PvP[white] server by SeaPy\nComandos disponibles: [yellow]/help\n\n[yellow]Site: ranked.ddns.net\n[#7289da]Discord %discord%: @",
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Clasificación ([@]@ [@]#@[white]):\n[red]\uE1B3 [white]@ [@]@\n[orange]\uE1B4 [white]@ [@]@\n[yellow]\uE1B5 [white]@ [@]@",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Clasificación ([@]@ [@]@[white]):\n[red]\uE1B3 [white]@ [@]@\n[orange]\uE1B4 [white]@ [@]@\n[yellow]\uE1B5 [white]@ [@]@",
     "SERVER_NAME": "[yellow]⚡ [red]PvP con clasificación  [yellow]⚡",
@@ -92,12 +92,12 @@
     "JOIN_SUCCESS": "[verde]¡La inscripción fue exitosa!"
   },
   "room": {
-    "MATCH_END_FORMAT": "[@]¡@![white]@\nRazón: @",
+    "MATCH_END_FORMAT": "[@]¡@!@\nRazón: @",
     "WIN_FORMAT": "Ganaste",
     "LOSE_FORMAT": "Perdiste",
     "TIE_FORMAT": "Empate",
     "SURRENDER_USAGE": "[yellow]/surrender[white] rendición",
-    "START_FORMAT": "[green]Map [yellow]@[white]\n@\n@",
+    "START_FORMAT": "[green]Map [yellow]@\n@\n@",
     "BACK_FORMAT": "Volviendo a [red]HUB[white] en @ segundos.",
     "TIEBREAKER": "Desempate",
     "RECONNECTS_LEFT": "Puedes reconectarte [red]@[] veces",
