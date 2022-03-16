@@ -326,7 +326,8 @@
     "ONBOARDING_NOLIMIT_ENABLED_INITIAL_WARNING": "You are using [red]non-limited[] matchmaking. With such settings you are very likely to fight against high-skilled players [red]and lose fast[].\n\nConsider using wider limit instead:\n[yellow]/limit 200[]",
     "ONBOARDING_ABOUT_TO_LOSE_CORE_TO_TIEBREAKER": "You are about to [red]lose your core[] to tiebreaker.\n\nPlace a couple menders%mender% nearby [yellow]each[] core or upgrade them!",
     "ONBOARDING_LOSING_CORE_TO_TIEBREAKER": "You have just [red]lost your core[] to tiebreaker. Tiebreaker ensures battles are not infinite and is just another way to win in long battles (by cutting the power lines or your enemy, for example).\n\nBe more careful next time!",
-    "ONBOARDING_TAPPING_ON_SPECTATE_IN_LOBBY": "You have [yellow]tapped[] on a promoted match to [green]spectate it[]. This function and many other UI features are toggleable via command [yellow]/ui[].\n\nTapping-to-spectate can be disabled with [yellow]/ui - tap_spectate[]"
+    "ONBOARDING_TAPPING_ON_SPECTATE_IN_LOBBY": "You have [yellow]tapped[] on a promoted match to [green]spectate it[]. This function and many other UI features are toggleable via command [yellow]/ui[].\n\nTapping-to-spectate can be disabled with [yellow]/ui - tap_spectate[]",
+    "BANNED_COMMAND": "You are banned to use command [red]@[]"
   },
   "lobby": {
     "SERVER_NAME": "[yellow]⚡ [red]Ranked 1 vs 1 [yellow]⚡",
