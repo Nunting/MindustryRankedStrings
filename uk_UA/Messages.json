@@ -309,7 +309,7 @@
     "LEADERBOARD_FORMAT_TOP3_LOCAL": "Список лідерів ([@]@ [@]#@[white]):\n[red]\uE1B3 [white]@ [@]@\n[orange]\uE1B4 [white]@ [@]@\n[yellow]\uE1B5 [white]@ [@]@",
     "SHORT_LEADERBOARD_FORMAT_TOP3_LOCAL": "Таблиця лідерів ([@]@ [@]@[white]):\n[red]\uE1B3 [white]@ [@]@\n[orange]\uE1B4 [white]@ [@]@\n[yellow]\uE1B5 [white]@ [@]@",
     "SERVER_NAME": " [red]Рейтинг\n[yellow]⚡ [red]PvP [yellow]⚡",
-    "SERVER_DESCRIPTION": "[red]1v1 з рейтингом\n[#87ceeb]Сезон VIII",
+    "SERVER_DESCRIPTION": "[red]1v1 з рейтингом\n[#00aaaa]Сезон IX",
     "UNREAD_NEWS": "Ви маєте [yellow]@[white] непрочитаних новин, надішліть [yellow]/news[white], щоб їх прочитати.",
     "AUTOREADY_OFF_UNREAD_NEWS": "Ваша автоготовність ще [red]не [white] спрацювала, бо у вас є непрочитані новини [cyan]@ [yellow]/news",
     "SUPPORTED_LANGUAGES": "Підтримувані мови: @",
